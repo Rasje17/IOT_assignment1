@@ -20,7 +20,9 @@ class TestHarness {
         Process p = Runtime.getRuntime().exec(command);
         
         // start loggers
-        Logger logger_output = new OutputLogger(prefix+"_output.log", " ", p);
+        Logger logger_output  = new OutputLogger(prefix+"_output.log", ",", p);
+        Logger logger_process = new ProcessLogger(prefix+"_process.log", ",", p, 200);
         logger_output.start();
+        logger_process.start();
     }
 }

@@ -4,17 +4,20 @@ import java.io.IOException;
 abstract class Logger extends Thread {
     String filename;
     FileWriter writer;
-    String separator;
+    String sep;
     
     protected Logger (String filename, String separator) throws IOException {
         this.filename  = filename;
-        this.separator = separator;
+        this.sep       = separator;
         this.writer = new FileWriter(filename);
-        writer.write("# timestamp"+separator+"entry"+System.lineSeparator());
+    }
+    
+    protected void header (String[] entries) throws IOException {
+        writer.write("# timestamp"+sep+String.join(sep, entries)+System.lineSeparator());
     }
     
     protected void log (String line) throws IOException {
-        writer.write(System.currentTimeMillis()+separator+line+System.lineSeparator());
+        writer.write(System.currentTimeMillis()+sep+line+System.lineSeparator());
     }
     
     protected void finalize () throws IOException {

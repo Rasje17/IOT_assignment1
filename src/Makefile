@@ -1,6 +1,8 @@
 TARGETS = \
 	TestHarness.class \
 
+CP = -classpath ".:javasysmon-0.3.5.1.jar"
+
 all: ${TARGETS}
 
 clean:
@@ -11,6 +13,9 @@ mrproper: clean
 	touch d~
 	rm    *~
 
+deps:
+	echo Download from https://jar-download.com/artifact-search/javasysmon and extract jar file here. Code expects the result to be named "javasysmon-0.3.5.1.jar".
+
 
 Logger.class: Logger.java
 	javac Logger.java
@@ -18,9 +23,12 @@ Logger.class: Logger.java
 OutputLogger.class: OutputLogger.java
 	javac OutputLogger.java
 
-TestHarness.class: TestHarness.java
-	javac TestHarness.java
+ProcessLogger.class: ProcessLogger.java
+	javac ${CP} ProcessLogger.java
 
-TestHarness: *.class
-	java TestHarness run42 ls -l
+TestHarness.class: TestHarness.java
+	javac ${CP} TestHarness.java
+
+TestHarness: Logger.class OutputLogger.class ProcessLogger.class TestHarness.class
+	java ${CP} TestHarness run42 chromium-browser
 

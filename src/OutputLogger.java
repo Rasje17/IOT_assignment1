@@ -8,6 +8,7 @@ class OutputLogger extends Logger {
     public OutputLogger (String filename, String separator, Process p) throws IOException {
         super(filename, separator);
         input = new BufferedReader(new InputStreamReader(p.getInputStream()));
+        header(new String[] {"line"});
     }
     
     public void run () {
