@@ -5,8 +5,8 @@ import java.io.IOException;
 class OutputLogger extends Logger {
     BufferedReader input;
     
-    public OutputLogger (String filename, Process p) {
-        super(filename);
+    public OutputLogger (String filename, String separator, Process p) throws IOException {
+        super(filename, separator);
         input = new BufferedReader(new InputStreamReader(p.getInputStream()));
     }
     
@@ -14,10 +14,15 @@ class OutputLogger extends Logger {
         try {
             String line;
             while ((line = input.readLine()) != null) {
-                System.out.println(line);
+                log(line);
             }
         } catch (IOException e) {
             System.out.println("OutputLogger("+filename+") caught exception: "+e);
+        }
+        try {
+            finalize();
+        } catch (IOException e) {
+            System.out.println("OutputLogger("+filename+") caught finalize exception: "+e);
         }
     }
 }

@@ -1,6 +1,4 @@
 import java.util.Arrays;
-//import java.io.BufferedReader;
-//import java.io.InputStreamReader;
 import java.io.IOException;
 
 class TestHarness {
@@ -22,14 +20,7 @@ class TestHarness {
         Process p = Runtime.getRuntime().exec(command);
         
         // start loggers
-        Logger logger_output = new OutputLogger(prefix+"_output.log", p);
+        Logger logger_output = new OutputLogger(prefix+"_output.log", " ", p);
         logger_output.start();
-        
-//        // read output
-//        BufferedReader input = new BufferedReader(new InputStreamReader(p.getInputStream()));
-//        String line;
-//        while ((line = input.readLine()) != null) {
-//            System.out.println(line);
-//        }
     }
 }
