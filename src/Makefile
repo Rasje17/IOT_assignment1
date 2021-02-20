@@ -12,9 +12,15 @@ mrproper: clean
 	rm    *~
 
 
+Logger.class: Logger.java
+	javac Logger.java
+
+OutputLogger.class: OutputLogger.java
+	javac OutputLogger.java
+
 TestHarness.class: TestHarness.java
 	javac TestHarness.java
 
-TestHarness: TestHarness.class
+TestHarness: *.class
 	java TestHarness run42 ls -l
 
