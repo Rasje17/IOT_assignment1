@@ -1,7 +1,10 @@
 import java.util.Arrays;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
 
 class TestHarness {
-    public static void main (String[] args) {
+    public static void main (String[] args) throws IOException{
         // args
         if (args.length<2) {
             System.out.println(args);
@@ -14,5 +17,15 @@ class TestHarness {
         String command = String.join(" ", Arrays.copyOfRange(args, 1, args.length));
         System.out.println("Prefix: "+prefix);
         System.out.println("Command: "+command);
+        
+        // start process
+        Process p = Runtime.getRuntime().exec(command);
+        
+        // read output
+        BufferedReader input = new BufferedReader(new InputStreamReader(p.getInputStream()));
+        String line;
+        while ((line = input.readLine()) != null) {
+            System.out.println(line);
+        }
     }
 }
