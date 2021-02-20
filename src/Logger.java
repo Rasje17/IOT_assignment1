@@ -10,7 +10,7 @@ abstract class Logger extends Thread {
         this.filename  = filename;
         this.separator = separator;
         this.writer = new FileWriter(filename);
-        writer.write("# timestamp"+separator+"entry");
+        writer.write("# timestamp"+separator+"entry"+System.lineSeparator());
     }
     
     protected void log (String line) throws IOException {
