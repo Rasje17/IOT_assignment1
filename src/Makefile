@@ -1,4 +1,7 @@
 TARGETS = \
+	Logger.class \
+	OutputLogger.class \
+	ProcessLogger.class \
 	TestHarness.class \
 
 CP = -classpath ".:javasysmon-0.3.5.1.jar"
@@ -29,6 +32,6 @@ ProcessLogger.class: ProcessLogger.java
 TestHarness.class: TestHarness.java
 	javac ${CP} TestHarness.java
 
-TestHarness: Logger.class OutputLogger.class ProcessLogger.class TestHarness.class
+TestHarness: ${TARGETS}
 	java ${CP} TestHarness run42 chromium-browser
 
