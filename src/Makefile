@@ -33,5 +33,17 @@ TestHarness.class: TestHarness.java
 	javac ${CP} TestHarness.java
 
 TestHarness: ${TARGETS}
-	java ${CP} TestHarness run42 chromium-browser
+	java ${CP} TestHarness run42 make -C pipeline/ MqttSignalGenerator
+
+TestHarness.generator: ${TARGETS}
+	java ${CP} TestHarness run1_gen make -C pipeline/ MqttSignalGenerator
+
+TestHarness.mavg: ${TARGETS}
+	java ${CP} TestHarness run1_mavg make -C pipeline/ MqttMovingAverage
+
+TestHarness.func: ${TARGETS}
+	java ${CP} TestHarness run1_func make -C pipeline/ MqttFunc
+
+TestHarness.mosquito_sub: ${TARGETS}
+	java ${CP} TestHarness run1_client mosquitto_sub -v -t 'siggen/+/+'
 
