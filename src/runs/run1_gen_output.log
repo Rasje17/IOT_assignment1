@@ -1,1951 +1,828 @@
 # timestamp,line
-1619700090489,make[1]: Entering directory '/home/rj/privat/sdu/iot/simple-java-test-harness/src/pipeline'
-1619700090509,java -classpath ".:org.eclipse.paho.client.mqttv3-1.2.5.jar:json-20140107.jar" MqttSignalGenerator
-1619700091094,siggen/room1/rhum, {"time":0,"value":50.0}
-1619700091094,siggen/room2/temp, {"time":0,"value":19.3}
-1619700091094,siggen/room1/temp, {"time":0,"value":20.0}
-1619700091094,siggen/room2/rhum, {"time":0,"value":61.7}
-1619700092095,siggen/room1/temp, {"time":1,"value":20.5}
-1619700092095,siggen/room2/rhum, {"time":1,"value":59.4}
-1619700092095,siggen/room1/rhum, {"time":1,"value":55.3}
-1619700092095,siggen/room2/temp, {"time":1,"value":19.7}
-1619700093097,siggen/room1/rhum, {"time":2,"value":63.1}
-1619700093097,siggen/room1/temp, {"time":2,"value":21.0}
-1619700093098,siggen/room2/temp, {"time":2,"value":19.5}
-1619700093098,siggen/room2/rhum, {"time":2,"value":58.8}
-1619700094099,siggen/room1/temp, {"time":3,"value":21.5}
-1619700094099,siggen/room2/temp, {"time":3,"value":20.6}
-1619700094100,siggen/room1/rhum, {"time":3,"value":65.6}
-1619700094100,siggen/room2/rhum, {"time":3,"value":56.3}
-1619700095100,siggen/room1/temp, {"time":4,"value":22.0}
-1619700095100,siggen/room2/temp, {"time":4,"value":20.4}
-1619700095100,siggen/room1/rhum, {"time":4,"value":77.2}
-1619700095100,siggen/room2/rhum, {"time":4,"value":63.5}
-1619700096101,siggen/room2/rhum, {"time":5,"value":62.2}
-1619700096101,siggen/room1/rhum, {"time":5,"value":76.8}
-1619700096101,siggen/room1/temp, {"time":5,"value":22.5}
-1619700096101,siggen/room2/temp, {"time":5,"value":23.7}
-1619700097102,siggen/room1/rhum, {"time":6,"value":84.9}
-1619700097102,siggen/room1/temp, {"time":6,"value":23.0}
-1619700097102,siggen/room2/temp, {"time":6,"value":22.0}
-1619700097102,siggen/room2/rhum, {"time":6,"value":68.1}
-1619700098103,siggen/room1/temp, {"time":7,"value":24.5}
-1619700098103,siggen/room2/rhum, {"time":7,"value":73.6}
-1619700098103,siggen/room2/temp, {"time":7,"value":24.2}
-1619700098103,siggen/room1/rhum, {"time":7,"value":81.0}
-1619700099105,siggen/room1/rhum, {"time":8,"value":89.7}
-1619700099105,siggen/room2/rhum, {"time":8,"value":72.9}
-1619700099105,siggen/room2/temp, {"time":8,"value":26.1}
-1619700099105,siggen/room1/temp, {"time":8,"value":24.3}
-1619700100107,siggen/room2/rhum, {"time":9,"value":76.4}
-1619700100107,siggen/room1/rhum, {"time":9,"value":93.3}
-1619700100107,siggen/room1/temp, {"time":9,"value":22.7}
-1619700100108,siggen/room2/temp, {"time":9,"value":25.3}
-1619700101108,siggen/room1/rhum, {"time":10,"value":74.8}
-1619700101108,siggen/room2/rhum, {"time":10,"value":78.7}
-1619700101108,siggen/room1/temp, {"time":10,"value":19.9}
-1619700101108,siggen/room2/temp, {"time":10,"value":24.8}
-1619700102109,siggen/room1/rhum, {"time":11,"value":59.4}
-1619700102109,siggen/room2/rhum, {"time":11,"value":74.3}
-1619700102109,siggen/room1/temp, {"time":11,"value":17.3}
-1619700102109,siggen/room2/temp, {"time":11,"value":22.9}
-1619700103109,siggen/room2/rhum, {"time":12,"value":61.7}
-1619700103109,siggen/room1/rhum, {"time":12,"value":50.0}
-1619700103109,siggen/room1/temp, {"time":12,"value":20.0}
-1619700103110,siggen/room2/temp, {"time":12,"value":19.3}
-1619700104110,siggen/room1/rhum, {"time":13,"value":55.3}
-1619700104110,siggen/room2/rhum, {"time":13,"value":59.4}
-1619700104110,siggen/room1/temp, {"time":13,"value":20.5}
-1619700104111,siggen/room2/temp, {"time":13,"value":19.7}
-1619700105112,siggen/room1/rhum, {"time":14,"value":63.1}
-1619700105113,siggen/room2/rhum, {"time":14,"value":58.8}
-1619700105113,siggen/room2/temp, {"time":14,"value":19.5}
-1619700105113,siggen/room1/temp, {"time":14,"value":21.0}
-1619700106113,siggen/room2/rhum, {"time":15,"value":56.3}
-1619700106113,siggen/room1/rhum, {"time":15,"value":65.6}
-1619700106114,siggen/room2/temp, {"time":15,"value":20.6}
-1619700106114,siggen/room1/temp, {"time":15,"value":21.5}
-1619700107114,siggen/room1/rhum, {"time":16,"value":77.2}
-1619700107114,siggen/room2/temp, {"time":16,"value":20.4}
-1619700107114,siggen/room2/rhum, {"time":16,"value":63.5}
-1619700107114,siggen/room1/temp, {"time":16,"value":22.0}
-1619700108116,siggen/room1/rhum, {"time":17,"value":76.8}
-1619700108117,siggen/room2/temp, {"time":17,"value":23.7}
-1619700108117,siggen/room1/temp, {"time":17,"value":22.5}
-1619700108117,siggen/room2/rhum, {"time":17,"value":62.2}
-1619700109118,siggen/room1/rhum, {"time":18,"value":84.9}
-1619700109119,siggen/room1/temp, {"time":18,"value":23.0}
-1619700109119,siggen/room2/temp, {"time":18,"value":22.0}
-1619700109119,siggen/room2/rhum, {"time":18,"value":68.1}
-1619700110120,siggen/room1/rhum, {"time":19,"value":81.0}
-1619700110121,siggen/room1/temp, {"time":19,"value":24.5}
-1619700110121,siggen/room2/temp, {"time":19,"value":24.2}
-1619700110121,siggen/room2/rhum, {"time":19,"value":73.6}
-1619700111122,siggen/room1/rhum, {"time":20,"value":89.7}
-1619700111123,siggen/room2/temp, {"time":20,"value":26.1}
-1619700111123,siggen/room1/temp, {"time":20,"value":24.3}
-1619700111123,siggen/room2/rhum, {"time":20,"value":72.9}
-1619700112125,siggen/room2/temp, {"time":21,"value":25.3}
-1619700112125,siggen/room1/temp, {"time":21,"value":22.7}
-1619700112125,siggen/room2/rhum, {"time":21,"value":76.4}
-1619700112126,siggen/room1/rhum, {"time":21,"value":93.3}
-1619700113126,siggen/room2/temp, {"time":22,"value":24.8}
-1619700113126,siggen/room1/temp, {"time":22,"value":19.9}
-1619700113126,siggen/room2/rhum, {"time":22,"value":78.7}
-1619700113127,siggen/room1/rhum, {"time":22,"value":74.8}
-1619700114128,siggen/room2/temp, {"time":23,"value":22.9}
-1619700114128,siggen/room2/rhum, {"time":23,"value":74.3}
-1619700114128,siggen/room1/temp, {"time":23,"value":17.3}
-1619700114129,siggen/room1/rhum, {"time":23,"value":59.4}
-1619700115128,siggen/room2/temp, {"time":24,"value":19.3}
-1619700115129,siggen/room2/rhum, {"time":24,"value":61.7}
-1619700115129,siggen/room1/temp, {"time":24,"value":20.0}
-1619700115129,siggen/room1/rhum, {"time":24,"value":50.0}
-1619700116129,siggen/room2/rhum, {"time":25,"value":59.4}
-1619700116129,siggen/room2/temp, {"time":25,"value":19.7}
-1619700116129,siggen/room1/temp, {"time":25,"value":20.5}
-1619700116130,siggen/room1/rhum, {"time":25,"value":55.3}
-1619700117130,siggen/room2/rhum, {"time":26,"value":58.8}
-1619700117130,siggen/room1/temp, {"time":26,"value":21.0}
-1619700117130,siggen/room2/temp, {"time":26,"value":19.5}
-1619700117130,siggen/room1/rhum, {"time":26,"value":63.1}
-1619700118132,siggen/room1/rhum, {"time":27,"value":65.6}
-1619700118132,siggen/room2/temp, {"time":27,"value":20.6}
-1619700118133,siggen/room2/rhum, {"time":27,"value":56.3}
-1619700118133,siggen/room1/temp, {"time":27,"value":21.5}
-1619700119134,siggen/room1/rhum, {"time":28,"value":77.2}
-1619700119134,siggen/room2/temp, {"time":28,"value":20.4}
-1619700119134,siggen/room2/rhum, {"time":28,"value":63.5}
-1619700119134,siggen/room1/temp, {"time":28,"value":22.0}
-1619700120134,siggen/room1/rhum, {"time":29,"value":76.8}
-1619700120135,siggen/room2/temp, {"time":29,"value":23.7}
-1619700120135,siggen/room2/rhum, {"time":29,"value":62.2}
-1619700120135,siggen/room1/temp, {"time":29,"value":22.5}
-1619700121136,siggen/room1/rhum, {"time":30,"value":84.9}
-1619700121137,siggen/room2/temp, {"time":30,"value":22.0}
-1619700121137,siggen/room2/rhum, {"time":30,"value":68.1}
-1619700121137,siggen/room1/temp, {"time":30,"value":23.0}
-1619700122138,siggen/room1/rhum, {"time":31,"value":81.0}
-1619700122139,siggen/room2/temp, {"time":31,"value":24.2}
-1619700122139,siggen/room2/rhum, {"time":31,"value":73.6}
-1619700122139,siggen/room1/temp, {"time":31,"value":24.5}
-1619700123139,siggen/room2/temp, {"time":32,"value":26.1}
-1619700123139,siggen/room2/rhum, {"time":32,"value":72.9}
-1619700123139,siggen/room1/rhum, {"time":32,"value":89.7}
-1619700123140,siggen/room1/temp, {"time":32,"value":24.3}
-1619700124141,siggen/room1/rhum, {"time":33,"value":93.3}
-1619700124141,siggen/room2/rhum, {"time":33,"value":76.4}
-1619700124141,siggen/room2/temp, {"time":33,"value":25.3}
-1619700124142,siggen/room1/temp, {"time":33,"value":22.7}
-1619700125143,siggen/room2/rhum, {"time":34,"value":78.7}
-1619700125143,siggen/room2/temp, {"time":34,"value":24.8}
-1619700125143,siggen/room1/temp, {"time":34,"value":19.9}
-1619700125143,siggen/room1/rhum, {"time":34,"value":74.8}
-1619700126145,siggen/room1/rhum, {"time":35,"value":59.4}
-1619700126145,siggen/room2/temp, {"time":35,"value":22.9}
-1619700126145,siggen/room2/rhum, {"time":35,"value":74.3}
-1619700126145,siggen/room1/temp, {"time":35,"value":17.3}
-1619700127146,siggen/room2/rhum, {"time":36,"value":61.7}
-1619700127146,siggen/room1/rhum, {"time":36,"value":50.0}
-1619700127146,siggen/room2/temp, {"time":36,"value":19.3}
-1619700127146,siggen/room1/temp, {"time":36,"value":20.0}
-1619700128147,siggen/room2/rhum, {"time":37,"value":59.4}
-1619700128147,siggen/room1/temp, {"time":37,"value":20.5}
-1619700128147,siggen/room1/rhum, {"time":37,"value":55.3}
-1619700128147,siggen/room2/temp, {"time":37,"value":19.7}
-1619700129148,siggen/room2/rhum, {"time":38,"value":58.8}
-1619700129149,siggen/room2/temp, {"time":38,"value":19.5}
-1619700129149,siggen/room1/rhum, {"time":38,"value":63.1}
-1619700129149,siggen/room1/temp, {"time":38,"value":21.0}
-1619700130150,siggen/room2/rhum, {"time":39,"value":56.3}
-1619700130150,siggen/room1/rhum, {"time":39,"value":65.6}
-1619700130151,siggen/room2/temp, {"time":39,"value":20.6}
-1619700130151,siggen/room1/temp, {"time":39,"value":21.5}
-1619700131152,siggen/room1/rhum, {"time":40,"value":77.2}
-1619700131152,siggen/room2/rhum, {"time":40,"value":63.5}
-1619700131152,siggen/room2/temp, {"time":40,"value":20.4}
-1619700131153,siggen/room1/temp, {"time":40,"value":22.0}
-1619700132154,siggen/room1/rhum, {"time":41,"value":76.8}
-1619700132154,siggen/room2/temp, {"time":41,"value":23.7}
-1619700132154,siggen/room2/rhum, {"time":41,"value":62.2}
-1619700132154,siggen/room1/temp, {"time":41,"value":22.5}
-1619700133155,siggen/room2/temp, {"time":42,"value":22.0}
-1619700133155,siggen/room1/rhum, {"time":42,"value":84.9}
-1619700133155,siggen/room2/rhum, {"time":42,"value":68.1}
-1619700133156,siggen/room1/temp, {"time":42,"value":23.0}
-1619700134156,siggen/room2/temp, {"time":43,"value":24.2}
-1619700134156,siggen/room1/rhum, {"time":43,"value":81.0}
-1619700134156,siggen/room2/rhum, {"time":43,"value":73.6}
-1619700134156,siggen/room1/temp, {"time":43,"value":24.5}
-1619700135157,siggen/room1/rhum, {"time":44,"value":89.7}
-1619700135157,siggen/room2/rhum, {"time":44,"value":72.9}
-1619700135158,siggen/room1/temp, {"time":44,"value":24.3}
-1619700135158,siggen/room2/temp, {"time":44,"value":26.1}
-1619700136159,siggen/room1/rhum, {"time":45,"value":93.3}
-1619700136159,siggen/room2/rhum, {"time":45,"value":76.4}
-1619700136160,siggen/room1/temp, {"time":45,"value":22.7}
-1619700136160,siggen/room2/temp, {"time":45,"value":25.3}
-1619700137161,siggen/room1/rhum, {"time":46,"value":74.8}
-1619700137161,siggen/room2/rhum, {"time":46,"value":78.7}
-1619700137161,siggen/room1/temp, {"time":46,"value":19.9}
-1619700137161,siggen/room2/temp, {"time":46,"value":24.8}
-1619700138163,siggen/room1/rhum, {"time":47,"value":59.4}
-1619700138163,siggen/room2/temp, {"time":47,"value":22.9}
-1619700138163,siggen/room2/rhum, {"time":47,"value":74.3}
-1619700138163,siggen/room1/temp, {"time":47,"value":17.3}
-1619700139165,siggen/room1/rhum, {"time":48,"value":50.0}
-1619700139165,siggen/room2/rhum, {"time":48,"value":61.7}
-1619700139165,siggen/room1/temp, {"time":48,"value":20.0}
-1619700139165,siggen/room2/temp, {"time":48,"value":19.3}
-1619700140166,siggen/room2/rhum, {"time":49,"value":59.4}
-1619700140166,siggen/room1/rhum, {"time":49,"value":55.3}
-1619700140166,siggen/room1/temp, {"time":49,"value":20.5}
-1619700140166,siggen/room2/temp, {"time":49,"value":19.7}
-1619700141167,siggen/room1/rhum, {"time":50,"value":63.1}
-1619700141167,siggen/room2/rhum, {"time":50,"value":58.8}
-1619700141167,siggen/room2/temp, {"time":50,"value":19.5}
-1619700141167,siggen/room1/temp, {"time":50,"value":21.0}
-1619700142169,siggen/room1/rhum, {"time":51,"value":65.6}
-1619700142169,siggen/room2/rhum, {"time":51,"value":56.3}
-1619700142169,siggen/room1/temp, {"time":51,"value":21.5}
-1619700142169,siggen/room2/temp, {"time":51,"value":20.6}
-1619700143171,siggen/room1/rhum, {"time":52,"value":77.2}
-1619700143171,siggen/room2/rhum, {"time":52,"value":63.5}
-1619700143171,siggen/room2/temp, {"time":52,"value":20.4}
-1619700143171,siggen/room1/temp, {"time":52,"value":22.0}
-1619700144173,siggen/room1/rhum, {"time":53,"value":76.8}
-1619700144173,siggen/room1/temp, {"time":53,"value":22.5}
-1619700144173,siggen/room2/temp, {"time":53,"value":23.7}
-1619700144173,siggen/room2/rhum, {"time":53,"value":62.2}
-1619700145174,siggen/room1/rhum, {"time":54,"value":84.9}
-1619700145175,siggen/room1/temp, {"time":54,"value":23.0}
-1619700145175,siggen/room2/rhum, {"time":54,"value":68.1}
-1619700145175,siggen/room2/temp, {"time":54,"value":22.0}
-1619700146175,siggen/room2/rhum, {"time":55,"value":73.6}
-1619700146176,siggen/room1/rhum, {"time":55,"value":81.0}
-1619700146176,siggen/room1/temp, {"time":55,"value":24.5}
-1619700146176,siggen/room2/temp, {"time":55,"value":24.2}
-1619700147176,siggen/room2/rhum, {"time":56,"value":72.9}
-1619700147176,siggen/room1/temp, {"time":56,"value":24.3}
-1619700147176,siggen/room1/rhum, {"time":56,"value":89.7}
-1619700147176,siggen/room2/temp, {"time":56,"value":26.1}
-1619700148177,siggen/room1/rhum, {"time":57,"value":93.3}
-1619700148177,siggen/room2/rhum, {"time":57,"value":76.4}
-1619700148177,siggen/room2/temp, {"time":57,"value":25.3}
-1619700148178,siggen/room1/temp, {"time":57,"value":22.7}
-1619700149179,siggen/room1/rhum, {"time":58,"value":74.8}
-1619700149179,siggen/room2/rhum, {"time":58,"value":78.7}
-1619700149179,siggen/room2/temp, {"time":58,"value":24.8}
-1619700149179,siggen/room1/temp, {"time":58,"value":19.9}
-1619700150180,siggen/room1/rhum, {"time":59,"value":59.4}
-1619700150181,siggen/room2/temp, {"time":59,"value":22.9}
-1619700150181,siggen/room2/rhum, {"time":59,"value":74.3}
-1619700150181,siggen/room1/temp, {"time":59,"value":17.3}
-1619700151182,siggen/room1/rhum, {"time":60,"value":50.0}
-1619700151182,siggen/room2/temp, {"time":60,"value":19.3}
-1619700151182,siggen/room2/rhum, {"time":60,"value":61.7}
-1619700151183,siggen/room1/temp, {"time":60,"value":20.0}
-1619700152184,siggen/room1/rhum, {"time":61,"value":55.3}
-1619700152184,siggen/room2/rhum, {"time":61,"value":59.4}
-1619700152184,siggen/room2/temp, {"time":61,"value":19.7}
-1619700152184,siggen/room1/temp, {"time":61,"value":20.5}
-1619700153185,siggen/room2/rhum, {"time":62,"value":58.8}
-1619700153185,siggen/room1/rhum, {"time":62,"value":63.1}
-1619700153185,siggen/room2/temp, {"time":62,"value":19.5}
-1619700153185,siggen/room1/temp, {"time":62,"value":21.0}
-1619700154186,siggen/room2/rhum, {"time":63,"value":56.3}
-1619700154186,siggen/room1/rhum, {"time":63,"value":65.6}
-1619700154187,siggen/room1/temp, {"time":63,"value":21.5}
-1619700154187,siggen/room2/temp, {"time":63,"value":20.6}
-1619700155188,siggen/room2/rhum, {"time":64,"value":63.5}
-1619700155188,siggen/room1/rhum, {"time":64,"value":77.2}
-1619700155188,siggen/room1/temp, {"time":64,"value":22.0}
-1619700155188,siggen/room2/temp, {"time":64,"value":20.4}
-1619700156190,siggen/room2/rhum, {"time":65,"value":62.2}
-1619700156190,siggen/room1/temp, {"time":65,"value":22.5}
-1619700156191,siggen/room2/temp, {"time":65,"value":23.7}
-1619700156191,siggen/room1/rhum, {"time":65,"value":76.8}
-1619700157192,siggen/room1/rhum, {"time":66,"value":84.9}
-1619700157192,siggen/room1/temp, {"time":66,"value":23.0}
-1619700157193,siggen/room2/rhum, {"time":66,"value":68.1}
-1619700157193,siggen/room2/temp, {"time":66,"value":22.0}
-1619700158193,siggen/room1/temp, {"time":67,"value":24.5}
-1619700158193,siggen/room1/rhum, {"time":67,"value":81.0}
-1619700158193,siggen/room2/rhum, {"time":67,"value":73.6}
-1619700158194,siggen/room2/temp, {"time":67,"value":24.2}
-1619700159194,siggen/room1/rhum, {"time":68,"value":89.7}
-1619700159194,siggen/room2/rhum, {"time":68,"value":72.9}
-1619700159194,siggen/room1/temp, {"time":68,"value":24.3}
-1619700159195,siggen/room2/temp, {"time":68,"value":26.1}
-1619700160195,siggen/room1/rhum, {"time":69,"value":93.3}
-1619700160196,siggen/room2/rhum, {"time":69,"value":76.4}
-1619700160196,siggen/room1/temp, {"time":69,"value":22.7}
-1619700160196,siggen/room2/temp, {"time":69,"value":25.3}
-1619700161197,siggen/room1/rhum, {"time":70,"value":74.8}
-1619700161197,siggen/room2/rhum, {"time":70,"value":78.7}
-1619700161197,siggen/room1/temp, {"time":70,"value":19.9}
-1619700161197,siggen/room2/temp, {"time":70,"value":24.8}
-1619700162199,siggen/room2/rhum, {"time":71,"value":74.3}
-1619700162199,siggen/room1/rhum, {"time":71,"value":59.4}
-1619700162199,siggen/room1/temp, {"time":71,"value":17.3}
-1619700162199,siggen/room2/temp, {"time":71,"value":22.9}
-1619700163200,siggen/room1/rhum, {"time":72,"value":50.0}
-1619700163200,siggen/room2/temp, {"time":72,"value":19.3}
-1619700163200,siggen/room2/rhum, {"time":72,"value":61.7}
-1619700163200,siggen/room1/temp, {"time":72,"value":20.0}
-1619700164201,siggen/room1/rhum, {"time":73,"value":55.3}
-1619700164201,siggen/room2/temp, {"time":73,"value":19.7}
-1619700164201,siggen/room2/rhum, {"time":73,"value":59.4}
-1619700164201,siggen/room1/temp, {"time":73,"value":20.5}
-1619700165202,siggen/room1/rhum, {"time":74,"value":63.1}
-1619700165202,siggen/room2/rhum, {"time":74,"value":58.8}
-1619700165202,siggen/room1/temp, {"time":74,"value":21.0}
-1619700165202,siggen/room2/temp, {"time":74,"value":19.5}
-1619700166202,siggen/room2/rhum, {"time":75,"value":56.3}
-1619700166202,siggen/room1/temp, {"time":75,"value":21.5}
-1619700166202,siggen/room2/temp, {"time":75,"value":20.6}
-1619700166203,siggen/room1/rhum, {"time":75,"value":65.6}
-1619700167204,siggen/room2/temp, {"time":76,"value":20.4}
-1619700167204,siggen/room2/rhum, {"time":76,"value":63.5}
-1619700167204,siggen/room1/temp, {"time":76,"value":22.0}
-1619700167204,siggen/room1/rhum, {"time":76,"value":77.2}
-1619700168205,siggen/room2/rhum, {"time":77,"value":62.2}
-1619700168205,siggen/room1/rhum, {"time":77,"value":76.8}
-1619700168206,siggen/room1/temp, {"time":77,"value":22.5}
-1619700168206,siggen/room2/temp, {"time":77,"value":23.7}
-1619700169207,siggen/room2/rhum, {"time":78,"value":68.1}
-1619700169207,siggen/room2/temp, {"time":78,"value":22.0}
-1619700169207,siggen/room1/rhum, {"time":78,"value":84.9}
-1619700169208,siggen/room1/temp, {"time":78,"value":23.0}
-1619700170208,siggen/room2/temp, {"time":79,"value":24.2}
-1619700170209,siggen/room1/rhum, {"time":79,"value":81.0}
-1619700170209,siggen/room2/rhum, {"time":79,"value":73.6}
-1619700170209,siggen/room1/temp, {"time":79,"value":24.5}
-1619700171209,siggen/room2/temp, {"time":80,"value":26.1}
-1619700171209,siggen/room1/rhum, {"time":80,"value":89.7}
-1619700171209,siggen/room2/rhum, {"time":80,"value":72.9}
-1619700171210,siggen/room1/temp, {"time":80,"value":24.3}
-1619700172210,siggen/room1/rhum, {"time":81,"value":93.3}
-1619700172210,siggen/room2/rhum, {"time":81,"value":76.4}
-1619700172210,siggen/room2/temp, {"time":81,"value":25.3}
-1619700172211,siggen/room1/temp, {"time":81,"value":22.7}
-1619700173211,siggen/room1/rhum, {"time":82,"value":74.8}
-1619700173211,siggen/room2/temp, {"time":82,"value":24.8}
-1619700173211,siggen/room2/rhum, {"time":82,"value":78.7}
-1619700173211,siggen/room1/temp, {"time":82,"value":19.9}
-1619700174212,siggen/room1/rhum, {"time":83,"value":59.4}
-1619700174212,siggen/room2/rhum, {"time":83,"value":74.3}
-1619700174212,siggen/room2/temp, {"time":83,"value":22.9}
-1619700174213,siggen/room1/temp, {"time":83,"value":17.3}
-1619700175213,siggen/room1/rhum, {"time":84,"value":50.0}
-1619700175214,siggen/room2/temp, {"time":84,"value":19.3}
-1619700175214,siggen/room2/rhum, {"time":84,"value":61.7}
-1619700175214,siggen/room1/temp, {"time":84,"value":20.0}
-1619700176215,siggen/room1/rhum, {"time":85,"value":55.3}
-1619700176215,siggen/room2/rhum, {"time":85,"value":59.4}
-1619700176215,siggen/room2/temp, {"time":85,"value":19.7}
-1619700176215,siggen/room1/temp, {"time":85,"value":20.5}
-1619700177216,siggen/room1/rhum, {"time":86,"value":63.1}
-1619700177216,siggen/room2/rhum, {"time":86,"value":58.8}
-1619700177216,siggen/room2/temp, {"time":86,"value":19.5}
-1619700177217,siggen/room1/temp, {"time":86,"value":21.0}
-1619700178217,siggen/room1/rhum, {"time":87,"value":65.6}
-1619700178217,siggen/room2/rhum, {"time":87,"value":56.3}
-1619700178217,siggen/room2/temp, {"time":87,"value":20.6}
-1619700178217,siggen/room1/temp, {"time":87,"value":21.5}
-1619700179218,siggen/room1/rhum, {"time":88,"value":77.2}
-1619700179218,siggen/room2/temp, {"time":88,"value":20.4}
-1619700179218,siggen/room2/rhum, {"time":88,"value":63.5}
-1619700179218,siggen/room1/temp, {"time":88,"value":22.0}
-1619700180219,siggen/room1/rhum, {"time":89,"value":76.8}
-1619700180219,siggen/room2/rhum, {"time":89,"value":62.2}
-1619700180219,siggen/room2/temp, {"time":89,"value":23.7}
-1619700180219,siggen/room1/temp, {"time":89,"value":22.5}
-1619700181221,siggen/room1/rhum, {"time":90,"value":84.9}
-1619700181221,siggen/room2/rhum, {"time":90,"value":68.1}
-1619700181221,siggen/room1/temp, {"time":90,"value":23.0}
-1619700181221,siggen/room2/temp, {"time":90,"value":22.0}
-1619700182222,siggen/room1/rhum, {"time":91,"value":81.0}
-1619700182222,siggen/room2/rhum, {"time":91,"value":73.6}
-1619700182222,siggen/room1/temp, {"time":91,"value":24.5}
-1619700182222,siggen/room2/temp, {"time":91,"value":24.2}
-1619700183223,siggen/room1/rhum, {"time":92,"value":89.7}
-1619700183223,siggen/room2/rhum, {"time":92,"value":72.9}
-1619700183223,siggen/room1/temp, {"time":92,"value":24.3}
-1619700183223,siggen/room2/temp, {"time":92,"value":26.1}
-1619700184223,siggen/room1/rhum, {"time":93,"value":93.3}
-1619700184223,siggen/room2/temp, {"time":93,"value":25.3}
-1619700184223,siggen/room1/temp, {"time":93,"value":22.7}
-1619700184223,siggen/room2/rhum, {"time":93,"value":76.4}
-1619700185225,siggen/room1/rhum, {"time":94,"value":74.8}
-1619700185225,siggen/room2/rhum, {"time":94,"value":78.7}
-1619700185225,siggen/room1/temp, {"time":94,"value":19.9}
-1619700185225,siggen/room2/temp, {"time":94,"value":24.8}
-1619700186226,siggen/room1/rhum, {"time":95,"value":59.4}
-1619700186226,siggen/room2/rhum, {"time":95,"value":74.3}
-1619700186226,siggen/room1/temp, {"time":95,"value":17.3}
-1619700186227,siggen/room2/temp, {"time":95,"value":22.9}
-1619700187228,siggen/room1/rhum, {"time":96,"value":50.0}
-1619700187228,siggen/room2/rhum, {"time":96,"value":61.7}
-1619700187228,siggen/room1/temp, {"time":96,"value":20.0}
-1619700187228,siggen/room2/temp, {"time":96,"value":19.3}
-1619700188229,siggen/room1/rhum, {"time":97,"value":55.3}
-1619700188229,siggen/room2/rhum, {"time":97,"value":59.4}
-1619700188229,siggen/room1/temp, {"time":97,"value":20.5}
-1619700188229,siggen/room2/temp, {"time":97,"value":19.7}
-1619700189229,siggen/room1/rhum, {"time":98,"value":63.1}
-1619700189230,siggen/room2/rhum, {"time":98,"value":58.8}
-1619700189230,siggen/room1/temp, {"time":98,"value":21.0}
-1619700189230,siggen/room2/temp, {"time":98,"value":19.5}
-1619700190231,siggen/room1/rhum, {"time":99,"value":65.6}
-1619700190231,siggen/room2/rhum, {"time":99,"value":56.3}
-1619700190231,siggen/room1/temp, {"time":99,"value":21.5}
-1619700190231,siggen/room2/temp, {"time":99,"value":20.6}
-1619700191232,siggen/room1/rhum, {"time":100,"value":77.2}
-1619700191232,siggen/room2/rhum, {"time":100,"value":63.5}
-1619700191232,siggen/room1/temp, {"time":100,"value":22.0}
-1619700191232,siggen/room2/temp, {"time":100,"value":20.4}
-1619700192234,siggen/room1/rhum, {"time":101,"value":76.8}
-1619700192234,siggen/room2/temp, {"time":101,"value":23.7}
-1619700192234,siggen/room2/rhum, {"time":101,"value":62.2}
-1619700192234,siggen/room1/temp, {"time":101,"value":22.5}
-1619700193234,siggen/room2/temp, {"time":102,"value":22.0}
-1619700193234,siggen/room1/rhum, {"time":102,"value":84.9}
-1619700193234,siggen/room1/temp, {"time":102,"value":23.0}
-1619700193234,siggen/room2/rhum, {"time":102,"value":68.1}
-1619700194235,siggen/room1/rhum, {"time":103,"value":81.0}
-1619700194235,siggen/room2/rhum, {"time":103,"value":73.6}
-1619700194235,siggen/room2/temp, {"time":103,"value":24.2}
-1619700194235,siggen/room1/temp, {"time":103,"value":24.5}
-1619700195236,siggen/room1/rhum, {"time":104,"value":89.7}
-1619700195236,siggen/room2/rhum, {"time":104,"value":72.9}
-1619700195236,siggen/room2/temp, {"time":104,"value":26.1}
-1619700195237,siggen/room1/temp, {"time":104,"value":24.3}
-1619700196237,siggen/room1/rhum, {"time":105,"value":93.3}
-1619700196238,siggen/room2/temp, {"time":105,"value":25.3}
-1619700196238,siggen/room2/rhum, {"time":105,"value":76.4}
-1619700196238,siggen/room1/temp, {"time":105,"value":22.7}
-1619700197239,siggen/room1/rhum, {"time":106,"value":74.8}
-1619700197239,siggen/room2/temp, {"time":106,"value":24.8}
-1619700197239,siggen/room2/rhum, {"time":106,"value":78.7}
-1619700197239,siggen/room1/temp, {"time":106,"value":19.9}
-1619700198239,siggen/room1/rhum, {"time":107,"value":59.4}
-1619700198240,siggen/room2/temp, {"time":107,"value":22.9}
-1619700198240,siggen/room2/rhum, {"time":107,"value":74.3}
-1619700198240,siggen/room1/temp, {"time":107,"value":17.3}
-1619700199240,siggen/room1/rhum, {"time":108,"value":50.0}
-1619700199240,siggen/room2/temp, {"time":108,"value":19.3}
-1619700199240,siggen/room1/temp, {"time":108,"value":20.0}
-1619700199240,siggen/room2/rhum, {"time":108,"value":61.7}
-1619700200241,siggen/room1/rhum, {"time":109,"value":55.3}
-1619700200241,siggen/room2/rhum, {"time":109,"value":59.4}
-1619700200241,siggen/room1/temp, {"time":109,"value":20.5}
-1619700200241,siggen/room2/temp, {"time":109,"value":19.7}
-1619700201242,siggen/room1/rhum, {"time":110,"value":63.1}
-1619700201242,siggen/room2/rhum, {"time":110,"value":58.8}
-1619700201242,siggen/room2/temp, {"time":110,"value":19.5}
-1619700201242,siggen/room1/temp, {"time":110,"value":21.0}
-1619700202243,siggen/room1/rhum, {"time":111,"value":65.6}
-1619700202243,siggen/room2/rhum, {"time":111,"value":56.3}
-1619700202244,siggen/room2/temp, {"time":111,"value":20.6}
-1619700202244,siggen/room1/temp, {"time":111,"value":21.5}
-1619700203245,siggen/room1/rhum, {"time":112,"value":77.2}
-1619700203245,siggen/room2/rhum, {"time":112,"value":63.5}
-1619700203245,siggen/room1/temp, {"time":112,"value":22.0}
-1619700203245,siggen/room2/temp, {"time":112,"value":20.4}
-1619700204245,siggen/room2/rhum, {"time":113,"value":62.2}
-1619700204245,siggen/room1/rhum, {"time":113,"value":76.8}
-1619700204245,siggen/room1/temp, {"time":113,"value":22.5}
-1619700204245,siggen/room2/temp, {"time":113,"value":23.7}
-1619700205246,siggen/room2/rhum, {"time":114,"value":68.1}
-1619700205246,siggen/room2/temp, {"time":114,"value":22.0}
-1619700205246,siggen/room1/rhum, {"time":114,"value":84.9}
-1619700205246,siggen/room1/temp, {"time":114,"value":23.0}
-1619700206247,siggen/room2/rhum, {"time":115,"value":73.6}
-1619700206247,siggen/room1/temp, {"time":115,"value":24.5}
-1619700206248,siggen/room1/rhum, {"time":115,"value":81.0}
-1619700206248,siggen/room2/temp, {"time":115,"value":24.2}
-1619700207248,siggen/room2/rhum, {"time":116,"value":72.9}
-1619700207248,siggen/room1/rhum, {"time":116,"value":89.7}
-1619700207249,siggen/room1/temp, {"time":116,"value":24.3}
-1619700207249,siggen/room2/temp, {"time":116,"value":26.1}
-1619700208250,siggen/room1/rhum, {"time":117,"value":93.3}
-1619700208250,siggen/room2/rhum, {"time":117,"value":76.4}
-1619700208250,siggen/room1/temp, {"time":117,"value":22.7}
-1619700208250,siggen/room2/temp, {"time":117,"value":25.3}
-1619700209251,siggen/room2/rhum, {"time":118,"value":78.7}
-1619700209251,siggen/room1/rhum, {"time":118,"value":74.8}
-1619700209251,siggen/room2/temp, {"time":118,"value":24.8}
-1619700209251,siggen/room1/temp, {"time":118,"value":19.9}
-1619700210251,siggen/room2/rhum, {"time":119,"value":74.3}
-1619700210252,siggen/room1/rhum, {"time":119,"value":59.4}
-1619700210252,siggen/room2/temp, {"time":119,"value":22.9}
-1619700210252,siggen/room1/temp, {"time":119,"value":17.3}
-1619700211252,siggen/room1/rhum, {"time":120,"value":50.0}
-1619700211252,siggen/room1/temp, {"time":120,"value":20.0}
-1619700211252,siggen/room2/temp, {"time":120,"value":19.3}
-1619700211252,siggen/room2/rhum, {"time":120,"value":61.7}
-1619700212253,siggen/room1/rhum, {"time":121,"value":55.3}
-1619700212253,siggen/room2/temp, {"time":121,"value":19.7}
-1619700212253,siggen/room1/temp, {"time":121,"value":20.5}
-1619700212254,siggen/room2/rhum, {"time":121,"value":59.4}
-1619700213254,siggen/room1/rhum, {"time":122,"value":63.1}
-1619700213255,siggen/room2/temp, {"time":122,"value":19.5}
-1619700213255,siggen/room2/rhum, {"time":122,"value":58.8}
-1619700213255,siggen/room1/temp, {"time":122,"value":21.0}
-1619700214256,siggen/room1/rhum, {"time":123,"value":65.6}
-1619700214256,siggen/room2/rhum, {"time":123,"value":56.3}
-1619700214256,siggen/room2/temp, {"time":123,"value":20.6}
-1619700214256,siggen/room1/temp, {"time":123,"value":21.5}
-1619700215257,siggen/room1/rhum, {"time":124,"value":77.2}
-1619700215257,siggen/room1/temp, {"time":124,"value":22.0}
-1619700215257,siggen/room2/rhum, {"time":124,"value":63.5}
-1619700215257,siggen/room2/temp, {"time":124,"value":20.4}
-1619700216257,siggen/room1/temp, {"time":125,"value":22.5}
-1619700216257,siggen/room2/rhum, {"time":125,"value":62.2}
-1619700216257,siggen/room1/rhum, {"time":125,"value":76.8}
-1619700216257,siggen/room2/temp, {"time":125,"value":23.7}
-1619700217259,siggen/room1/rhum, {"time":126,"value":84.9}
-1619700217259,siggen/room2/rhum, {"time":126,"value":68.1}
-1619700217259,siggen/room2/temp, {"time":126,"value":22.0}
-1619700217259,siggen/room1/temp, {"time":126,"value":23.0}
-1619700218260,siggen/room1/rhum, {"time":127,"value":81.0}
-1619700218260,siggen/room2/rhum, {"time":127,"value":73.6}
-1619700218260,siggen/room2/temp, {"time":127,"value":24.2}
-1619700218260,siggen/room1/temp, {"time":127,"value":24.5}
-1619700219261,siggen/room1/rhum, {"time":128,"value":89.7}
-1619700219261,siggen/room2/rhum, {"time":128,"value":72.9}
-1619700219261,siggen/room2/temp, {"time":128,"value":26.1}
-1619700219261,siggen/room1/temp, {"time":128,"value":24.3}
-1619700220262,siggen/room2/rhum, {"time":129,"value":76.4}
-1619700220262,siggen/room1/rhum, {"time":129,"value":93.3}
-1619700220262,siggen/room2/temp, {"time":129,"value":25.3}
-1619700220262,siggen/room1/temp, {"time":129,"value":22.7}
-1619700221263,siggen/room1/rhum, {"time":130,"value":74.8}
-1619700221263,siggen/room1/temp, {"time":130,"value":19.9}
-1619700221263,siggen/room2/temp, {"time":130,"value":24.8}
-1619700221263,siggen/room2/rhum, {"time":130,"value":78.7}
-1619700222263,siggen/room1/rhum, {"time":131,"value":59.4}
-1619700222263,siggen/room2/rhum, {"time":131,"value":74.3}
-1619700222263,siggen/room2/temp, {"time":131,"value":22.9}
-1619700222263,siggen/room1/temp, {"time":131,"value":17.3}
-1619700223265,siggen/room1/rhum, {"time":132,"value":50.0}
-1619700223265,siggen/room2/rhum, {"time":132,"value":61.7}
-1619700223265,siggen/room1/temp, {"time":132,"value":20.0}
-1619700223265,siggen/room2/temp, {"time":132,"value":19.3}
-1619700224266,siggen/room1/rhum, {"time":133,"value":55.3}
-1619700224266,siggen/room2/rhum, {"time":133,"value":59.4}
-1619700224266,siggen/room1/temp, {"time":133,"value":20.5}
-1619700224266,siggen/room2/temp, {"time":133,"value":19.7}
-1619700225267,siggen/room1/rhum, {"time":134,"value":63.1}
-1619700225267,siggen/room2/temp, {"time":134,"value":19.5}
-1619700225267,siggen/room2/rhum, {"time":134,"value":58.8}
-1619700225267,siggen/room1/temp, {"time":134,"value":21.0}
-1619700226268,siggen/room1/rhum, {"time":135,"value":65.6}
-1619700226268,siggen/room2/rhum, {"time":135,"value":56.3}
-1619700226268,siggen/room2/temp, {"time":135,"value":20.6}
-1619700226268,siggen/room1/temp, {"time":135,"value":21.5}
-1619700227268,siggen/room1/rhum, {"time":136,"value":77.2}
-1619700227268,siggen/room2/rhum, {"time":136,"value":63.5}
-1619700227268,siggen/room2/temp, {"time":136,"value":20.4}
-1619700227269,siggen/room1/temp, {"time":136,"value":22.0}
-1619700228270,siggen/room1/rhum, {"time":137,"value":76.8}
-1619700228270,siggen/room1/temp, {"time":137,"value":22.5}
-1619700228270,siggen/room2/rhum, {"time":137,"value":62.2}
-1619700228270,siggen/room2/temp, {"time":137,"value":23.7}
-1619700229271,siggen/room1/rhum, {"time":138,"value":84.9}
-1619700229271,siggen/room1/temp, {"time":138,"value":23.0}
-1619700229271,siggen/room2/temp, {"time":138,"value":22.0}
-1619700229271,siggen/room2/rhum, {"time":138,"value":68.1}
-1619700230272,siggen/room1/rhum, {"time":139,"value":81.0}
-1619700230272,siggen/room1/temp, {"time":139,"value":24.5}
-1619700230273,siggen/room2/temp, {"time":139,"value":24.2}
-1619700230273,siggen/room2/rhum, {"time":139,"value":73.6}
-1619700231273,siggen/room1/rhum, {"time":140,"value":89.7}
-1619700231273,siggen/room2/temp, {"time":140,"value":26.1}
-1619700231274,siggen/room1/temp, {"time":140,"value":24.3}
-1619700231274,siggen/room2/rhum, {"time":140,"value":72.9}
-1619700232274,siggen/room1/rhum, {"time":141,"value":93.3}
-1619700232274,siggen/room1/temp, {"time":141,"value":22.7}
-1619700232274,siggen/room2/temp, {"time":141,"value":25.3}
-1619700232274,siggen/room2/rhum, {"time":141,"value":76.4}
-1619700233275,siggen/room1/rhum, {"time":142,"value":74.8}
-1619700233275,siggen/room2/rhum, {"time":142,"value":78.7}
-1619700233276,siggen/room1/temp, {"time":142,"value":19.9}
-1619700233276,siggen/room2/temp, {"time":142,"value":24.8}
-1619700234277,siggen/room1/rhum, {"time":143,"value":59.4}
-1619700234277,siggen/room2/temp, {"time":143,"value":22.9}
-1619700234277,siggen/room1/temp, {"time":143,"value":17.3}
-1619700234277,siggen/room2/rhum, {"time":143,"value":74.3}
-1619700235278,siggen/room1/rhum, {"time":144,"value":50.0}
-1619700235278,siggen/room2/temp, {"time":144,"value":19.3}
-1619700235278,siggen/room1/temp, {"time":144,"value":20.0}
-1619700235278,siggen/room2/rhum, {"time":144,"value":61.7}
-1619700236278,siggen/room1/rhum, {"time":145,"value":55.3}
-1619700236278,siggen/room1/temp, {"time":145,"value":20.5}
-1619700236278,siggen/room2/temp, {"time":145,"value":19.7}
-1619700236279,siggen/room2/rhum, {"time":145,"value":59.4}
-1619700237279,siggen/room1/rhum, {"time":146,"value":63.1}
-1619700237279,siggen/room1/temp, {"time":146,"value":21.0}
-1619700237279,siggen/room2/temp, {"time":146,"value":19.5}
-1619700237279,siggen/room2/rhum, {"time":146,"value":58.8}
-1619700238280,siggen/room1/rhum, {"time":147,"value":65.6}
-1619700238280,siggen/room2/temp, {"time":147,"value":20.6}
-1619700238280,siggen/room1/temp, {"time":147,"value":21.5}
-1619700238280,siggen/room2/rhum, {"time":147,"value":56.3}
-1619700239281,siggen/room1/rhum, {"time":148,"value":77.2}
-1619700239281,siggen/room2/rhum, {"time":148,"value":63.5}
-1619700239281,siggen/room2/temp, {"time":148,"value":20.4}
-1619700239282,siggen/room1/temp, {"time":148,"value":22.0}
-1619700240283,siggen/room1/rhum, {"time":149,"value":76.8}
-1619700240283,siggen/room2/temp, {"time":149,"value":23.7}
-1619700240283,siggen/room2/rhum, {"time":149,"value":62.2}
-1619700240283,siggen/room1/temp, {"time":149,"value":22.5}
-1619700241284,siggen/room2/rhum, {"time":150,"value":68.1}
-1619700241284,siggen/room2/temp, {"time":150,"value":22.0}
-1619700241284,siggen/room1/rhum, {"time":150,"value":84.9}
-1619700241284,siggen/room1/temp, {"time":150,"value":23.0}
-1619700242284,siggen/room1/rhum, {"time":151,"value":81.0}
-1619700242284,siggen/room2/rhum, {"time":151,"value":73.6}
-1619700242284,siggen/room2/temp, {"time":151,"value":24.2}
-1619700242285,siggen/room1/temp, {"time":151,"value":24.5}
-1619700243285,siggen/room2/rhum, {"time":152,"value":72.9}
-1619700243285,siggen/room1/rhum, {"time":152,"value":89.7}
-1619700243285,siggen/room2/temp, {"time":152,"value":26.1}
-1619700243285,siggen/room1/temp, {"time":152,"value":24.3}
-1619700244286,siggen/room1/rhum, {"time":153,"value":93.3}
-1619700244286,siggen/room2/rhum, {"time":153,"value":76.4}
-1619700244287,siggen/room2/temp, {"time":153,"value":25.3}
-1619700244287,siggen/room1/temp, {"time":153,"value":22.7}
-1619700245287,siggen/room1/rhum, {"time":154,"value":74.8}
-1619700245288,siggen/room2/rhum, {"time":154,"value":78.7}
-1619700245288,siggen/room1/temp, {"time":154,"value":19.9}
-1619700245288,siggen/room2/temp, {"time":154,"value":24.8}
-1619700246289,siggen/room1/rhum, {"time":155,"value":59.4}
-1619700246289,siggen/room2/rhum, {"time":155,"value":74.3}
-1619700246289,siggen/room1/temp, {"time":155,"value":17.3}
-1619700246289,siggen/room2/temp, {"time":155,"value":22.9}
-1619700247289,siggen/room1/rhum, {"time":156,"value":50.0}
-1619700247289,siggen/room2/rhum, {"time":156,"value":61.7}
-1619700247289,siggen/room1/temp, {"time":156,"value":20.0}
-1619700247290,siggen/room2/temp, {"time":156,"value":19.3}
-1619700248290,siggen/room1/rhum, {"time":157,"value":55.3}
-1619700248290,siggen/room2/rhum, {"time":157,"value":59.4}
-1619700248290,siggen/room2/temp, {"time":157,"value":19.7}
-1619700248290,siggen/room1/temp, {"time":157,"value":20.5}
-1619700249291,siggen/room1/rhum, {"time":158,"value":63.1}
-1619700249291,siggen/room2/rhum, {"time":158,"value":58.8}
-1619700249291,siggen/room2/temp, {"time":158,"value":19.5}
-1619700249292,siggen/room1/temp, {"time":158,"value":21.0}
-1619700250292,siggen/room1/rhum, {"time":159,"value":65.6}
-1619700250292,siggen/room2/rhum, {"time":159,"value":56.3}
-1619700250292,siggen/room2/temp, {"time":159,"value":20.6}
-1619700250293,siggen/room1/temp, {"time":159,"value":21.5}
-1619700251294,siggen/room1/rhum, {"time":160,"value":77.2}
-1619700251294,siggen/room2/rhum, {"time":160,"value":63.5}
-1619700251294,siggen/room2/temp, {"time":160,"value":20.4}
-1619700251294,siggen/room1/temp, {"time":160,"value":22.0}
-1619700252302,siggen/room2/temp, {"time":161,"value":23.7}
-1619700252302,siggen/room1/rhum, {"time":161,"value":76.8}
-1619700252302,siggen/room2/rhum, {"time":161,"value":62.2}
-1619700252302,siggen/room1/temp, {"time":161,"value":22.5}
-1619700253302,siggen/room2/rhum, {"time":162,"value":68.1}
-1619700253302,siggen/room2/temp, {"time":162,"value":22.0}
-1619700253302,siggen/room1/rhum, {"time":162,"value":84.9}
-1619700253302,siggen/room1/temp, {"time":162,"value":23.0}
-1619700254304,siggen/room1/rhum, {"time":163,"value":81.0}
-1619700254304,siggen/room2/temp, {"time":163,"value":24.2}
-1619700254304,siggen/room1/temp, {"time":163,"value":24.5}
-1619700254304,siggen/room2/rhum, {"time":163,"value":73.6}
-1619700255305,siggen/room1/rhum, {"time":164,"value":89.7}
-1619700255305,siggen/room2/temp, {"time":164,"value":26.1}
-1619700255305,siggen/room1/temp, {"time":164,"value":24.3}
-1619700255305,siggen/room2/rhum, {"time":164,"value":72.9}
-1619700256306,siggen/room1/rhum, {"time":165,"value":93.3}
-1619700256306,siggen/room2/temp, {"time":165,"value":25.3}
-1619700256306,siggen/room2/rhum, {"time":165,"value":76.4}
-1619700256306,siggen/room1/temp, {"time":165,"value":22.7}
-1619700257307,siggen/room1/rhum, {"time":166,"value":74.8}
-1619700257307,siggen/room2/temp, {"time":166,"value":24.8}
-1619700257307,siggen/room2/rhum, {"time":166,"value":78.7}
-1619700257307,siggen/room1/temp, {"time":166,"value":19.9}
-1619700258307,siggen/room2/temp, {"time":167,"value":22.9}
-1619700258307,siggen/room2/rhum, {"time":167,"value":74.3}
-1619700258307,siggen/room1/rhum, {"time":167,"value":59.4}
-1619700258307,siggen/room1/temp, {"time":167,"value":17.3}
-1619700259308,siggen/room1/rhum, {"time":168,"value":50.0}
-1619700259309,siggen/room2/rhum, {"time":168,"value":61.7}
-1619700259309,siggen/room1/temp, {"time":168,"value":20.0}
-1619700259309,siggen/room2/temp, {"time":168,"value":19.3}
-1619700260310,siggen/room1/rhum, {"time":169,"value":55.3}
-1619700260310,siggen/room2/rhum, {"time":169,"value":59.4}
-1619700260310,siggen/room1/temp, {"time":169,"value":20.5}
-1619700260310,siggen/room2/temp, {"time":169,"value":19.7}
-1619700261311,siggen/room1/rhum, {"time":170,"value":63.1}
-1619700261311,siggen/room2/rhum, {"time":170,"value":58.8}
-1619700261311,siggen/room2/temp, {"time":170,"value":19.5}
-1619700261311,siggen/room1/temp, {"time":170,"value":21.0}
-1619700262311,siggen/room1/rhum, {"time":171,"value":65.6}
-1619700262311,siggen/room2/rhum, {"time":171,"value":56.3}
-1619700262311,siggen/room2/temp, {"time":171,"value":20.6}
-1619700262311,siggen/room1/temp, {"time":171,"value":21.5}
-1619700263312,siggen/room1/rhum, {"time":172,"value":77.2}
-1619700263312,siggen/room2/rhum, {"time":172,"value":63.5}
-1619700263312,siggen/room2/temp, {"time":172,"value":20.4}
-1619700263312,siggen/room1/temp, {"time":172,"value":22.0}
-1619700264313,siggen/room2/rhum, {"time":173,"value":62.2}
-1619700264313,siggen/room2/temp, {"time":173,"value":23.7}
-1619700264313,siggen/room1/temp, {"time":173,"value":22.5}
-1619700264313,siggen/room1/rhum, {"time":173,"value":76.8}
-1619700265314,siggen/room2/rhum, {"time":174,"value":68.1}
-1619700265314,siggen/room2/temp, {"time":174,"value":22.0}
-1619700265315,siggen/room1/temp, {"time":174,"value":23.0}
-1619700265315,siggen/room1/rhum, {"time":174,"value":84.9}
-1619700266316,siggen/room2/rhum, {"time":175,"value":73.6}
-1619700266316,siggen/room1/rhum, {"time":175,"value":81.0}
-1619700266316,siggen/room2/temp, {"time":175,"value":24.2}
-1619700266316,siggen/room1/temp, {"time":175,"value":24.5}
-1619700267317,siggen/room1/rhum, {"time":176,"value":89.7}
-1619700267317,siggen/room2/rhum, {"time":176,"value":72.9}
-1619700267317,siggen/room2/temp, {"time":176,"value":26.1}
-1619700267317,siggen/room1/temp, {"time":176,"value":24.3}
-1619700268318,siggen/room1/rhum, {"time":177,"value":93.3}
-1619700268318,siggen/room2/rhum, {"time":177,"value":76.4}
-1619700268318,siggen/room2/temp, {"time":177,"value":25.3}
-1619700268318,siggen/room1/temp, {"time":177,"value":22.7}
-1619700269318,siggen/room1/rhum, {"time":178,"value":74.8}
-1619700269318,siggen/room2/rhum, {"time":178,"value":78.7}
-1619700269319,siggen/room1/temp, {"time":178,"value":19.9}
-1619700269319,siggen/room2/temp, {"time":178,"value":24.8}
-1619700270320,siggen/room2/rhum, {"time":179,"value":74.3}
-1619700270320,siggen/room1/rhum, {"time":179,"value":59.4}
-1619700270320,siggen/room1/temp, {"time":179,"value":17.3}
-1619700270320,siggen/room2/temp, {"time":179,"value":22.9}
-1619700271321,siggen/room2/rhum, {"time":180,"value":61.7}
-1619700271321,siggen/room1/rhum, {"time":180,"value":50.0}
-1619700271321,siggen/room2/temp, {"time":180,"value":19.3}
-1619700271321,siggen/room1/temp, {"time":180,"value":20.0}
-1619700272322,siggen/room1/rhum, {"time":181,"value":55.3}
-1619700272322,siggen/room2/rhum, {"time":181,"value":59.4}
-1619700272322,siggen/room1/temp, {"time":181,"value":20.5}
-1619700272322,siggen/room2/temp, {"time":181,"value":19.7}
-1619700273323,siggen/room1/rhum, {"time":182,"value":63.1}
-1619700273323,siggen/room2/rhum, {"time":182,"value":58.8}
-1619700273323,siggen/room2/temp, {"time":182,"value":19.5}
-1619700273323,siggen/room1/temp, {"time":182,"value":21.0}
-1619700274324,siggen/room1/rhum, {"time":183,"value":65.6}
-1619700274324,siggen/room2/rhum, {"time":183,"value":56.3}
-1619700274324,siggen/room2/temp, {"time":183,"value":20.6}
-1619700274324,siggen/room1/temp, {"time":183,"value":21.5}
-1619700275325,siggen/room2/temp, {"time":184,"value":20.4}
-1619700275325,siggen/room1/rhum, {"time":184,"value":77.2}
-1619700275325,siggen/room2/rhum, {"time":184,"value":63.5}
-1619700275325,siggen/room1/temp, {"time":184,"value":22.0}
-1619700276326,siggen/room1/rhum, {"time":185,"value":76.8}
-1619700276326,siggen/room2/temp, {"time":185,"value":23.7}
-1619700276326,siggen/room2/rhum, {"time":185,"value":62.2}
-1619700276326,siggen/room1/temp, {"time":185,"value":22.5}
-1619700277327,siggen/room1/rhum, {"time":186,"value":84.9}
-1619700277327,siggen/room2/rhum, {"time":186,"value":68.1}
-1619700277327,siggen/room2/temp, {"time":186,"value":22.0}
-1619700277327,siggen/room1/temp, {"time":186,"value":23.0}
-1619700278328,siggen/room1/rhum, {"time":187,"value":81.0}
-1619700278328,siggen/room2/rhum, {"time":187,"value":73.6}
-1619700278328,siggen/room2/temp, {"time":187,"value":24.2}
-1619700278329,siggen/room1/temp, {"time":187,"value":24.5}
-1619700279329,siggen/room1/rhum, {"time":188,"value":89.7}
-1619700279329,siggen/room2/rhum, {"time":188,"value":72.9}
-1619700279329,siggen/room2/temp, {"time":188,"value":26.1}
-1619700279329,siggen/room1/temp, {"time":188,"value":24.3}
-1619700280329,siggen/room1/rhum, {"time":189,"value":93.3}
-1619700280329,siggen/room2/rhum, {"time":189,"value":76.4}
-1619700280329,siggen/room2/temp, {"time":189,"value":25.3}
-1619700280330,siggen/room1/temp, {"time":189,"value":22.7}
-1619700281331,siggen/room1/rhum, {"time":190,"value":74.8}
-1619700281331,siggen/room2/rhum, {"time":190,"value":78.7}
-1619700281331,siggen/room2/temp, {"time":190,"value":24.8}
-1619700281331,siggen/room1/temp, {"time":190,"value":19.9}
-1619700282332,siggen/room1/rhum, {"time":191,"value":59.4}
-1619700282332,siggen/room2/rhum, {"time":191,"value":74.3}
-1619700282332,siggen/room2/temp, {"time":191,"value":22.9}
-1619700282332,siggen/room1/temp, {"time":191,"value":17.3}
-1619700283333,siggen/room1/rhum, {"time":192,"value":50.0}
-1619700283333,siggen/room2/rhum, {"time":192,"value":61.7}
-1619700283333,siggen/room2/temp, {"time":192,"value":19.3}
-1619700283334,siggen/room1/temp, {"time":192,"value":20.0}
-1619700284334,siggen/room2/rhum, {"time":193,"value":59.4}
-1619700284334,siggen/room2/temp, {"time":193,"value":19.7}
-1619700284334,siggen/room1/rhum, {"time":193,"value":55.3}
-1619700284334,siggen/room1/temp, {"time":193,"value":20.5}
-1619700285334,siggen/room2/rhum, {"time":194,"value":58.8}
-1619700285334,siggen/room1/rhum, {"time":194,"value":63.1}
-1619700285334,siggen/room2/temp, {"time":194,"value":19.5}
-1619700285335,siggen/room1/temp, {"time":194,"value":21.0}
-1619700286335,siggen/room1/rhum, {"time":195,"value":65.6}
-1619700286335,siggen/room2/temp, {"time":195,"value":20.6}
-1619700286335,siggen/room2/rhum, {"time":195,"value":56.3}
-1619700286335,siggen/room1/temp, {"time":195,"value":21.5}
-1619700287336,siggen/room1/rhum, {"time":196,"value":77.2}
-1619700287336,siggen/room2/rhum, {"time":196,"value":63.5}
-1619700287336,siggen/room1/temp, {"time":196,"value":22.0}
-1619700287336,siggen/room2/temp, {"time":196,"value":20.4}
-1619700288337,siggen/room1/rhum, {"time":197,"value":76.8}
-1619700288337,siggen/room2/rhum, {"time":197,"value":62.2}
-1619700288337,siggen/room2/temp, {"time":197,"value":23.7}
-1619700288337,siggen/room1/temp, {"time":197,"value":22.5}
-1619700289338,siggen/room1/rhum, {"time":198,"value":84.9}
-1619700289338,siggen/room2/rhum, {"time":198,"value":68.1}
-1619700289338,siggen/room2/temp, {"time":198,"value":22.0}
-1619700289338,siggen/room1/temp, {"time":198,"value":23.0}
-1619700290339,siggen/room1/rhum, {"time":199,"value":81.0}
-1619700290339,siggen/room2/rhum, {"time":199,"value":73.6}
-1619700290339,siggen/room2/temp, {"time":199,"value":24.2}
-1619700290339,siggen/room1/temp, {"time":199,"value":24.5}
-1619700291340,siggen/room2/rhum, {"time":200,"value":72.9}
-1619700291340,siggen/room2/temp, {"time":200,"value":26.1}
-1619700291340,siggen/room1/rhum, {"time":200,"value":89.7}
-1619700291340,siggen/room1/temp, {"time":200,"value":24.3}
-1619700292340,siggen/room2/rhum, {"time":201,"value":76.4}
-1619700292340,siggen/room2/temp, {"time":201,"value":25.3}
-1619700292340,siggen/room1/temp, {"time":201,"value":22.7}
-1619700292344,siggen/room1/rhum, {"time":201,"value":93.3}
-1619700293341,siggen/room2/temp, {"time":202,"value":24.8}
-1619700293341,siggen/room2/rhum, {"time":202,"value":78.7}
-1619700293341,siggen/room1/temp, {"time":202,"value":19.9}
-1619700293344,siggen/room1/rhum, {"time":202,"value":74.8}
-1619700294342,siggen/room2/rhum, {"time":203,"value":74.3}
-1619700294342,siggen/room2/temp, {"time":203,"value":22.9}
-1619700294342,siggen/room1/temp, {"time":203,"value":17.3}
-1619700294345,siggen/room1/rhum, {"time":203,"value":59.4}
-1619700295343,siggen/room2/rhum, {"time":204,"value":61.7}
-1619700295343,siggen/room2/temp, {"time":204,"value":19.3}
-1619700295343,siggen/room1/temp, {"time":204,"value":20.0}
-1619700295347,siggen/room1/rhum, {"time":204,"value":50.0}
-1619700296344,siggen/room2/rhum, {"time":205,"value":59.4}
-1619700296344,siggen/room1/temp, {"time":205,"value":20.5}
-1619700296344,siggen/room2/temp, {"time":205,"value":19.7}
-1619700296348,siggen/room1/rhum, {"time":205,"value":55.3}
-1619700297345,siggen/room2/temp, {"time":206,"value":19.5}
-1619700297345,siggen/room2/rhum, {"time":206,"value":58.8}
-1619700297345,siggen/room1/temp, {"time":206,"value":21.0}
-1619700297348,siggen/room1/rhum, {"time":206,"value":63.1}
-1619700298345,siggen/room2/rhum, {"time":207,"value":56.3}
-1619700298345,siggen/room1/temp, {"time":207,"value":21.5}
-1619700298346,siggen/room2/temp, {"time":207,"value":20.6}
-1619700298348,siggen/room1/rhum, {"time":207,"value":65.6}
-1619700299347,siggen/room2/rhum, {"time":208,"value":63.5}
-1619700299347,siggen/room2/temp, {"time":208,"value":20.4}
-1619700299347,siggen/room1/temp, {"time":208,"value":22.0}
-1619700299349,siggen/room1/rhum, {"time":208,"value":77.2}
-1619700300348,siggen/room2/rhum, {"time":209,"value":62.2}
-1619700300348,siggen/room1/temp, {"time":209,"value":22.5}
-1619700300348,siggen/room2/temp, {"time":209,"value":23.7}
-1619700300350,siggen/room1/rhum, {"time":209,"value":76.8}
-1619700301349,siggen/room2/rhum, {"time":210,"value":68.1}
-1619700301349,siggen/room1/temp, {"time":210,"value":23.0}
-1619700301349,siggen/room2/temp, {"time":210,"value":22.0}
-1619700301351,siggen/room1/rhum, {"time":210,"value":84.9}
-1619700302350,siggen/room1/temp, {"time":211,"value":24.5}
-1619700302350,siggen/room2/rhum, {"time":211,"value":73.6}
-1619700302350,siggen/room2/temp, {"time":211,"value":24.2}
-1619700302352,siggen/room1/rhum, {"time":211,"value":81.0}
-1619700303351,siggen/room1/temp, {"time":212,"value":24.3}
-1619700303351,siggen/room2/rhum, {"time":212,"value":72.9}
-1619700303351,siggen/room2/temp, {"time":212,"value":26.1}
-1619700303353,siggen/room1/rhum, {"time":212,"value":89.7}
-1619700304351,siggen/room2/rhum, {"time":213,"value":76.4}
-1619700304351,siggen/room2/temp, {"time":213,"value":25.3}
-1619700304351,siggen/room1/temp, {"time":213,"value":22.7}
-1619700304353,siggen/room1/rhum, {"time":213,"value":93.3}
-1619700305353,siggen/room2/rhum, {"time":214,"value":78.7}
-1619700305353,siggen/room2/temp, {"time":214,"value":24.8}
-1619700305353,siggen/room1/temp, {"time":214,"value":19.9}
-1619700305354,siggen/room1/rhum, {"time":214,"value":74.8}
-1619700306354,siggen/room2/temp, {"time":215,"value":22.9}
-1619700306354,siggen/room2/rhum, {"time":215,"value":74.3}
-1619700306354,siggen/room1/temp, {"time":215,"value":17.3}
-1619700306355,siggen/room1/rhum, {"time":215,"value":59.4}
-1619700307355,siggen/room2/rhum, {"time":216,"value":61.7}
-1619700307355,siggen/room2/temp, {"time":216,"value":19.3}
-1619700307355,siggen/room1/temp, {"time":216,"value":20.0}
-1619700307356,siggen/room1/rhum, {"time":216,"value":50.0}
-1619700308356,siggen/room2/temp, {"time":217,"value":19.7}
-1619700308356,siggen/room2/rhum, {"time":217,"value":59.4}
-1619700308356,siggen/room1/temp, {"time":217,"value":20.5}
-1619700308356,siggen/room1/rhum, {"time":217,"value":55.3}
-1619700309356,siggen/room2/rhum, {"time":218,"value":58.8}
-1619700309356,siggen/room2/temp, {"time":218,"value":19.5}
-1619700309356,siggen/room1/temp, {"time":218,"value":21.0}
-1619700309357,siggen/room1/rhum, {"time":218,"value":63.1}
-1619700310357,siggen/room2/rhum, {"time":219,"value":56.3}
-1619700310357,siggen/room2/temp, {"time":219,"value":20.6}
-1619700310357,siggen/room1/temp, {"time":219,"value":21.5}
-1619700310357,siggen/room1/rhum, {"time":219,"value":65.6}
-1619700311358,siggen/room1/rhum, {"time":220,"value":77.2}
-1619700311358,siggen/room2/rhum, {"time":220,"value":63.5}
-1619700311359,siggen/room1/temp, {"time":220,"value":22.0}
-1619700311359,siggen/room2/temp, {"time":220,"value":20.4}
-1619700312359,siggen/room1/rhum, {"time":221,"value":76.8}
-1619700312359,siggen/room2/rhum, {"time":221,"value":62.2}
-1619700312360,siggen/room1/temp, {"time":221,"value":22.5}
-1619700312360,siggen/room2/temp, {"time":221,"value":23.7}
-1619700313361,siggen/room1/rhum, {"time":222,"value":84.9}
-1619700313361,siggen/room1/temp, {"time":222,"value":23.0}
-1619700313361,siggen/room2/temp, {"time":222,"value":22.0}
-1619700313361,siggen/room2/rhum, {"time":222,"value":68.1}
-1619700314361,siggen/room1/rhum, {"time":223,"value":81.0}
-1619700314361,siggen/room2/temp, {"time":223,"value":24.2}
-1619700314362,siggen/room2/rhum, {"time":223,"value":73.6}
-1619700314362,siggen/room1/temp, {"time":223,"value":24.5}
-1619700315362,siggen/room2/rhum, {"time":224,"value":72.9}
-1619700315362,siggen/room1/temp, {"time":224,"value":24.3}
-1619700315362,siggen/room1/rhum, {"time":224,"value":89.7}
-1619700315362,siggen/room2/temp, {"time":224,"value":26.1}
-1619700316364,siggen/room1/rhum, {"time":225,"value":93.3}
-1619700316364,siggen/room2/temp, {"time":225,"value":25.3}
-1619700316364,siggen/room2/rhum, {"time":225,"value":76.4}
-1619700316364,siggen/room1/temp, {"time":225,"value":22.7}
-1619700317364,siggen/room1/rhum, {"time":226,"value":74.8}
-1619700317364,siggen/room2/rhum, {"time":226,"value":78.7}
-1619700317364,siggen/room2/temp, {"time":226,"value":24.8}
-1619700317364,siggen/room1/temp, {"time":226,"value":19.9}
-1619700318365,siggen/room1/rhum, {"time":227,"value":59.4}
-1619700318365,siggen/room2/rhum, {"time":227,"value":74.3}
-1619700318365,siggen/room2/temp, {"time":227,"value":22.9}
-1619700318365,siggen/room1/temp, {"time":227,"value":17.3}
-1619700319366,siggen/room1/rhum, {"time":228,"value":50.0}
-1619700319366,siggen/room2/rhum, {"time":228,"value":61.7}
-1619700319366,siggen/room2/temp, {"time":228,"value":19.3}
-1619700319366,siggen/room1/temp, {"time":228,"value":20.0}
-1619700320367,siggen/room1/rhum, {"time":229,"value":55.3}
-1619700320367,siggen/room2/rhum, {"time":229,"value":59.4}
-1619700320367,siggen/room2/temp, {"time":229,"value":19.7}
-1619700320367,siggen/room1/temp, {"time":229,"value":20.5}
-1619700321367,siggen/room1/rhum, {"time":230,"value":63.1}
-1619700321368,siggen/room2/rhum, {"time":230,"value":58.8}
-1619700321368,siggen/room2/temp, {"time":230,"value":19.5}
-1619700321368,siggen/room1/temp, {"time":230,"value":21.0}
-1619700322368,siggen/room1/rhum, {"time":231,"value":65.6}
-1619700322368,siggen/room2/rhum, {"time":231,"value":56.3}
-1619700322368,siggen/room2/temp, {"time":231,"value":20.6}
-1619700322368,siggen/room1/temp, {"time":231,"value":21.5}
-1619700323369,siggen/room1/rhum, {"time":232,"value":77.2}
-1619700323369,siggen/room2/temp, {"time":232,"value":20.4}
-1619700323369,siggen/room2/rhum, {"time":232,"value":63.5}
-1619700323370,siggen/room1/temp, {"time":232,"value":22.0}
-1619700324370,siggen/room1/rhum, {"time":233,"value":76.8}
-1619700324370,siggen/room2/temp, {"time":233,"value":23.7}
-1619700324371,siggen/room2/rhum, {"time":233,"value":62.2}
-1619700324371,siggen/room1/temp, {"time":233,"value":22.5}
-1619700325371,siggen/room1/rhum, {"time":234,"value":84.9}
-1619700325372,siggen/room2/rhum, {"time":234,"value":68.1}
-1619700325372,siggen/room2/temp, {"time":234,"value":22.0}
-1619700325372,siggen/room1/temp, {"time":234,"value":23.0}
-1619700326372,siggen/room1/rhum, {"time":235,"value":81.0}
-1619700326372,siggen/room2/rhum, {"time":235,"value":73.6}
-1619700326372,siggen/room1/temp, {"time":235,"value":24.5}
-1619700326372,siggen/room2/temp, {"time":235,"value":24.2}
-1619700327373,siggen/room2/rhum, {"time":236,"value":72.9}
-1619700327373,siggen/room1/rhum, {"time":236,"value":89.7}
-1619700327373,siggen/room2/temp, {"time":236,"value":26.1}
-1619700327373,siggen/room1/temp, {"time":236,"value":24.3}
-1619700328374,siggen/room1/rhum, {"time":237,"value":93.3}
-1619700328374,siggen/room2/temp, {"time":237,"value":25.3}
-1619700328374,siggen/room2/rhum, {"time":237,"value":76.4}
-1619700328374,siggen/room1/temp, {"time":237,"value":22.7}
-1619700329375,siggen/room1/rhum, {"time":238,"value":74.8}
-1619700329375,siggen/room2/rhum, {"time":238,"value":78.7}
-1619700329375,siggen/room1/temp, {"time":238,"value":19.9}
-1619700329376,siggen/room2/temp, {"time":238,"value":24.8}
-1619700330376,siggen/room1/rhum, {"time":239,"value":59.4}
-1619700330376,siggen/room2/rhum, {"time":239,"value":74.3}
-1619700330377,siggen/room1/temp, {"time":239,"value":17.3}
-1619700330377,siggen/room2/temp, {"time":239,"value":22.9}
-1619700331377,siggen/room1/rhum, {"time":240,"value":50.0}
-1619700331378,siggen/room2/rhum, {"time":240,"value":61.7}
-1619700331378,siggen/room1/temp, {"time":240,"value":20.0}
-1619700331378,siggen/room2/temp, {"time":240,"value":19.3}
-1619700332379,siggen/room1/rhum, {"time":241,"value":55.3}
-1619700332379,siggen/room2/rhum, {"time":241,"value":59.4}
-1619700332379,siggen/room1/temp, {"time":241,"value":20.5}
-1619700332379,siggen/room2/temp, {"time":241,"value":19.7}
-1619700333379,siggen/room2/rhum, {"time":242,"value":58.8}
-1619700333379,siggen/room1/temp, {"time":242,"value":21.0}
-1619700333379,siggen/room1/rhum, {"time":242,"value":63.1}
-1619700333379,siggen/room2/temp, {"time":242,"value":19.5}
-1619700334380,siggen/room1/rhum, {"time":243,"value":65.6}
-1619700334380,siggen/room2/rhum, {"time":243,"value":56.3}
-1619700334380,siggen/room1/temp, {"time":243,"value":21.5}
-1619700334380,siggen/room2/temp, {"time":243,"value":20.6}
-1619700335381,siggen/room1/rhum, {"time":244,"value":77.2}
-1619700335381,siggen/room2/rhum, {"time":244,"value":63.5}
-1619700335381,siggen/room1/temp, {"time":244,"value":22.0}
-1619700335381,siggen/room2/temp, {"time":244,"value":20.4}
-1619700336382,siggen/room1/rhum, {"time":245,"value":76.8}
-1619700336382,siggen/room2/rhum, {"time":245,"value":62.2}
-1619700336382,siggen/room2/temp, {"time":245,"value":23.7}
-1619700336382,siggen/room1/temp, {"time":245,"value":22.5}
-1619700337383,siggen/room1/rhum, {"time":246,"value":84.9}
-1619700337383,siggen/room2/temp, {"time":246,"value":22.0}
-1619700337383,siggen/room2/rhum, {"time":246,"value":68.1}
-1619700337383,siggen/room1/temp, {"time":246,"value":23.0}
-1619700338384,siggen/room1/rhum, {"time":247,"value":81.0}
-1619700338384,siggen/room2/rhum, {"time":247,"value":73.6}
-1619700338384,siggen/room2/temp, {"time":247,"value":24.2}
-1619700338384,siggen/room1/temp, {"time":247,"value":24.5}
-1619700339384,siggen/room2/temp, {"time":248,"value":26.1}
-1619700339384,siggen/room1/rhum, {"time":248,"value":89.7}
-1619700339384,siggen/room2/rhum, {"time":248,"value":72.9}
-1619700339384,siggen/room1/temp, {"time":248,"value":24.3}
-1619700340385,siggen/room1/rhum, {"time":249,"value":93.3}
-1619700340385,siggen/room2/rhum, {"time":249,"value":76.4}
-1619700340386,siggen/room1/temp, {"time":249,"value":22.7}
-1619700340386,siggen/room2/temp, {"time":249,"value":25.3}
-1619700341386,siggen/room2/rhum, {"time":250,"value":78.7}
-1619700341386,siggen/room1/rhum, {"time":250,"value":74.8}
-1619700341386,siggen/room1/temp, {"time":250,"value":19.9}
-1619700341386,siggen/room2/temp, {"time":250,"value":24.8}
-1619700342387,siggen/room1/rhum, {"time":251,"value":59.4}
-1619700342387,siggen/room2/rhum, {"time":251,"value":74.3}
-1619700342387,siggen/room2/temp, {"time":251,"value":22.9}
-1619700342387,siggen/room1/temp, {"time":251,"value":17.3}
-1619700343388,siggen/room1/rhum, {"time":252,"value":50.0}
-1619700343388,siggen/room2/temp, {"time":252,"value":19.3}
-1619700343388,siggen/room2/rhum, {"time":252,"value":61.7}
-1619700343388,siggen/room1/temp, {"time":252,"value":20.0}
-1619700344389,siggen/room2/rhum, {"time":253,"value":59.4}
-1619700344389,siggen/room1/rhum, {"time":253,"value":55.3}
-1619700344389,siggen/room1/temp, {"time":253,"value":20.5}
-1619700344389,siggen/room2/temp, {"time":253,"value":19.7}
-1619700345390,siggen/room1/rhum, {"time":254,"value":63.1}
-1619700345390,siggen/room2/temp, {"time":254,"value":19.5}
-1619700345390,siggen/room2/rhum, {"time":254,"value":58.8}
-1619700345390,siggen/room1/temp, {"time":254,"value":21.0}
-1619700346391,siggen/room2/rhum, {"time":255,"value":56.3}
-1619700346391,siggen/room2/temp, {"time":255,"value":20.6}
-1619700346391,siggen/room1/rhum, {"time":255,"value":65.6}
-1619700346391,siggen/room1/temp, {"time":255,"value":21.5}
-1619700347392,siggen/room1/rhum, {"time":256,"value":77.2}
-1619700347392,siggen/room2/rhum, {"time":256,"value":63.5}
-1619700347392,siggen/room1/temp, {"time":256,"value":22.0}
-1619700347392,siggen/room2/temp, {"time":256,"value":20.4}
-1619700348393,siggen/room2/rhum, {"time":257,"value":62.2}
-1619700348393,siggen/room1/rhum, {"time":257,"value":76.8}
-1619700348393,siggen/room1/temp, {"time":257,"value":22.5}
-1619700348393,siggen/room2/temp, {"time":257,"value":23.7}
-1619700349394,siggen/room1/rhum, {"time":258,"value":84.9}
-1619700349394,siggen/room2/rhum, {"time":258,"value":68.1}
-1619700349394,siggen/room2/temp, {"time":258,"value":22.0}
-1619700349394,siggen/room1/temp, {"time":258,"value":23.0}
-1619700350395,siggen/room1/rhum, {"time":259,"value":81.0}
-1619700350395,siggen/room2/rhum, {"time":259,"value":73.6}
-1619700350395,siggen/room2/temp, {"time":259,"value":24.2}
-1619700350395,siggen/room1/temp, {"time":259,"value":24.5}
-1619700351396,siggen/room2/rhum, {"time":260,"value":72.9}
-1619700351396,siggen/room2/temp, {"time":260,"value":26.1}
-1619700351396,siggen/room1/rhum, {"time":260,"value":89.7}
-1619700351396,siggen/room1/temp, {"time":260,"value":24.3}
-1619700352397,siggen/room2/rhum, {"time":261,"value":76.4}
-1619700352397,siggen/room1/rhum, {"time":261,"value":93.3}
-1619700352397,siggen/room1/temp, {"time":261,"value":22.7}
-1619700352397,siggen/room2/temp, {"time":261,"value":25.3}
-1619700353397,siggen/room1/rhum, {"time":262,"value":74.8}
-1619700353397,siggen/room2/rhum, {"time":262,"value":78.7}
-1619700353398,siggen/room1/temp, {"time":262,"value":19.9}
-1619700353398,siggen/room2/temp, {"time":262,"value":24.8}
-1619700354398,siggen/room1/rhum, {"time":263,"value":59.4}
-1619700354398,siggen/room2/temp, {"time":263,"value":22.9}
-1619700354398,siggen/room2/rhum, {"time":263,"value":74.3}
-1619700354398,siggen/room1/temp, {"time":263,"value":17.3}
-1619700355399,siggen/room1/rhum, {"time":264,"value":50.0}
-1619700355399,siggen/room2/temp, {"time":264,"value":19.3}
-1619700355399,siggen/room1/temp, {"time":264,"value":20.0}
-1619700355399,siggen/room2/rhum, {"time":264,"value":61.7}
-1619700356400,siggen/room1/rhum, {"time":265,"value":55.3}
-1619700356400,siggen/room2/temp, {"time":265,"value":19.7}
-1619700356400,siggen/room2/rhum, {"time":265,"value":59.4}
-1619700356401,siggen/room1/temp, {"time":265,"value":20.5}
-1619700357402,siggen/room1/rhum, {"time":266,"value":63.1}
-1619700357402,siggen/room2/temp, {"time":266,"value":19.5}
-1619700357402,siggen/room2/rhum, {"time":266,"value":58.8}
-1619700357402,siggen/room1/temp, {"time":266,"value":21.0}
-1619700358402,siggen/room1/rhum, {"time":267,"value":65.6}
-1619700358402,siggen/room2/temp, {"time":267,"value":20.6}
-1619700358402,siggen/room2/rhum, {"time":267,"value":56.3}
-1619700358402,siggen/room1/temp, {"time":267,"value":21.5}
-1619700359403,siggen/room1/rhum, {"time":268,"value":77.2}
-1619700359403,siggen/room2/rhum, {"time":268,"value":63.5}
-1619700359403,siggen/room2/temp, {"time":268,"value":20.4}
-1619700359403,siggen/room1/temp, {"time":268,"value":22.0}
-1619700360404,siggen/room1/rhum, {"time":269,"value":76.8}
-1619700360404,siggen/room2/rhum, {"time":269,"value":62.2}
-1619700360404,siggen/room2/temp, {"time":269,"value":23.7}
-1619700360404,siggen/room1/temp, {"time":269,"value":22.5}
-1619700361405,siggen/room2/rhum, {"time":270,"value":68.1}
-1619700361405,siggen/room1/rhum, {"time":270,"value":84.9}
-1619700361405,siggen/room2/temp, {"time":270,"value":22.0}
-1619700361405,siggen/room1/temp, {"time":270,"value":23.0}
-1619700362405,siggen/room2/rhum, {"time":271,"value":73.6}
-1619700362405,siggen/room1/rhum, {"time":271,"value":81.0}
-1619700362406,siggen/room2/temp, {"time":271,"value":24.2}
-1619700362406,siggen/room1/temp, {"time":271,"value":24.5}
-1619700363407,siggen/room1/rhum, {"time":272,"value":89.7}
-1619700363407,siggen/room1/temp, {"time":272,"value":24.3}
-1619700363407,siggen/room2/rhum, {"time":272,"value":72.9}
-1619700363407,siggen/room2/temp, {"time":272,"value":26.1}
-1619700364407,siggen/room1/rhum, {"time":273,"value":93.3}
-1619700364407,siggen/room2/rhum, {"time":273,"value":76.4}
-1619700364407,siggen/room1/temp, {"time":273,"value":22.7}
-1619700364407,siggen/room2/temp, {"time":273,"value":25.3}
-1619700365408,siggen/room1/rhum, {"time":274,"value":74.8}
-1619700365409,siggen/room2/rhum, {"time":274,"value":78.7}
-1619700365409,siggen/room1/temp, {"time":274,"value":19.9}
-1619700365409,siggen/room2/temp, {"time":274,"value":24.8}
-1619700366410,siggen/room1/rhum, {"time":275,"value":59.4}
-1619700366410,siggen/room2/rhum, {"time":275,"value":74.3}
-1619700366410,siggen/room2/temp, {"time":275,"value":22.9}
-1619700366410,siggen/room1/temp, {"time":275,"value":17.3}
-1619700367411,siggen/room1/rhum, {"time":276,"value":50.0}
-1619700367411,siggen/room2/rhum, {"time":276,"value":61.7}
-1619700367411,siggen/room2/temp, {"time":276,"value":19.3}
-1619700367411,siggen/room1/temp, {"time":276,"value":20.0}
-1619700368412,siggen/room2/rhum, {"time":277,"value":59.4}
-1619700368412,siggen/room1/rhum, {"time":277,"value":55.3}
-1619700368412,siggen/room2/temp, {"time":277,"value":19.7}
-1619700368412,siggen/room1/temp, {"time":277,"value":20.5}
-1619700369413,siggen/room1/rhum, {"time":278,"value":63.1}
-1619700369413,siggen/room2/rhum, {"time":278,"value":58.8}
-1619700369413,siggen/room2/temp, {"time":278,"value":19.5}
-1619700369413,siggen/room1/temp, {"time":278,"value":21.0}
-1619700370413,siggen/room2/rhum, {"time":279,"value":56.3}
-1619700370413,siggen/room1/rhum, {"time":279,"value":65.6}
-1619700370413,siggen/room2/temp, {"time":279,"value":20.6}
-1619700370413,siggen/room1/temp, {"time":279,"value":21.5}
-1619700371414,siggen/room1/rhum, {"time":280,"value":77.2}
-1619700371414,siggen/room2/temp, {"time":280,"value":20.4}
-1619700371414,siggen/room2/rhum, {"time":280,"value":63.5}
-1619700371414,siggen/room1/temp, {"time":280,"value":22.0}
-1619700372415,siggen/room1/rhum, {"time":281,"value":76.8}
-1619700372415,siggen/room2/rhum, {"time":281,"value":62.2}
-1619700372415,siggen/room2/temp, {"time":281,"value":23.7}
-1619700372415,siggen/room1/temp, {"time":281,"value":22.5}
-1619700373416,siggen/room1/rhum, {"time":282,"value":84.9}
-1619700373416,siggen/room2/rhum, {"time":282,"value":68.1}
-1619700373416,siggen/room2/temp, {"time":282,"value":22.0}
-1619700373416,siggen/room1/temp, {"time":282,"value":23.0}
-1619700374418,siggen/room1/rhum, {"time":283,"value":81.0}
-1619700374418,siggen/room2/rhum, {"time":283,"value":73.6}
-1619700374418,siggen/room2/temp, {"time":283,"value":24.2}
-1619700374418,siggen/room1/temp, {"time":283,"value":24.5}
-1619700375419,siggen/room2/rhum, {"time":284,"value":72.9}
-1619700375419,siggen/room1/temp, {"time":284,"value":24.3}
-1619700375419,siggen/room1/rhum, {"time":284,"value":89.7}
-1619700375419,siggen/room2/temp, {"time":284,"value":26.1}
-1619700376419,siggen/room1/rhum, {"time":285,"value":93.3}
-1619700376419,siggen/room2/rhum, {"time":285,"value":76.4}
-1619700376419,siggen/room1/temp, {"time":285,"value":22.7}
-1619700376419,siggen/room2/temp, {"time":285,"value":25.3}
-1619700377420,siggen/room1/rhum, {"time":286,"value":74.8}
-1619700377420,siggen/room2/temp, {"time":286,"value":24.8}
-1619700377420,siggen/room2/rhum, {"time":286,"value":78.7}
-1619700377420,siggen/room1/temp, {"time":286,"value":19.9}
-1619700378421,siggen/room1/rhum, {"time":287,"value":59.4}
-1619700378421,siggen/room2/rhum, {"time":287,"value":74.3}
-1619700378421,siggen/room2/temp, {"time":287,"value":22.9}
-1619700378421,siggen/room1/temp, {"time":287,"value":17.3}
-1619700379423,siggen/room2/rhum, {"time":288,"value":61.7}
-1619700379423,siggen/room2/temp, {"time":288,"value":19.3}
-1619700379423,siggen/room1/rhum, {"time":288,"value":50.0}
-1619700379423,siggen/room1/temp, {"time":288,"value":20.0}
-1619700380423,siggen/room1/rhum, {"time":289,"value":55.3}
-1619700380423,siggen/room2/rhum, {"time":289,"value":59.4}
-1619700380423,siggen/room2/temp, {"time":289,"value":19.7}
-1619700380423,siggen/room1/temp, {"time":289,"value":20.5}
-1619700381424,siggen/room1/rhum, {"time":290,"value":63.1}
-1619700381424,siggen/room2/rhum, {"time":290,"value":58.8}
-1619700381424,siggen/room1/temp, {"time":290,"value":21.0}
-1619700381424,siggen/room2/temp, {"time":290,"value":19.5}
-1619700382425,siggen/room2/rhum, {"time":291,"value":56.3}
-1619700382425,siggen/room1/rhum, {"time":291,"value":65.6}
-1619700382425,siggen/room1/temp, {"time":291,"value":21.5}
-1619700382425,siggen/room2/temp, {"time":291,"value":20.6}
-1619700383426,siggen/room1/rhum, {"time":292,"value":77.2}
-1619700383426,siggen/room2/rhum, {"time":292,"value":63.5}
-1619700383426,siggen/room2/temp, {"time":292,"value":20.4}
-1619700383426,siggen/room1/temp, {"time":292,"value":22.0}
-1619700384427,siggen/room1/rhum, {"time":293,"value":76.8}
-1619700384427,siggen/room2/rhum, {"time":293,"value":62.2}
-1619700384427,siggen/room2/temp, {"time":293,"value":23.7}
-1619700384427,siggen/room1/temp, {"time":293,"value":22.5}
-1619700385428,siggen/room1/rhum, {"time":294,"value":84.9}
-1619700385428,siggen/room2/temp, {"time":294,"value":22.0}
-1619700385428,siggen/room1/temp, {"time":294,"value":23.0}
-1619700385428,siggen/room2/rhum, {"time":294,"value":68.1}
-1619700386429,siggen/room2/temp, {"time":295,"value":24.2}
-1619700386429,siggen/room1/rhum, {"time":295,"value":81.0}
-1619700386429,siggen/room1/temp, {"time":295,"value":24.5}
-1619700386429,siggen/room2/rhum, {"time":295,"value":73.6}
-1619700387430,siggen/room2/temp, {"time":296,"value":26.1}
-1619700387430,siggen/room2/rhum, {"time":296,"value":72.9}
-1619700387430,siggen/room1/temp, {"time":296,"value":24.3}
-1619700387430,siggen/room1/rhum, {"time":296,"value":89.7}
-1619700388430,siggen/room2/temp, {"time":297,"value":25.3}
-1619700388431,siggen/room2/rhum, {"time":297,"value":76.4}
-1619700388431,siggen/room1/rhum, {"time":297,"value":93.3}
-1619700388431,siggen/room1/temp, {"time":297,"value":22.7}
-1619700389432,siggen/room2/rhum, {"time":298,"value":78.7}
-1619700389432,siggen/room1/rhum, {"time":298,"value":74.8}
-1619700389432,siggen/room2/temp, {"time":298,"value":24.8}
-1619700389432,siggen/room1/temp, {"time":298,"value":19.9}
-1619700390433,siggen/room1/rhum, {"time":299,"value":59.4}
-1619700390433,siggen/room2/rhum, {"time":299,"value":74.3}
-1619700390433,siggen/room2/temp, {"time":299,"value":22.9}
-1619700390433,siggen/room1/temp, {"time":299,"value":17.3}
-1619700391434,siggen/room1/rhum, {"time":300,"value":50.0}
-1619700391434,siggen/room2/rhum, {"time":300,"value":61.7}
-1619700391434,siggen/room2/temp, {"time":300,"value":19.3}
-1619700391434,siggen/room1/temp, {"time":300,"value":20.0}
-1619700392435,siggen/room2/rhum, {"time":301,"value":59.4}
-1619700392435,siggen/room1/rhum, {"time":301,"value":55.3}
-1619700392435,siggen/room2/temp, {"time":301,"value":19.7}
-1619700392436,siggen/room1/temp, {"time":301,"value":20.5}
-1619700393436,siggen/room2/rhum, {"time":302,"value":58.8}
-1619700393436,siggen/room2/temp, {"time":302,"value":19.5}
-1619700393436,siggen/room1/rhum, {"time":302,"value":63.1}
-1619700393436,siggen/room1/temp, {"time":302,"value":21.0}
-1619700394437,siggen/room1/rhum, {"time":303,"value":65.6}
-1619700394437,siggen/room2/temp, {"time":303,"value":20.6}
-1619700394437,siggen/room2/rhum, {"time":303,"value":56.3}
-1619700394437,siggen/room1/temp, {"time":303,"value":21.5}
-1619700395438,siggen/room2/rhum, {"time":304,"value":63.5}
-1619700395438,siggen/room1/temp, {"time":304,"value":22.0}
-1619700395438,siggen/room2/temp, {"time":304,"value":20.4}
-1619700395439,siggen/room1/rhum, {"time":304,"value":77.2}
-1619700396440,siggen/room2/rhum, {"time":305,"value":62.2}
-1619700396440,siggen/room2/temp, {"time":305,"value":23.7}
-1619700396440,siggen/room1/rhum, {"time":305,"value":76.8}
-1619700396440,siggen/room1/temp, {"time":305,"value":22.5}
-1619700397441,siggen/room1/rhum, {"time":306,"value":84.9}
-1619700397441,siggen/room2/rhum, {"time":306,"value":68.1}
-1619700397441,siggen/room2/temp, {"time":306,"value":22.0}
-1619700397441,siggen/room1/temp, {"time":306,"value":23.0}
-1619700398441,siggen/room1/rhum, {"time":307,"value":81.0}
-1619700398442,siggen/room2/temp, {"time":307,"value":24.2}
-1619700398442,siggen/room2/rhum, {"time":307,"value":73.6}
-1619700398442,siggen/room1/temp, {"time":307,"value":24.5}
-1619700399443,siggen/room1/rhum, {"time":308,"value":89.7}
-1619700399443,siggen/room2/rhum, {"time":308,"value":72.9}
-1619700399443,siggen/room2/temp, {"time":308,"value":26.1}
-1619700399443,siggen/room1/temp, {"time":308,"value":24.3}
-1619700400444,siggen/room1/rhum, {"time":309,"value":93.3}
-1619700400444,siggen/room2/rhum, {"time":309,"value":76.4}
-1619700400444,siggen/room2/temp, {"time":309,"value":25.3}
-1619700400444,siggen/room1/temp, {"time":309,"value":22.7}
-1619700401445,siggen/room1/rhum, {"time":310,"value":74.8}
-1619700401445,siggen/room2/rhum, {"time":310,"value":78.7}
-1619700401445,siggen/room2/temp, {"time":310,"value":24.8}
-1619700401445,siggen/room1/temp, {"time":310,"value":19.9}
-1619700402446,siggen/room1/rhum, {"time":311,"value":59.4}
-1619700402446,siggen/room2/rhum, {"time":311,"value":74.3}
-1619700402447,siggen/room1/temp, {"time":311,"value":17.3}
-1619700402447,siggen/room2/temp, {"time":311,"value":22.9}
-1619700403448,siggen/room1/rhum, {"time":312,"value":50.0}
-1619700403448,siggen/room2/rhum, {"time":312,"value":61.7}
-1619700403448,siggen/room1/temp, {"time":312,"value":20.0}
-1619700403448,siggen/room2/temp, {"time":312,"value":19.3}
-1619700404448,siggen/room1/rhum, {"time":313,"value":55.3}
-1619700404448,siggen/room2/rhum, {"time":313,"value":59.4}
-1619700404448,siggen/room1/temp, {"time":313,"value":20.5}
-1619700404448,siggen/room2/temp, {"time":313,"value":19.7}
-1619700405449,siggen/room1/rhum, {"time":314,"value":63.1}
-1619700405449,siggen/room2/rhum, {"time":314,"value":58.8}
-1619700405449,siggen/room2/temp, {"time":314,"value":19.5}
-1619700405449,siggen/room1/temp, {"time":314,"value":21.0}
-1619700406450,siggen/room2/rhum, {"time":315,"value":56.3}
-1619700406450,siggen/room1/rhum, {"time":315,"value":65.6}
-1619700406450,siggen/room2/temp, {"time":315,"value":20.6}
-1619700406450,siggen/room1/temp, {"time":315,"value":21.5}
-1619700407451,siggen/room2/rhum, {"time":316,"value":63.5}
-1619700407451,siggen/room1/rhum, {"time":316,"value":77.2}
-1619700407451,siggen/room1/temp, {"time":316,"value":22.0}
-1619700407451,siggen/room2/temp, {"time":316,"value":20.4}
-1619700408452,siggen/room1/rhum, {"time":317,"value":76.8}
-1619700408452,siggen/room2/temp, {"time":317,"value":23.7}
-1619700408452,siggen/room2/rhum, {"time":317,"value":62.2}
-1619700408452,siggen/room1/temp, {"time":317,"value":22.5}
-1619700409453,siggen/room1/rhum, {"time":318,"value":84.9}
-1619700409453,siggen/room2/rhum, {"time":318,"value":68.1}
-1619700409453,siggen/room2/temp, {"time":318,"value":22.0}
-1619700409453,siggen/room1/temp, {"time":318,"value":23.0}
-1619700410454,siggen/room1/rhum, {"time":319,"value":81.0}
-1619700410454,siggen/room2/rhum, {"time":319,"value":73.6}
-1619700410454,siggen/room2/temp, {"time":319,"value":24.2}
-1619700410454,siggen/room1/temp, {"time":319,"value":24.5}
-1619700411455,siggen/room1/rhum, {"time":320,"value":89.7}
-1619700411455,siggen/room2/rhum, {"time":320,"value":72.9}
-1619700411455,siggen/room2/temp, {"time":320,"value":26.1}
-1619700411455,siggen/room1/temp, {"time":320,"value":24.3}
-1619700412456,siggen/room1/rhum, {"time":321,"value":93.3}
-1619700412456,siggen/room2/rhum, {"time":321,"value":76.4}
-1619700412456,siggen/room1/temp, {"time":321,"value":22.7}
-1619700412457,siggen/room2/temp, {"time":321,"value":25.3}
-1619700413457,siggen/room1/rhum, {"time":322,"value":74.8}
-1619700413457,siggen/room2/temp, {"time":322,"value":24.8}
-1619700413458,siggen/room2/rhum, {"time":322,"value":78.7}
-1619700413458,siggen/room1/temp, {"time":322,"value":19.9}
-1619700414459,siggen/room1/rhum, {"time":323,"value":59.4}
-1619700414459,siggen/room2/temp, {"time":323,"value":22.9}
-1619700414459,siggen/room2/rhum, {"time":323,"value":74.3}
-1619700414459,siggen/room1/temp, {"time":323,"value":17.3}
-1619700415460,siggen/room2/temp, {"time":324,"value":19.3}
-1619700415460,siggen/room1/rhum, {"time":324,"value":50.0}
-1619700415460,siggen/room2/rhum, {"time":324,"value":61.7}
-1619700415460,siggen/room1/temp, {"time":324,"value":20.0}
-1619700416461,siggen/room1/rhum, {"time":325,"value":55.3}
-1619700416461,siggen/room2/rhum, {"time":325,"value":59.4}
-1619700416461,siggen/room2/temp, {"time":325,"value":19.7}
-1619700416461,siggen/room1/temp, {"time":325,"value":20.5}
-1619700417461,siggen/room2/rhum, {"time":326,"value":58.8}
-1619700417461,siggen/room1/rhum, {"time":326,"value":63.1}
-1619700417461,siggen/room2/temp, {"time":326,"value":19.5}
-1619700417461,siggen/room1/temp, {"time":326,"value":21.0}
-1619700418462,siggen/room1/rhum, {"time":327,"value":65.6}
-1619700418463,siggen/room2/rhum, {"time":327,"value":56.3}
-1619700418463,siggen/room2/temp, {"time":327,"value":20.6}
-1619700418463,siggen/room1/temp, {"time":327,"value":21.5}
-1619700419464,siggen/room1/rhum, {"time":328,"value":77.2}
-1619700419464,siggen/room2/rhum, {"time":328,"value":63.5}
-1619700419464,siggen/room2/temp, {"time":328,"value":20.4}
-1619700419464,siggen/room1/temp, {"time":328,"value":22.0}
-1619700420465,siggen/room1/rhum, {"time":329,"value":76.8}
-1619700420465,siggen/room2/rhum, {"time":329,"value":62.2}
-1619700420465,siggen/room2/temp, {"time":329,"value":23.7}
-1619700420465,siggen/room1/temp, {"time":329,"value":22.5}
-1619700421466,siggen/room1/rhum, {"time":330,"value":84.9}
-1619700421466,siggen/room2/rhum, {"time":330,"value":68.1}
-1619700421466,siggen/room2/temp, {"time":330,"value":22.0}
-1619700421466,siggen/room1/temp, {"time":330,"value":23.0}
-1619700422466,siggen/room2/rhum, {"time":331,"value":73.6}
-1619700422466,siggen/room1/rhum, {"time":331,"value":81.0}
-1619700422467,siggen/room2/temp, {"time":331,"value":24.2}
-1619700422467,siggen/room1/temp, {"time":331,"value":24.5}
-1619700423467,siggen/room2/rhum, {"time":332,"value":72.9}
-1619700423467,siggen/room2/temp, {"time":332,"value":26.1}
-1619700423467,siggen/room1/rhum, {"time":332,"value":89.7}
-1619700423468,siggen/room1/temp, {"time":332,"value":24.3}
-1619700424468,siggen/room1/rhum, {"time":333,"value":93.3}
-1619700424468,siggen/room2/rhum, {"time":333,"value":76.4}
-1619700424468,siggen/room2/temp, {"time":333,"value":25.3}
-1619700424468,siggen/room1/temp, {"time":333,"value":22.7}
-1619700425469,siggen/room1/rhum, {"time":334,"value":74.8}
-1619700425469,siggen/room2/rhum, {"time":334,"value":78.7}
-1619700425469,siggen/room2/temp, {"time":334,"value":24.8}
-1619700425469,siggen/room1/temp, {"time":334,"value":19.9}
-1619700426470,siggen/room1/rhum, {"time":335,"value":59.4}
-1619700426470,siggen/room2/rhum, {"time":335,"value":74.3}
-1619700426470,siggen/room2/temp, {"time":335,"value":22.9}
-1619700426471,siggen/room1/temp, {"time":335,"value":17.3}
-1619700427472,siggen/room2/rhum, {"time":336,"value":61.7}
-1619700427472,siggen/room1/temp, {"time":336,"value":20.0}
-1619700427472,siggen/room1/rhum, {"time":336,"value":50.0}
-1619700427472,siggen/room2/temp, {"time":336,"value":19.3}
-1619700428472,siggen/room2/rhum, {"time":337,"value":59.4}
-1619700428473,siggen/room1/rhum, {"time":337,"value":55.3}
-1619700428473,siggen/room2/temp, {"time":337,"value":19.7}
-1619700428473,siggen/room1/temp, {"time":337,"value":20.5}
-1619700429473,siggen/room2/rhum, {"time":338,"value":58.8}
-1619700429473,siggen/room1/rhum, {"time":338,"value":63.1}
-1619700429473,siggen/room1/temp, {"time":338,"value":21.0}
-1619700429473,siggen/room2/temp, {"time":338,"value":19.5}
-1619700430474,siggen/room1/rhum, {"time":339,"value":65.6}
-1619700430474,siggen/room2/temp, {"time":339,"value":20.6}
-1619700430474,siggen/room2/rhum, {"time":339,"value":56.3}
-1619700430474,siggen/room1/temp, {"time":339,"value":21.5}
-1619700431475,siggen/room1/rhum, {"time":340,"value":77.2}
-1619700431475,siggen/room2/rhum, {"time":340,"value":63.5}
-1619700431475,siggen/room2/temp, {"time":340,"value":20.4}
-1619700431475,siggen/room1/temp, {"time":340,"value":22.0}
-1619700432476,siggen/room1/rhum, {"time":341,"value":76.8}
-1619700432476,siggen/room2/rhum, {"time":341,"value":62.2}
-1619700432476,siggen/room2/temp, {"time":341,"value":23.7}
-1619700432476,siggen/room1/temp, {"time":341,"value":22.5}
-1619700433477,siggen/room2/temp, {"time":342,"value":22.0}
-1619700433477,siggen/room2/rhum, {"time":342,"value":68.1}
-1619700433477,siggen/room1/rhum, {"time":342,"value":84.9}
-1619700433477,siggen/room1/temp, {"time":342,"value":23.0}
-1619700434478,siggen/room2/rhum, {"time":343,"value":73.6}
-1619700434478,siggen/room1/rhum, {"time":343,"value":81.0}
-1619700434478,siggen/room1/temp, {"time":343,"value":24.5}
-1619700434478,siggen/room2/temp, {"time":343,"value":24.2}
-1619700435478,siggen/room1/rhum, {"time":344,"value":89.7}
-1619700435478,siggen/room1/temp, {"time":344,"value":24.3}
-1619700435478,siggen/room2/temp, {"time":344,"value":26.1}
-1619700435478,siggen/room2/rhum, {"time":344,"value":72.9}
-1619700436479,siggen/room1/rhum, {"time":345,"value":93.3}
-1619700436480,siggen/room1/temp, {"time":345,"value":22.7}
-1619700436480,siggen/room2/rhum, {"time":345,"value":76.4}
-1619700436480,siggen/room2/temp, {"time":345,"value":25.3}
-1619700437481,siggen/room1/temp, {"time":346,"value":19.9}
-1619700437481,siggen/room1/rhum, {"time":346,"value":74.8}
-1619700437481,siggen/room2/rhum, {"time":346,"value":78.7}
-1619700437481,siggen/room2/temp, {"time":346,"value":24.8}
-1619700438482,siggen/room1/rhum, {"time":347,"value":59.4}
-1619700438482,siggen/room1/temp, {"time":347,"value":17.3}
-1619700438482,siggen/room2/temp, {"time":347,"value":22.9}
-1619700438482,siggen/room2/rhum, {"time":347,"value":74.3}
-1619700439483,siggen/room1/rhum, {"time":348,"value":50.0}
-1619700439483,siggen/room1/temp, {"time":348,"value":20.0}
-1619700439483,siggen/room2/rhum, {"time":348,"value":61.7}
-1619700439483,siggen/room2/temp, {"time":348,"value":19.3}
-1619700440484,siggen/room1/rhum, {"time":349,"value":55.3}
-1619700440484,siggen/room2/temp, {"time":349,"value":19.7}
-1619700440484,siggen/room1/temp, {"time":349,"value":20.5}
-1619700440484,siggen/room2/rhum, {"time":349,"value":59.4}
-1619700441484,siggen/room1/rhum, {"time":350,"value":63.1}
-1619700441484,siggen/room1/temp, {"time":350,"value":21.0}
-1619700441484,siggen/room2/temp, {"time":350,"value":19.5}
-1619700441484,siggen/room2/rhum, {"time":350,"value":58.8}
-1619700442485,siggen/room1/rhum, {"time":351,"value":65.6}
-1619700442485,siggen/room2/rhum, {"time":351,"value":56.3}
-1619700442485,siggen/room2/temp, {"time":351,"value":20.6}
-1619700442485,siggen/room1/temp, {"time":351,"value":21.5}
-1619700443486,siggen/room1/rhum, {"time":352,"value":77.2}
-1619700443486,siggen/room2/rhum, {"time":352,"value":63.5}
-1619700443486,siggen/room1/temp, {"time":352,"value":22.0}
-1619700443486,siggen/room2/temp, {"time":352,"value":20.4}
-1619700444487,siggen/room1/rhum, {"time":353,"value":76.8}
-1619700444487,siggen/room2/rhum, {"time":353,"value":62.2}
-1619700444488,siggen/room2/temp, {"time":353,"value":23.7}
-1619700444488,siggen/room1/temp, {"time":353,"value":22.5}
-1619700445489,siggen/room2/temp, {"time":354,"value":22.0}
-1619700445489,siggen/room2/rhum, {"time":354,"value":68.1}
-1619700445489,siggen/room1/temp, {"time":354,"value":23.0}
-1619700445489,siggen/room1/rhum, {"time":354,"value":84.9}
-1619700446490,siggen/room1/rhum, {"time":355,"value":81.0}
-1619700446490,siggen/room2/rhum, {"time":355,"value":73.6}
-1619700446490,siggen/room2/temp, {"time":355,"value":24.2}
-1619700446490,siggen/room1/temp, {"time":355,"value":24.5}
-1619700447490,siggen/room2/temp, {"time":356,"value":26.1}
-1619700447490,siggen/room2/rhum, {"time":356,"value":72.9}
-1619700447490,siggen/room1/rhum, {"time":356,"value":89.7}
-1619700447490,siggen/room1/temp, {"time":356,"value":24.3}
-1619700448491,siggen/room1/rhum, {"time":357,"value":93.3}
-1619700448491,siggen/room2/rhum, {"time":357,"value":76.4}
-1619700448491,siggen/room2/temp, {"time":357,"value":25.3}
-1619700448491,siggen/room1/temp, {"time":357,"value":22.7}
-1619700449492,siggen/room1/rhum, {"time":358,"value":74.8}
-1619700449492,siggen/room1/temp, {"time":358,"value":19.9}
-1619700449492,siggen/room2/temp, {"time":358,"value":24.8}
-1619700449492,siggen/room2/rhum, {"time":358,"value":78.7}
-1619700450493,siggen/room1/rhum, {"time":359,"value":59.4}
-1619700450493,siggen/room2/temp, {"time":359,"value":22.9}
-1619700450493,siggen/room1/temp, {"time":359,"value":17.3}
-1619700450493,siggen/room2/rhum, {"time":359,"value":74.3}
-1619700451494,siggen/room1/rhum, {"time":360,"value":50.0}
-1619700451494,siggen/room1/temp, {"time":360,"value":20.0}
-1619700451495,siggen/room2/temp, {"time":360,"value":19.3}
-1619700451495,siggen/room2/rhum, {"time":360,"value":61.7}
-1619700452496,siggen/room1/rhum, {"time":361,"value":55.3}
-1619700452496,siggen/room2/rhum, {"time":361,"value":59.4}
-1619700452496,siggen/room2/temp, {"time":361,"value":19.7}
-1619700452496,siggen/room1/temp, {"time":361,"value":20.5}
-1619700453497,siggen/room1/rhum, {"time":362,"value":63.1}
-1619700453497,siggen/room2/rhum, {"time":362,"value":58.8}
-1619700453497,siggen/room2/temp, {"time":362,"value":19.5}
-1619700453497,siggen/room1/temp, {"time":362,"value":21.0}
-1619700454497,siggen/room1/rhum, {"time":363,"value":65.6}
-1619700454497,siggen/room2/rhum, {"time":363,"value":56.3}
-1619700454497,siggen/room2/temp, {"time":363,"value":20.6}
-1619700454497,siggen/room1/temp, {"time":363,"value":21.5}
-1619700455498,siggen/room1/rhum, {"time":364,"value":77.2}
-1619700455498,siggen/room2/temp, {"time":364,"value":20.4}
-1619700455498,siggen/room2/rhum, {"time":364,"value":63.5}
-1619700455498,siggen/room1/temp, {"time":364,"value":22.0}
-1619700456499,siggen/room2/rhum, {"time":365,"value":62.2}
-1619700456499,siggen/room1/rhum, {"time":365,"value":76.8}
-1619700456499,siggen/room1/temp, {"time":365,"value":22.5}
-1619700456499,siggen/room2/temp, {"time":365,"value":23.7}
-1619700457500,siggen/room2/rhum, {"time":366,"value":68.1}
-1619700457500,siggen/room1/rhum, {"time":366,"value":84.9}
-1619700457500,siggen/room2/temp, {"time":366,"value":22.0}
-1619700457500,siggen/room1/temp, {"time":366,"value":23.0}
-1619700458501,siggen/room2/rhum, {"time":367,"value":73.6}
-1619700458501,siggen/room1/rhum, {"time":367,"value":81.0}
-1619700458501,siggen/room2/temp, {"time":367,"value":24.2}
-1619700458501,siggen/room1/temp, {"time":367,"value":24.5}
-1619700459502,siggen/room1/rhum, {"time":368,"value":89.7}
-1619700459502,siggen/room2/rhum, {"time":368,"value":72.9}
-1619700459502,siggen/room2/temp, {"time":368,"value":26.1}
-1619700459502,siggen/room1/temp, {"time":368,"value":24.3}
-1619700460502,siggen/room1/rhum, {"time":369,"value":93.3}
-1619700460502,siggen/room2/rhum, {"time":369,"value":76.4}
-1619700460503,siggen/room2/temp, {"time":369,"value":25.3}
-1619700460503,siggen/room1/temp, {"time":369,"value":22.7}
-1619700461503,siggen/room1/rhum, {"time":370,"value":74.8}
-1619700461503,siggen/room2/rhum, {"time":370,"value":78.7}
-1619700461503,siggen/room2/temp, {"time":370,"value":24.8}
-1619700461504,siggen/room1/temp, {"time":370,"value":19.9}
-1619700462504,siggen/room1/rhum, {"time":371,"value":59.4}
-1619700462505,siggen/room2/rhum, {"time":371,"value":74.3}
-1619700462505,siggen/room2/temp, {"time":371,"value":22.9}
-1619700462505,siggen/room1/temp, {"time":371,"value":17.3}
-1619700463505,siggen/room1/rhum, {"time":372,"value":50.0}
-1619700463506,siggen/room2/rhum, {"time":372,"value":61.7}
-1619700463506,siggen/room2/temp, {"time":372,"value":19.3}
-1619700463506,siggen/room1/temp, {"time":372,"value":20.0}
-1619700464507,siggen/room1/rhum, {"time":373,"value":55.3}
-1619700464507,siggen/room2/rhum, {"time":373,"value":59.4}
-1619700464507,siggen/room2/temp, {"time":373,"value":19.7}
-1619700464507,siggen/room1/temp, {"time":373,"value":20.5}
-1619700465508,siggen/room1/rhum, {"time":374,"value":63.1}
-1619700465508,siggen/room2/rhum, {"time":374,"value":58.8}
-1619700465508,siggen/room2/temp, {"time":374,"value":19.5}
-1619700465508,siggen/room1/temp, {"time":374,"value":21.0}
-1619700466508,siggen/room1/rhum, {"time":375,"value":65.6}
-1619700466508,siggen/room2/rhum, {"time":375,"value":56.3}
-1619700466508,siggen/room2/temp, {"time":375,"value":20.6}
-1619700466508,siggen/room1/temp, {"time":375,"value":21.5}
-1619700467509,siggen/room1/rhum, {"time":376,"value":77.2}
-1619700467509,siggen/room2/rhum, {"time":376,"value":63.5}
-1619700467509,siggen/room2/temp, {"time":376,"value":20.4}
-1619700467510,siggen/room1/temp, {"time":376,"value":22.0}
-1619700468510,siggen/room1/rhum, {"time":377,"value":76.8}
-1619700468510,siggen/room2/rhum, {"time":377,"value":62.2}
-1619700468510,siggen/room2/temp, {"time":377,"value":23.7}
-1619700468511,siggen/room1/temp, {"time":377,"value":22.5}
-1619700469512,siggen/room1/rhum, {"time":378,"value":84.9}
-1619700469512,siggen/room2/temp, {"time":378,"value":22.0}
-1619700469512,siggen/room2/rhum, {"time":378,"value":68.1}
-1619700469512,siggen/room1/temp, {"time":378,"value":23.0}
-1619700470512,siggen/room1/rhum, {"time":379,"value":81.0}
-1619700470512,siggen/room2/rhum, {"time":379,"value":73.6}
-1619700470513,siggen/room1/temp, {"time":379,"value":24.5}
-1619700470513,siggen/room2/temp, {"time":379,"value":24.2}
-1619700471513,siggen/room1/rhum, {"time":380,"value":89.7}
-1619700471513,siggen/room1/temp, {"time":380,"value":24.3}
-1619700471513,siggen/room2/temp, {"time":380,"value":26.1}
-1619700471513,siggen/room2/rhum, {"time":380,"value":72.9}
-1619700472513,siggen/room1/rhum, {"time":381,"value":93.3}
-1619700472514,siggen/room2/temp, {"time":381,"value":25.3}
-1619700472514,siggen/room1/temp, {"time":381,"value":22.7}
-1619700472514,siggen/room2/rhum, {"time":381,"value":76.4}
-1619700473515,siggen/room2/temp, {"time":382,"value":24.8}
-1619700473515,siggen/room1/rhum, {"time":382,"value":74.8}
-1619700473515,siggen/room2/rhum, {"time":382,"value":78.7}
-1619700473515,siggen/room1/temp, {"time":382,"value":19.9}
-1619700474516,siggen/room1/rhum, {"time":383,"value":59.4}
-1619700474516,siggen/room2/rhum, {"time":383,"value":74.3}
-1619700474516,siggen/room2/temp, {"time":383,"value":22.9}
-1619700474516,siggen/room1/temp, {"time":383,"value":17.3}
-1619700475517,siggen/room1/rhum, {"time":384,"value":50.0}
-1619700475517,siggen/room2/rhum, {"time":384,"value":61.7}
-1619700475517,siggen/room2/temp, {"time":384,"value":19.3}
-1619700475517,siggen/room1/temp, {"time":384,"value":20.0}
-1619700476518,siggen/room1/rhum, {"time":385,"value":55.3}
-1619700476518,siggen/room2/rhum, {"time":385,"value":59.4}
-1619700476518,siggen/room2/temp, {"time":385,"value":19.7}
-1619700476518,siggen/room1/temp, {"time":385,"value":20.5}
-1619700477519,siggen/room1/rhum, {"time":386,"value":63.1}
-1619700477519,siggen/room2/rhum, {"time":386,"value":58.8}
-1619700477519,siggen/room1/temp, {"time":386,"value":21.0}
-1619700477519,siggen/room2/temp, {"time":386,"value":19.5}
-1619700478519,siggen/room2/rhum, {"time":387,"value":56.3}
-1619700478519,siggen/room2/temp, {"time":387,"value":20.6}
-1619700478519,siggen/room1/rhum, {"time":387,"value":65.6}
-1619700478519,siggen/room1/temp, {"time":387,"value":21.5}
-1619700479521,siggen/room2/rhum, {"time":388,"value":63.5}
-1619700479521,siggen/room2/temp, {"time":388,"value":20.4}
-1619700479521,siggen/room1/rhum, {"time":388,"value":77.2}
-1619700479521,siggen/room1/temp, {"time":388,"value":22.0}
-1619700480522,siggen/room1/rhum, {"time":389,"value":76.8}
-1619700480522,siggen/room2/rhum, {"time":389,"value":62.2}
-1619700480522,siggen/room1/temp, {"time":389,"value":22.5}
-1619700480522,siggen/room2/temp, {"time":389,"value":23.7}
-1619700481523,siggen/room2/rhum, {"time":390,"value":68.1}
-1619700481523,siggen/room1/rhum, {"time":390,"value":84.9}
-1619700481523,siggen/room2/temp, {"time":390,"value":22.0}
-1619700481523,siggen/room1/temp, {"time":390,"value":23.0}
-1619700482524,siggen/room1/rhum, {"time":391,"value":81.0}
-1619700482524,siggen/room2/rhum, {"time":391,"value":73.6}
-1619700482524,siggen/room2/temp, {"time":391,"value":24.2}
-1619700482524,siggen/room1/temp, {"time":391,"value":24.5}
-1619700483525,siggen/room1/rhum, {"time":392,"value":89.7}
-1619700483525,siggen/room2/temp, {"time":392,"value":26.1}
-1619700483525,siggen/room2/rhum, {"time":392,"value":72.9}
-1619700483525,siggen/room1/temp, {"time":392,"value":24.3}
-1619700484526,siggen/room2/rhum, {"time":393,"value":76.4}
-1619700484526,siggen/room1/temp, {"time":393,"value":22.7}
-1619700484526,siggen/room2/temp, {"time":393,"value":25.3}
-1619700484526,siggen/room1/rhum, {"time":393,"value":93.3}
-1619700485526,siggen/room1/rhum, {"time":394,"value":74.8}
-1619700485526,siggen/room2/rhum, {"time":394,"value":78.7}
-1619700485526,siggen/room2/temp, {"time":394,"value":24.8}
-1619700485526,siggen/room1/temp, {"time":394,"value":19.9}
-1619700486527,siggen/room1/rhum, {"time":395,"value":59.4}
-1619700486527,siggen/room2/temp, {"time":395,"value":22.9}
-1619700486527,siggen/room1/temp, {"time":395,"value":17.3}
-1619700486528,siggen/room2/rhum, {"time":395,"value":74.3}
-1619700487528,siggen/room1/rhum, {"time":396,"value":50.0}
-1619700487528,siggen/room2/temp, {"time":396,"value":19.3}
-1619700487529,siggen/room1/temp, {"time":396,"value":20.0}
-1619700487529,siggen/room2/rhum, {"time":396,"value":61.7}
-1619700488529,siggen/room2/temp, {"time":397,"value":19.7}
-1619700488530,siggen/room1/temp, {"time":397,"value":20.5}
-1619700488530,siggen/room1/rhum, {"time":397,"value":55.3}
-1619700488530,siggen/room2/rhum, {"time":397,"value":59.4}
-1619700489531,siggen/room2/temp, {"time":398,"value":19.5}
-1619700489531,siggen/room1/rhum, {"time":398,"value":63.1}
-1619700489531,siggen/room1/temp, {"time":398,"value":21.0}
-1619700489531,siggen/room2/rhum, {"time":398,"value":58.8}
-1619700490532,siggen/room1/rhum, {"time":399,"value":65.6}
-1619700490532,siggen/room2/temp, {"time":399,"value":20.6}
-1619700490532,siggen/room1/temp, {"time":399,"value":21.5}
-1619700490532,siggen/room2/rhum, {"time":399,"value":56.3}
-1619700491532,siggen/room2/temp, {"time":400,"value":20.4}
-1619700491532,siggen/room1/rhum, {"time":400,"value":77.2}
-1619700491532,siggen/room1/temp, {"time":400,"value":22.0}
-1619700491533,siggen/room2/rhum, {"time":400,"value":63.5}
-1619700492533,siggen/room1/rhum, {"time":401,"value":76.8}
-1619700492533,siggen/room1/temp, {"time":401,"value":22.5}
-1619700492533,siggen/room2/temp, {"time":401,"value":23.7}
-1619700492533,siggen/room2/rhum, {"time":401,"value":62.2}
-1619700493534,siggen/room1/rhum, {"time":402,"value":84.9}
-1619700493534,siggen/room2/temp, {"time":402,"value":22.0}
-1619700493534,siggen/room1/temp, {"time":402,"value":23.0}
-1619700493534,siggen/room2/rhum, {"time":402,"value":68.1}
-1619700494535,siggen/room1/rhum, {"time":403,"value":81.0}
-1619700494535,siggen/room2/temp, {"time":403,"value":24.2}
-1619700494535,siggen/room2/rhum, {"time":403,"value":73.6}
-1619700494535,siggen/room1/temp, {"time":403,"value":24.5}
-1619700495536,siggen/room2/rhum, {"time":404,"value":72.9}
-1619700495536,siggen/room2/temp, {"time":404,"value":26.1}
-1619700495537,siggen/room1/rhum, {"time":404,"value":89.7}
-1619700495537,siggen/room1/temp, {"time":404,"value":24.3}
-1619700496538,siggen/room2/rhum, {"time":405,"value":76.4}
-1619700496538,siggen/room1/rhum, {"time":405,"value":93.3}
-1619700496538,siggen/room1/temp, {"time":405,"value":22.7}
-1619700496538,siggen/room2/temp, {"time":405,"value":25.3}
-1619700497539,siggen/room1/rhum, {"time":406,"value":74.8}
-1619700497539,siggen/room2/temp, {"time":406,"value":24.8}
-1619700497539,siggen/room1/temp, {"time":406,"value":19.9}
-1619700497539,siggen/room2/rhum, {"time":406,"value":78.7}
-1619700498541,siggen/room2/temp, {"time":407,"value":22.9}
-1619700498541,siggen/room1/rhum, {"time":407,"value":59.4}
-1619700498541,siggen/room2/rhum, {"time":407,"value":74.3}
-1619700498541,siggen/room1/temp, {"time":407,"value":17.3}
-1619700499540,siggen/room1/rhum, {"time":408,"value":50.0}
-1619700499540,siggen/room2/rhum, {"time":408,"value":61.7}
-1619700499540,siggen/room1/temp, {"time":408,"value":20.0}
-1619700499540,siggen/room2/temp, {"time":408,"value":19.3}
-1619700500541,siggen/room2/rhum, {"time":409,"value":59.4}
-1619700500541,siggen/room1/rhum, {"time":409,"value":55.3}
-1619700500541,siggen/room2/temp, {"time":409,"value":19.7}
-1619700500541,siggen/room1/temp, {"time":409,"value":20.5}
-1619700501542,siggen/room1/rhum, {"time":410,"value":63.1}
-1619700501542,siggen/room2/rhum, {"time":410,"value":58.8}
-1619700501542,siggen/room2/temp, {"time":410,"value":19.5}
-1619700501542,siggen/room1/temp, {"time":410,"value":21.0}
-1619700502543,siggen/room1/rhum, {"time":411,"value":65.6}
-1619700502543,siggen/room2/rhum, {"time":411,"value":56.3}
-1619700502543,siggen/room2/temp, {"time":411,"value":20.6}
-1619700502543,siggen/room1/temp, {"time":411,"value":21.5}
-1619700503544,siggen/room1/rhum, {"time":412,"value":77.2}
-1619700503544,siggen/room2/rhum, {"time":412,"value":63.5}
-1619700503545,siggen/room2/temp, {"time":412,"value":20.4}
-1619700503545,siggen/room1/temp, {"time":412,"value":22.0}
-1619700504546,siggen/room1/rhum, {"time":413,"value":76.8}
-1619700504546,siggen/room2/rhum, {"time":413,"value":62.2}
-1619700504546,siggen/room2/temp, {"time":413,"value":23.7}
-1619700504546,siggen/room1/temp, {"time":413,"value":22.5}
-1619700505546,siggen/room1/rhum, {"time":414,"value":84.9}
-1619700505546,siggen/room2/rhum, {"time":414,"value":68.1}
-1619700505547,siggen/room2/temp, {"time":414,"value":22.0}
-1619700505547,siggen/room1/temp, {"time":414,"value":23.0}
-1619700506547,siggen/room1/rhum, {"time":415,"value":81.0}
-1619700506547,siggen/room2/rhum, {"time":415,"value":73.6}
-1619700506547,siggen/room2/temp, {"time":415,"value":24.2}
-1619700506547,siggen/room1/temp, {"time":415,"value":24.5}
-1619700507548,siggen/room1/rhum, {"time":416,"value":89.7}
-1619700507548,siggen/room2/rhum, {"time":416,"value":72.9}
-1619700507548,siggen/room2/temp, {"time":416,"value":26.1}
-1619700507548,siggen/room1/temp, {"time":416,"value":24.3}
-1619700508549,siggen/room1/rhum, {"time":417,"value":93.3}
-1619700508549,siggen/room2/rhum, {"time":417,"value":76.4}
-1619700508549,siggen/room2/temp, {"time":417,"value":25.3}
-1619700508549,siggen/room1/temp, {"time":417,"value":22.7}
-1619700509550,siggen/room1/rhum, {"time":418,"value":74.8}
-1619700509550,siggen/room2/rhum, {"time":418,"value":78.7}
-1619700509550,siggen/room2/temp, {"time":418,"value":24.8}
-1619700509550,siggen/room1/temp, {"time":418,"value":19.9}
-1619700510551,siggen/room1/rhum, {"time":419,"value":59.4}
-1619700510551,siggen/room2/rhum, {"time":419,"value":74.3}
-1619700510551,siggen/room2/temp, {"time":419,"value":22.9}
-1619700510551,siggen/room1/temp, {"time":419,"value":17.3}
-1619700511552,siggen/room2/rhum, {"time":420,"value":61.7}
-1619700511552,siggen/room1/rhum, {"time":420,"value":50.0}
-1619700511552,siggen/room1/temp, {"time":420,"value":20.0}
-1619700511552,siggen/room2/temp, {"time":420,"value":19.3}
-1619700512553,siggen/room1/rhum, {"time":421,"value":55.3}
-1619700512553,siggen/room2/rhum, {"time":421,"value":59.4}
-1619700512553,siggen/room2/temp, {"time":421,"value":19.7}
-1619700512553,siggen/room1/temp, {"time":421,"value":20.5}
-1619700513554,siggen/room2/temp, {"time":422,"value":19.5}
-1619700513554,siggen/room2/rhum, {"time":422,"value":58.8}
-1619700513554,siggen/room1/temp, {"time":422,"value":21.0}
-1619700513554,siggen/room1/rhum, {"time":422,"value":63.1}
-1619700514554,siggen/room1/rhum, {"time":423,"value":65.6}
-1619700514555,siggen/room2/temp, {"time":423,"value":20.6}
-1619700514555,siggen/room1/temp, {"time":423,"value":21.5}
-1619700514555,siggen/room2/rhum, {"time":423,"value":56.3}
-1619700515555,siggen/room1/rhum, {"time":424,"value":77.2}
-1619700515556,siggen/room2/temp, {"time":424,"value":20.4}
-1619700515556,siggen/room1/temp, {"time":424,"value":22.0}
-1619700515556,siggen/room2/rhum, {"time":424,"value":63.5}
-1619700516557,siggen/room1/temp, {"time":425,"value":22.5}
-1619700516557,siggen/room1/rhum, {"time":425,"value":76.8}
-1619700516557,siggen/room2/rhum, {"time":425,"value":62.2}
-1619700516557,siggen/room2/temp, {"time":425,"value":23.7}
-1619700517558,siggen/room2/rhum, {"time":426,"value":68.1}
-1619700517558,siggen/room1/temp, {"time":426,"value":23.0}
-1619700517558,siggen/room1/rhum, {"time":426,"value":84.9}
-1619700517558,siggen/room2/temp, {"time":426,"value":22.0}
-1619700518559,siggen/room2/rhum, {"time":427,"value":73.6}
-1619700518559,siggen/room1/temp, {"time":427,"value":24.5}
-1619700518559,siggen/room1/rhum, {"time":427,"value":81.0}
-1619700518559,siggen/room2/temp, {"time":427,"value":24.2}
-1619700519559,siggen/room2/rhum, {"time":428,"value":72.9}
-1619700519559,siggen/room1/rhum, {"time":428,"value":89.7}
-1619700519559,siggen/room1/temp, {"time":428,"value":24.3}
-1619700519559,siggen/room2/temp, {"time":428,"value":26.1}
-1619700520560,siggen/room1/rhum, {"time":429,"value":93.3}
-1619700520560,siggen/room2/rhum, {"time":429,"value":76.4}
-1619700520560,siggen/room2/temp, {"time":429,"value":25.3}
-1619700520560,siggen/room1/temp, {"time":429,"value":22.7}
-1619700521561,siggen/room1/rhum, {"time":430,"value":74.8}
-1619700521562,siggen/room2/rhum, {"time":430,"value":78.7}
-1619700521562,siggen/room1/temp, {"time":430,"value":19.9}
-1619700521562,siggen/room2/temp, {"time":430,"value":24.8}
-1619700522563,siggen/room1/rhum, {"time":431,"value":59.4}
-1619700522563,siggen/room2/temp, {"time":431,"value":22.9}
-1619700522563,siggen/room2/rhum, {"time":431,"value":74.3}
-1619700522563,siggen/room1/temp, {"time":431,"value":17.3}
-1619700523564,siggen/room1/rhum, {"time":432,"value":50.0}
-1619700523564,siggen/room2/rhum, {"time":432,"value":61.7}
-1619700523564,siggen/room2/temp, {"time":432,"value":19.3}
-1619700523564,siggen/room1/temp, {"time":432,"value":20.0}
-1619700524564,siggen/room1/rhum, {"time":433,"value":55.3}
-1619700524564,siggen/room2/rhum, {"time":433,"value":59.4}
-1619700524565,siggen/room2/temp, {"time":433,"value":19.7}
-1619700524565,siggen/room1/temp, {"time":433,"value":20.5}
-1619700525565,siggen/room2/rhum, {"time":434,"value":58.8}
-1619700525565,siggen/room1/rhum, {"time":434,"value":63.1}
-1619700525565,siggen/room2/temp, {"time":434,"value":19.5}
-1619700525565,siggen/room1/temp, {"time":434,"value":21.0}
-1619700526566,siggen/room1/rhum, {"time":435,"value":65.6}
-1619700526566,siggen/room2/rhum, {"time":435,"value":56.3}
-1619700526566,siggen/room2/temp, {"time":435,"value":20.6}
-1619700526566,siggen/room1/temp, {"time":435,"value":21.5}
-1619700527567,siggen/room1/rhum, {"time":436,"value":77.2}
-1619700527567,siggen/room2/rhum, {"time":436,"value":63.5}
-1619700527567,siggen/room2/temp, {"time":436,"value":20.4}
-1619700527567,siggen/room1/temp, {"time":436,"value":22.0}
-1619700528568,siggen/room1/rhum, {"time":437,"value":76.8}
-1619700528568,siggen/room2/temp, {"time":437,"value":23.7}
-1619700528568,siggen/room1/temp, {"time":437,"value":22.5}
-1619700528568,siggen/room2/rhum, {"time":437,"value":62.2}
-1619700529569,siggen/room1/rhum, {"time":438,"value":84.9}
-1619700529569,siggen/room1/temp, {"time":438,"value":23.0}
-1619700529569,siggen/room2/temp, {"time":438,"value":22.0}
-1619700529569,siggen/room2/rhum, {"time":438,"value":68.1}
-1619700530570,siggen/room1/rhum, {"time":439,"value":81.0}
-1619700530570,siggen/room2/temp, {"time":439,"value":24.2}
-1619700530570,siggen/room1/temp, {"time":439,"value":24.5}
-1619700530571,siggen/room2/rhum, {"time":439,"value":73.6}
-1619700531571,siggen/room1/rhum, {"time":440,"value":89.7}
-1619700531571,siggen/room1/temp, {"time":440,"value":24.3}
-1619700531571,siggen/room2/temp, {"time":440,"value":26.1}
-1619700531571,siggen/room2/rhum, {"time":440,"value":72.9}
-1619700532571,siggen/room2/temp, {"time":441,"value":25.3}
-1619700532571,siggen/room1/rhum, {"time":441,"value":93.3}
-1619700532571,siggen/room1/temp, {"time":441,"value":22.7}
-1619700532572,siggen/room2/rhum, {"time":441,"value":76.4}
-1619700533572,siggen/room1/rhum, {"time":442,"value":74.8}
-1619700533573,siggen/room2/temp, {"time":442,"value":24.8}
-1619700533573,siggen/room1/temp, {"time":442,"value":19.9}
-1619700533573,siggen/room2/rhum, {"time":442,"value":78.7}
-1619700534574,siggen/room1/temp, {"time":443,"value":17.3}
-1619700534574,siggen/room1/rhum, {"time":443,"value":59.4}
-1619700534574,siggen/room2/temp, {"time":443,"value":22.9}
-1619700534574,siggen/room2/rhum, {"time":443,"value":74.3}
-1619700535575,siggen/room1/rhum, {"time":444,"value":50.0}
-1619700535575,siggen/room1/temp, {"time":444,"value":20.0}
-1619700535575,siggen/room2/rhum, {"time":444,"value":61.7}
-1619700535575,siggen/room2/temp, {"time":444,"value":19.3}
-1619700536576,siggen/room1/rhum, {"time":445,"value":55.3}
-1619700536576,siggen/room2/rhum, {"time":445,"value":59.4}
-1619700536576,siggen/room1/temp, {"time":445,"value":20.5}
-1619700536576,siggen/room2/temp, {"time":445,"value":19.7}
-1619700537577,siggen/room1/rhum, {"time":446,"value":63.1}
-1619700537577,siggen/room2/rhum, {"time":446,"value":58.8}
-1619700537578,siggen/room2/temp, {"time":446,"value":19.5}
-1619700537578,siggen/room1/temp, {"time":446,"value":21.0}
-1619700538578,siggen/room2/rhum, {"time":447,"value":56.3}
-1619700538578,siggen/room1/rhum, {"time":447,"value":65.6}
-1619700538578,siggen/room2/temp, {"time":447,"value":20.6}
-1619700538578,siggen/room1/temp, {"time":447,"value":21.5}
-1619700539578,siggen/room1/rhum, {"time":448,"value":77.2}
-1619700539578,siggen/room2/temp, {"time":448,"value":20.4}
-1619700539579,siggen/room2/rhum, {"time":448,"value":63.5}
-1619700539579,siggen/room1/temp, {"time":448,"value":22.0}
-1619700540580,siggen/room1/rhum, {"time":449,"value":76.8}
-1619700540580,siggen/room2/rhum, {"time":449,"value":62.2}
-1619700540580,siggen/room2/temp, {"time":449,"value":23.7}
-1619700540580,siggen/room1/temp, {"time":449,"value":22.5}
-1619700541581,siggen/room1/rhum, {"time":450,"value":84.9}
-1619700541581,siggen/room2/rhum, {"time":450,"value":68.1}
-1619700541581,siggen/room2/temp, {"time":450,"value":22.0}
-1619700541581,siggen/room1/temp, {"time":450,"value":23.0}
-1619700542582,siggen/room1/rhum, {"time":451,"value":81.0}
-1619700542582,siggen/room2/rhum, {"time":451,"value":73.6}
-1619700542582,siggen/room2/temp, {"time":451,"value":24.2}
-1619700542582,siggen/room1/temp, {"time":451,"value":24.5}
-1619700543583,siggen/room1/rhum, {"time":452,"value":89.7}
-1619700543584,siggen/room2/rhum, {"time":452,"value":72.9}
-1619700543584,siggen/room2/temp, {"time":452,"value":26.1}
-1619700543584,siggen/room1/temp, {"time":452,"value":24.3}
-1619700544584,siggen/room2/rhum, {"time":453,"value":76.4}
-1619700544584,siggen/room1/temp, {"time":453,"value":22.7}
-1619700544584,siggen/room2/temp, {"time":453,"value":25.3}
-1619700544584,siggen/room1/rhum, {"time":453,"value":93.3}
-1619700545585,siggen/room2/rhum, {"time":454,"value":78.7}
-1619700545585,siggen/room1/rhum, {"time":454,"value":74.8}
-1619700545585,siggen/room1/temp, {"time":454,"value":19.9}
-1619700545585,siggen/room2/temp, {"time":454,"value":24.8}
-1619700546586,siggen/room1/rhum, {"time":455,"value":59.4}
-1619700546586,siggen/room2/rhum, {"time":455,"value":74.3}
-1619700546586,siggen/room1/temp, {"time":455,"value":17.3}
-1619700546586,siggen/room2/temp, {"time":455,"value":22.9}
-1619700547587,siggen/room1/rhum, {"time":456,"value":50.0}
-1619700547587,siggen/room2/rhum, {"time":456,"value":61.7}
-1619700547587,siggen/room2/temp, {"time":456,"value":19.3}
-1619700547587,siggen/room1/temp, {"time":456,"value":20.0}
-1619700548588,siggen/room2/temp, {"time":457,"value":19.7}
-1619700548588,siggen/room1/rhum, {"time":457,"value":55.3}
-1619700548588,siggen/room2/rhum, {"time":457,"value":59.4}
-1619700548589,siggen/room1/temp, {"time":457,"value":20.5}
-1619700549589,siggen/room1/rhum, {"time":458,"value":63.1}
-1619700549589,siggen/room2/temp, {"time":458,"value":19.5}
-1619700549589,siggen/room2/rhum, {"time":458,"value":58.8}
-1619700549590,siggen/room1/temp, {"time":458,"value":21.0}
-1619700550590,siggen/room2/rhum, {"time":459,"value":56.3}
-1619700550590,siggen/room1/rhum, {"time":459,"value":65.6}
-1619700550591,siggen/room2/temp, {"time":459,"value":20.6}
-1619700550591,siggen/room1/temp, {"time":459,"value":21.5}
-1619700551591,siggen/room2/rhum, {"time":460,"value":63.5}
-1619700551591,siggen/room1/rhum, {"time":460,"value":77.2}
-1619700551591,siggen/room2/temp, {"time":460,"value":20.4}
-1619700551591,siggen/room1/temp, {"time":460,"value":22.0}
-1619700552592,siggen/room1/rhum, {"time":461,"value":76.8}
-1619700552592,siggen/room2/temp, {"time":461,"value":23.7}
-1619700552592,siggen/room2/rhum, {"time":461,"value":62.2}
-1619700552592,siggen/room1/temp, {"time":461,"value":22.5}
-1619700553592,siggen/room1/rhum, {"time":462,"value":84.9}
-1619700553592,siggen/room2/temp, {"time":462,"value":22.0}
-1619700553592,siggen/room2/rhum, {"time":462,"value":68.1}
-1619700553592,siggen/room1/temp, {"time":462,"value":23.0}
-1619700554593,siggen/room1/rhum, {"time":463,"value":81.0}
-1619700554593,siggen/room2/rhum, {"time":463,"value":73.6}
-1619700554594,siggen/room2/temp, {"time":463,"value":24.2}
-1619700554594,siggen/room1/temp, {"time":463,"value":24.5}
-1619700555595,siggen/room1/rhum, {"time":464,"value":89.7}
-1619700555595,siggen/room1/temp, {"time":464,"value":24.3}
-1619700555595,siggen/room2/rhum, {"time":464,"value":72.9}
-1619700555595,siggen/room2/temp, {"time":464,"value":26.1}
-1619700556596,siggen/room1/rhum, {"time":465,"value":93.3}
-1619700556596,siggen/room2/rhum, {"time":465,"value":76.4}
-1619700556596,siggen/room2/temp, {"time":465,"value":25.3}
-1619700556596,siggen/room1/temp, {"time":465,"value":22.7}
-1619700557597,siggen/room1/rhum, {"time":466,"value":74.8}
-1619700557597,siggen/room2/rhum, {"time":466,"value":78.7}
-1619700557597,siggen/room2/temp, {"time":466,"value":24.8}
-1619700557597,siggen/room1/temp, {"time":466,"value":19.9}
-1619700558598,siggen/room1/rhum, {"time":467,"value":59.4}
-1619700558598,siggen/room2/rhum, {"time":467,"value":74.3}
-1619700558598,siggen/room2/temp, {"time":467,"value":22.9}
-1619700558598,siggen/room1/temp, {"time":467,"value":17.3}
-1619700559598,siggen/room1/rhum, {"time":468,"value":50.0}
-1619700559598,siggen/room2/temp, {"time":468,"value":19.3}
-1619700559598,siggen/room1/temp, {"time":468,"value":20.0}
-1619700559598,siggen/room2/rhum, {"time":468,"value":61.7}
-1619700560599,siggen/room1/rhum, {"time":469,"value":55.3}
-1619700560599,siggen/room2/temp, {"time":469,"value":19.7}
-1619700560599,siggen/room2/rhum, {"time":469,"value":59.4}
-1619700560599,siggen/room1/temp, {"time":469,"value":20.5}
-1619700561600,siggen/room1/rhum, {"time":470,"value":63.1}
-1619700561600,siggen/room2/temp, {"time":470,"value":19.5}
-1619700561600,siggen/room2/rhum, {"time":470,"value":58.8}
-1619700561600,siggen/room1/temp, {"time":470,"value":21.0}
-1619700562601,siggen/room1/rhum, {"time":471,"value":65.6}
-1619700562601,siggen/room2/temp, {"time":471,"value":20.6}
-1619700562601,siggen/room2/rhum, {"time":471,"value":56.3}
-1619700562601,siggen/room1/temp, {"time":471,"value":21.5}
-1619700563602,siggen/room1/rhum, {"time":472,"value":77.2}
-1619700563602,siggen/room2/rhum, {"time":472,"value":63.5}
-1619700563602,siggen/room2/temp, {"time":472,"value":20.4}
-1619700563602,siggen/room1/temp, {"time":472,"value":22.0}
-1619700564603,siggen/room1/rhum, {"time":473,"value":76.8}
-1619700564603,siggen/room2/rhum, {"time":473,"value":62.2}
-1619700564603,siggen/room2/temp, {"time":473,"value":23.7}
-1619700564603,siggen/room1/temp, {"time":473,"value":22.5}
-1619700565603,siggen/room1/rhum, {"time":474,"value":84.9}
-1619700565603,siggen/room2/rhum, {"time":474,"value":68.1}
-1619700565604,siggen/room2/temp, {"time":474,"value":22.0}
-1619700565604,siggen/room1/temp, {"time":474,"value":23.0}
-1619700566604,siggen/room1/rhum, {"time":475,"value":81.0}
-1619700566604,siggen/room2/rhum, {"time":475,"value":73.6}
-1619700566604,siggen/room2/temp, {"time":475,"value":24.2}
-1619700566604,siggen/room1/temp, {"time":475,"value":24.5}
-1619700567605,siggen/room1/rhum, {"time":476,"value":89.7}
-1619700567606,siggen/room1/temp, {"time":476,"value":24.3}
-1619700567606,siggen/room2/rhum, {"time":476,"value":72.9}
-1619700567606,siggen/room2/temp, {"time":476,"value":26.1}
-1619700568606,siggen/room1/rhum, {"time":477,"value":93.3}
-1619700568606,siggen/room2/rhum, {"time":477,"value":76.4}
-1619700568606,siggen/room1/temp, {"time":477,"value":22.7}
-1619700568606,siggen/room2/temp, {"time":477,"value":25.3}
-1619700569607,siggen/room1/rhum, {"time":478,"value":74.8}
-1619700569607,siggen/room2/temp, {"time":478,"value":24.8}
-1619700569607,siggen/room2/rhum, {"time":478,"value":78.7}
-1619700569607,siggen/room1/temp, {"time":478,"value":19.9}
-1619700570608,siggen/room1/rhum, {"time":479,"value":59.4}
-1619700570608,siggen/room2/rhum, {"time":479,"value":74.3}
-1619700570608,siggen/room2/temp, {"time":479,"value":22.9}
-1619700570608,siggen/room1/temp, {"time":479,"value":17.3}
-1619700571608,siggen/room1/rhum, {"time":480,"value":50.0}
-1619700571609,siggen/room2/rhum, {"time":480,"value":61.7}
-1619700571609,siggen/room2/temp, {"time":480,"value":19.3}
-1619700571609,siggen/room1/temp, {"time":480,"value":20.0}
-1619700572609,siggen/room1/rhum, {"time":481,"value":55.3}
-1619700572609,siggen/room2/rhum, {"time":481,"value":59.4}
-1619700572609,siggen/room2/temp, {"time":481,"value":19.7}
-1619700572609,siggen/room1/temp, {"time":481,"value":20.5}
-1619700573610,siggen/room1/rhum, {"time":482,"value":63.1}
-1619700573610,siggen/room2/rhum, {"time":482,"value":58.8}
-1619700573610,siggen/room2/temp, {"time":482,"value":19.5}
-1619700573610,siggen/room1/temp, {"time":482,"value":21.0}
-1619700574610,siggen/room1/rhum, {"time":483,"value":65.6}
-1619700574611,siggen/room2/rhum, {"time":483,"value":56.3}
-1619700574611,siggen/room2/temp, {"time":483,"value":20.6}
-1619700574611,siggen/room1/temp, {"time":483,"value":21.5}
-1619700575611,siggen/room2/rhum, {"time":484,"value":63.5}
-1619700575611,siggen/room2/temp, {"time":484,"value":20.4}
-1619700575611,siggen/room1/rhum, {"time":484,"value":77.2}
-1619700575611,siggen/room1/temp, {"time":484,"value":22.0}
-1619700576611,siggen/room2/rhum, {"time":485,"value":62.2}
-1619700576611,siggen/room1/rhum, {"time":485,"value":76.8}
-1619700576611,siggen/room2/temp, {"time":485,"value":23.7}
-1619700576611,siggen/room1/temp, {"time":485,"value":22.5}
-1619700577612,siggen/room1/rhum, {"time":486,"value":84.9}
-1619700577612,siggen/room2/temp, {"time":486,"value":22.0}
-1619700577612,siggen/room2/rhum, {"time":486,"value":68.1}
-1619700577612,sigge
+1619722288705,make[1]: Entering directory '/home/rj/privat/sdu/iot/simple-java-test-harness/src/pipeline'
+1619722288743,java -classpath ".:org.eclipse.paho.client.mqttv3-1.2.5.jar:json-20140107.jar" MqttSignalGenerator
+1619722289350,OUT,siggen/room1/temp,0
+1619722289350,OUT,siggen/room1/rhum,0
+1619722289350,OUT,siggen/room2/rhum,0
+1619722289350,OUT,siggen/room2/temp,0
+1619722290351,OUT,siggen/room1/temp,1
+1619722290351,OUT,siggen/room2/rhum,1
+1619722290351,OUT,siggen/room2/temp,1
+1619722290351,OUT,siggen/room1/rhum,1
+1619722291352,OUT,siggen/room1/temp,2
+1619722291352,OUT,siggen/room1/rhum,2
+1619722291352,OUT,siggen/room2/rhum,2
+1619722291352,OUT,siggen/room2/temp,2
+1619722292353,OUT,siggen/room1/temp,3
+1619722292353,OUT,siggen/room2/temp,3
+1619722292353,OUT,siggen/room1/rhum,3
+1619722292353,OUT,siggen/room2/rhum,3
+1619722293354,OUT,siggen/room2/temp,4
+1619722293354,OUT,siggen/room1/rhum,4
+1619722293354,OUT,siggen/room2/rhum,4
+1619722293354,OUT,siggen/room1/temp,4
+1619722294356,OUT,siggen/room1/temp,5
+1619722294356,OUT,siggen/room1/rhum,5
+1619722294356,OUT,siggen/room2/rhum,5
+1619722294356,OUT,siggen/room2/temp,5
+1619722295357,OUT,siggen/room1/temp,6
+1619722295357,OUT,siggen/room1/rhum,6
+1619722295357,OUT,siggen/room2/rhum,6
+1619722295357,OUT,siggen/room2/temp,6
+1619722296358,OUT,siggen/room1/temp,7
+1619722296358,OUT,siggen/room1/rhum,7
+1619722296358,OUT,siggen/room2/rhum,7
+1619722296358,OUT,siggen/room2/temp,7
+1619722297368,OUT,siggen/room2/rhum,8
+1619722297368,OUT,siggen/room2/temp,8
+1619722297368,OUT,siggen/room1/temp,8
+1619722297368,OUT,siggen/room1/rhum,8
+1619722298361,OUT,siggen/room2/temp,9
+1619722298361,OUT,siggen/room2/rhum,9
+1619722298361,OUT,siggen/room1/rhum,9
+1619722298361,OUT,siggen/room1/temp,9
+1619722299362,OUT,siggen/room2/temp,10
+1619722299362,OUT,siggen/room1/rhum,10
+1619722299362,OUT,siggen/room1/temp,10
+1619722299363,OUT,siggen/room2/rhum,10
+1619722300364,OUT,siggen/room1/rhum,11
+1619722300364,OUT,siggen/room2/rhum,11
+1619722300364,OUT,siggen/room1/temp,11
+1619722300364,OUT,siggen/room2/temp,11
+1619722301364,OUT,siggen/room2/rhum,12
+1619722301365,OUT,siggen/room1/rhum,12
+1619722301365,OUT,siggen/room2/temp,12
+1619722301365,OUT,siggen/room1/temp,12
+1619722302366,OUT,siggen/room2/temp,13
+1619722302366,OUT,siggen/room1/temp,13
+1619722302366,OUT,siggen/room2/rhum,13
+1619722302367,OUT,siggen/room1/rhum,13
+1619722303368,OUT,siggen/room1/temp,14
+1619722303368,OUT,siggen/room2/temp,14
+1619722303368,OUT,siggen/room2/rhum,14
+1619722303368,OUT,siggen/room1/rhum,14
+1619722304369,OUT,siggen/room1/temp,15
+1619722304369,OUT,siggen/room2/temp,15
+1619722304369,OUT,siggen/room2/rhum,15
+1619722304370,OUT,siggen/room1/rhum,15
+1619722305370,OUT,siggen/room1/temp,16
+1619722305370,OUT,siggen/room2/temp,16
+1619722305371,OUT,siggen/room1/rhum,16
+1619722305371,OUT,siggen/room2/rhum,16
+1619722306372,OUT,siggen/room1/temp,17
+1619722306372,OUT,siggen/room2/temp,17
+1619722306373,OUT,siggen/room1/rhum,17
+1619722306373,OUT,siggen/room2/rhum,17
+1619722307374,OUT,siggen/room1/temp,18
+1619722307374,OUT,siggen/room2/temp,18
+1619722307374,OUT,siggen/room2/rhum,18
+1619722307374,OUT,siggen/room1/rhum,18
+1619722308375,OUT,siggen/room1/temp,19
+1619722308375,OUT,siggen/room1/rhum,19
+1619722308375,OUT,siggen/room2/temp,19
+1619722308375,OUT,siggen/room2/rhum,19
+1619722309376,OUT,siggen/room1/temp,20
+1619722309376,OUT,siggen/room2/temp,20
+1619722309376,OUT,siggen/room2/rhum,20
+1619722309376,OUT,siggen/room1/rhum,20
+1619722310376,OUT,siggen/room1/temp,21
+1619722310377,OUT,siggen/room2/temp,21
+1619722310377,OUT,siggen/room1/rhum,21
+1619722310377,OUT,siggen/room2/rhum,21
+1619722311377,OUT,siggen/room1/temp,22
+1619722311377,OUT,siggen/room1/rhum,22
+1619722311378,OUT,siggen/room2/rhum,22
+1619722311378,OUT,siggen/room2/temp,22
+1619722312378,OUT,siggen/room1/temp,23
+1619722312378,OUT,siggen/room1/rhum,23
+1619722312378,OUT,siggen/room2/temp,23
+1619722312378,OUT,siggen/room2/rhum,23
+1619722313379,OUT,siggen/room2/rhum,24
+1619722313379,OUT,siggen/room1/temp,24
+1619722313379,OUT,siggen/room1/rhum,24
+1619722313379,OUT,siggen/room2/temp,24
+1619722314381,OUT,siggen/room2/temp,25
+1619722314381,OUT,siggen/room1/temp,25
+1619722314381,OUT,siggen/room2/rhum,25
+1619722314382,OUT,siggen/room1/rhum,25
+1619722315382,OUT,siggen/room2/temp,26
+1619722315382,OUT,siggen/room1/temp,26
+1619722315382,OUT,siggen/room2/rhum,26
+1619722315382,OUT,siggen/room1/rhum,26
+1619722316383,OUT,siggen/room1/temp,27
+1619722316383,OUT,siggen/room2/temp,27
+1619722316383,OUT,siggen/room1/rhum,27
+1619722316384,OUT,siggen/room2/rhum,27
+1619722317385,OUT,siggen/room2/temp,28
+1619722317385,OUT,siggen/room1/rhum,28
+1619722317385,OUT,siggen/room2/rhum,28
+1619722317385,OUT,siggen/room1/temp,28
+1619722318386,OUT,siggen/room2/temp,29
+1619722318387,OUT,siggen/room1/rhum,29
+1619722318387,OUT,siggen/room1/temp,29
+1619722318387,OUT,siggen/room2/rhum,29
+1619722319388,OUT,siggen/room2/temp,30
+1619722319388,OUT,siggen/room1/rhum,30
+1619722319388,OUT,siggen/room1/temp,30
+1619722319388,OUT,siggen/room2/rhum,30
+1619722320388,OUT,siggen/room2/temp,31
+1619722320389,OUT,siggen/room1/rhum,31
+1619722320389,OUT,siggen/room1/temp,31
+1619722320389,OUT,siggen/room2/rhum,31
+1619722321390,OUT,siggen/room2/rhum,32
+1619722321390,OUT,siggen/room2/temp,32
+1619722321390,OUT,siggen/room1/temp,32
+1619722321391,OUT,siggen/room1/rhum,32
+1619722322391,OUT,siggen/room2/temp,33
+1619722322391,OUT,siggen/room1/temp,33
+1619722322391,OUT,siggen/room2/rhum,33
+1619722322391,OUT,siggen/room1/rhum,33
+1619722323392,OUT,siggen/room2/temp,34
+1619722323392,OUT,siggen/room1/rhum,34
+1619722323392,OUT,siggen/room1/temp,34
+1619722323392,OUT,siggen/room2/rhum,34
+1619722324394,OUT,siggen/room1/temp,35
+1619722324394,OUT,siggen/room2/temp,35
+1619722324394,OUT,siggen/room2/rhum,35
+1619722324394,OUT,siggen/room1/rhum,35
+1619722325395,OUT,siggen/room1/temp,36
+1619722325395,OUT,siggen/room2/temp,36
+1619722325395,OUT,siggen/room1/rhum,36
+1619722325395,OUT,siggen/room2/rhum,36
+1619722326396,OUT,siggen/room1/temp,37
+1619722326396,OUT,siggen/room2/temp,37
+1619722326397,OUT,siggen/room1/rhum,37
+1619722326397,OUT,siggen/room2/rhum,37
+1619722327398,OUT,siggen/room2/temp,38
+1619722327398,OUT,siggen/room2/rhum,38
+1619722327398,OUT,siggen/room1/rhum,38
+1619722327398,OUT,siggen/room1/temp,38
+1619722328399,OUT,siggen/room2/temp,39
+1619722328399,OUT,siggen/room1/rhum,39
+1619722328399,OUT,siggen/room2/rhum,39
+1619722328399,OUT,siggen/room1/temp,39
+1619722329401,OUT,siggen/room2/rhum,40
+1619722329401,OUT,siggen/room2/temp,40
+1619722329401,OUT,siggen/room1/rhum,40
+1619722329401,OUT,siggen/room1/temp,40
+1619722330402,OUT,siggen/room1/rhum,41
+1619722330402,OUT,siggen/room1/temp,41
+1619722330403,OUT,siggen/room2/temp,41
+1619722330403,OUT,siggen/room2/rhum,41
+1619722331404,OUT,siggen/room1/rhum,42
+1619722331404,OUT,siggen/room2/temp,42
+1619722331404,OUT,siggen/room2/rhum,42
+1619722331404,OUT,siggen/room1/temp,42
+1619722332405,OUT,siggen/room2/rhum,43
+1619722332405,OUT,siggen/room2/temp,43
+1619722332405,OUT,siggen/room1/rhum,43
+1619722332405,OUT,siggen/room1/temp,43
+1619722333406,OUT,siggen/room2/temp,44
+1619722333406,OUT,siggen/room1/temp,44
+1619722333406,OUT,siggen/room2/rhum,44
+1619722333406,OUT,siggen/room1/rhum,44
+1619722334409,OUT,siggen/room1/temp,45
+1619722334409,OUT,siggen/room2/rhum,45
+1619722334409,OUT,siggen/room1/rhum,45
+1619722334409,OUT,siggen/room2/temp,45
+1619722335408,OUT,siggen/room1/rhum,46
+1619722335408,OUT,siggen/room2/temp,46
+1619722335408,OUT,siggen/room1/temp,46
+1619722335408,OUT,siggen/room2/rhum,46
+1619722336410,OUT,siggen/room1/temp,47
+1619722336410,OUT,siggen/room2/rhum,47
+1619722336410,OUT,siggen/room1/rhum,47
+1619722336410,OUT,siggen/room2/temp,47
+1619722337411,OUT,siggen/room1/temp,48
+1619722337411,OUT,siggen/room2/rhum,48
+1619722337411,OUT,siggen/room1/rhum,48
+1619722337411,OUT,siggen/room2/temp,48
+1619722338412,OUT,siggen/room1/temp,49
+1619722338412,OUT,siggen/room2/rhum,49
+1619722338413,OUT,siggen/room1/rhum,49
+1619722338413,OUT,siggen/room2/temp,49
+1619722339413,OUT,siggen/room2/rhum,50
+1619722339413,OUT,siggen/room1/temp,50
+1619722339413,OUT,siggen/room1/rhum,50
+1619722339413,OUT,siggen/room2/temp,50
+1619722340414,OUT,siggen/room1/temp,51
+1619722340414,OUT,siggen/room2/rhum,51
+1619722340414,OUT,siggen/room1/rhum,51
+1619722340414,OUT,siggen/room2/temp,51
+1619722341415,OUT,siggen/room1/temp,52
+1619722341415,OUT,siggen/room2/temp,52
+1619722341415,OUT,siggen/room2/rhum,52
+1619722341415,OUT,siggen/room1/rhum,52
+1619722342415,OUT,siggen/room2/temp,53
+1619722342415,OUT,siggen/room1/rhum,53
+1619722342416,OUT,siggen/room1/temp,53
+1619722342416,OUT,siggen/room2/rhum,53
+1619722343416,OUT,siggen/room1/temp,54
+1619722343416,OUT,siggen/room2/rhum,54
+1619722343416,OUT,siggen/room1/rhum,54
+1619722343417,OUT,siggen/room2/temp,54
+1619722344417,OUT,siggen/room2/rhum,55
+1619722344417,OUT,siggen/room1/rhum,55
+1619722344417,OUT,siggen/room1/temp,55
+1619722344417,OUT,siggen/room2/temp,55
+1619722345418,OUT,siggen/room1/temp,56
+1619722345418,OUT,siggen/room2/temp,56
+1619722345418,OUT,siggen/room1/rhum,56
+1619722345418,OUT,siggen/room2/rhum,56
+1619722346419,OUT,siggen/room2/temp,57
+1619722346419,OUT,siggen/room1/rhum,57
+1619722346419,OUT,siggen/room1/temp,57
+1619722346419,OUT,siggen/room2/rhum,57
+1619722347420,OUT,siggen/room2/temp,58
+1619722347420,OUT,siggen/room1/rhum,58
+1619722347420,OUT,siggen/room2/rhum,58
+1619722347420,OUT,siggen/room1/temp,58
+1619722348421,OUT,siggen/room2/temp,59
+1619722348421,OUT,siggen/room1/rhum,59
+1619722348421,OUT,siggen/room1/temp,59
+1619722348421,OUT,siggen/room2/rhum,59
+1619722349422,OUT,siggen/room1/temp,60
+1619722349422,OUT,siggen/room2/temp,60
+1619722349422,OUT,siggen/room2/rhum,60
+1619722349422,OUT,siggen/room1/rhum,60
+1619722350423,OUT,siggen/room2/temp,61
+1619722350423,OUT,siggen/room2/rhum,61
+1619722350423,OUT,siggen/room1/rhum,61
+1619722350424,OUT,siggen/room1/temp,61
+1619722351425,OUT,siggen/room1/temp,62
+1619722351425,OUT,siggen/room2/temp,62
+1619722351425,OUT,siggen/room1/rhum,62
+1619722351425,OUT,siggen/room2/rhum,62
+1619722352426,OUT,siggen/room1/temp,63
+1619722352426,OUT,siggen/room1/rhum,63
+1619722352426,OUT,siggen/room2/rhum,63
+1619722352427,OUT,siggen/room2/temp,63
+1619722353428,OUT,siggen/room2/rhum,64
+1619722353428,OUT,siggen/room1/rhum,64
+1619722353428,OUT,siggen/room1/temp,64
+1619722353428,OUT,siggen/room2/temp,64
+1619722354429,OUT,siggen/room1/temp,65
+1619722354429,OUT,siggen/room2/temp,65
+1619722354429,OUT,siggen/room1/rhum,65
+1619722354429,OUT,siggen/room2/rhum,65
+1619722355430,OUT,siggen/room2/temp,66
+1619722355430,OUT,siggen/room1/temp,66
+1619722355430,OUT,siggen/room1/rhum,66
+1619722355430,OUT,siggen/room2/rhum,66
+1619722356431,OUT,siggen/room1/temp,67
+1619722356431,OUT,siggen/room2/rhum,67
+1619722356432,OUT,siggen/room1/rhum,67
+1619722356432,OUT,siggen/room2/temp,67
+1619722357432,OUT,siggen/room1/temp,68
+1619722357432,OUT,siggen/room2/rhum,68
+1619722357432,OUT,siggen/room2/temp,68
+1619722357432,OUT,siggen/room1/rhum,68
+1619722358433,OUT,siggen/room2/rhum,69
+1619722358433,OUT,siggen/room1/rhum,69
+1619722358433,OUT,siggen/room1/temp,69
+1619722358434,OUT,siggen/room2/temp,69
+1619722359435,OUT,siggen/room1/temp,70
+1619722359435,OUT,siggen/room1/rhum,70
+1619722359435,OUT,siggen/room2/rhum,70
+1619722359435,OUT,siggen/room2/temp,70
+1619722360435,OUT,siggen/room1/rhum,71
+1619722360435,OUT,siggen/room2/rhum,71
+1619722360435,OUT,siggen/room1/temp,71
+1619722360435,OUT,siggen/room2/temp,71
+1619722361436,OUT,siggen/room2/temp,72
+1619722361436,OUT,siggen/room1/temp,72
+1619722361436,OUT,siggen/room1/rhum,72
+1619722361436,OUT,siggen/room2/rhum,72
+1619722362437,OUT,siggen/room1/temp,73
+1619722362437,OUT,siggen/room2/rhum,73
+1619722362437,OUT,siggen/room1/rhum,73
+1619722362437,OUT,siggen/room2/temp,73
+1619722363438,OUT,siggen/room1/temp,74
+1619722363438,OUT,siggen/room1/rhum,74
+1619722363438,OUT,siggen/room2/rhum,74
+1619722363438,OUT,siggen/room2/temp,74
+1619722364439,OUT,siggen/room1/temp,75
+1619722364439,OUT,siggen/room1/rhum,75
+1619722364439,OUT,siggen/room2/rhum,75
+1619722364439,OUT,siggen/room2/temp,75
+1619722365440,OUT,siggen/room1/temp,76
+1619722365440,OUT,siggen/room1/rhum,76
+1619722365440,OUT,siggen/room2/temp,76
+1619722365440,OUT,siggen/room2/rhum,76
+1619722366441,OUT,siggen/room1/temp,77
+1619722366441,OUT,siggen/room1/rhum,77
+1619722366441,OUT,siggen/room2/temp,77
+1619722366441,OUT,siggen/room2/rhum,77
+1619722367442,OUT,siggen/room1/temp,78
+1619722367442,OUT,siggen/room2/rhum,78
+1619722367442,OUT,siggen/room1/rhum,78
+1619722367442,OUT,siggen/room2/temp,78
+1619722368442,OUT,siggen/room1/temp,79
+1619722368442,OUT,siggen/room2/rhum,79
+1619722368442,OUT,siggen/room2/temp,79
+1619722368442,OUT,siggen/room1/rhum,79
+1619722369443,OUT,siggen/room2/temp,80
+1619722369443,OUT,siggen/room1/rhum,80
+1619722369443,OUT,siggen/room2/rhum,80
+1619722369443,OUT,siggen/room1/temp,80
+1619722370444,OUT,siggen/room1/temp,81
+1619722370444,OUT,siggen/room2/rhum,81
+1619722370444,OUT,siggen/room2/temp,81
+1619722370444,OUT,siggen/room1/rhum,81
+1619722371444,OUT,siggen/room1/temp,82
+1619722371445,OUT,siggen/room2/temp,82
+1619722371445,OUT,siggen/room1/rhum,82
+1619722371445,OUT,siggen/room2/rhum,82
+1619722372446,OUT,siggen/room2/rhum,83
+1619722372446,OUT,siggen/room2/temp,83
+1619722372447,OUT,siggen/room1/rhum,83
+1619722372447,OUT,siggen/room1/temp,83
+1619722373447,OUT,siggen/room2/rhum,84
+1619722373447,OUT,siggen/room2/temp,84
+1619722373447,OUT,siggen/room1/temp,84
+1619722373447,OUT,siggen/room1/rhum,84
+1619722374448,OUT,siggen/room1/temp,85
+1619722374449,OUT,siggen/room2/temp,85
+1619722374449,OUT,siggen/room2/rhum,85
+1619722374449,OUT,siggen/room1/rhum,85
+1619722375450,OUT,siggen/room2/temp,86
+1619722375450,OUT,siggen/room1/temp,86
+1619722375450,OUT,siggen/room2/rhum,86
+1619722375450,OUT,siggen/room1/rhum,86
+1619722376451,OUT,siggen/room2/temp,87
+1619722376451,OUT,siggen/room1/temp,87
+1619722376451,OUT,siggen/room2/rhum,87
+1619722376451,OUT,siggen/room1/rhum,87
+1619722377451,OUT,siggen/room1/temp,88
+1619722377451,OUT,siggen/room2/temp,88
+1619722377451,OUT,siggen/room2/rhum,88
+1619722377451,OUT,siggen/room1/rhum,88
+1619722378452,OUT,siggen/room1/temp,89
+1619722378452,OUT,siggen/room1/rhum,89
+1619722378452,OUT,siggen/room2/rhum,89
+1619722378452,OUT,siggen/room2/temp,89
+1619722379453,OUT,siggen/room1/temp,90
+1619722379453,OUT,siggen/room2/temp,90
+1619722379453,OUT,siggen/room2/rhum,90
+1619722379453,OUT,siggen/room1/rhum,90
+1619722380454,OUT,siggen/room2/temp,91
+1619722380454,OUT,siggen/room1/rhum,91
+1619722380454,OUT,siggen/room2/rhum,91
+1619722380454,OUT,siggen/room1/temp,91
+1619722381454,OUT,siggen/room2/temp,92
+1619722381455,OUT,siggen/room1/temp,92
+1619722381455,OUT,siggen/room1/rhum,92
+1619722381455,OUT,siggen/room2/rhum,92
+1619722382456,OUT,siggen/room2/temp,93
+1619722382456,OUT,siggen/room1/temp,93
+1619722382456,OUT,siggen/room2/rhum,93
+1619722382456,OUT,siggen/room1/rhum,93
+1619722383457,OUT,siggen/room1/temp,94
+1619722383457,OUT,siggen/room2/temp,94
+1619722383457,OUT,siggen/room1/rhum,94
+1619722383457,OUT,siggen/room2/rhum,94
+1619722384457,OUT,siggen/room1/temp,95
+1619722384458,OUT,siggen/room2/temp,95
+1619722384458,OUT,siggen/room1/rhum,95
+1619722384458,OUT,siggen/room2/rhum,95
+1619722385458,OUT,siggen/room1/temp,96
+1619722385458,OUT,siggen/room1/rhum,96
+1619722385458,OUT,siggen/room2/temp,96
+1619722385458,OUT,siggen/room2/rhum,96
+1619722386460,OUT,siggen/room1/temp,97
+1619722386460,OUT,siggen/room2/temp,97
+1619722386460,OUT,siggen/room1/rhum,97
+1619722386460,OUT,siggen/room2/rhum,97
+1619722387461,OUT,siggen/room2/temp,98
+1619722387461,OUT,siggen/room1/rhum,98
+1619722387461,OUT,siggen/room1/temp,98
+1619722387461,OUT,siggen/room2/rhum,98
+1619722388462,OUT,siggen/room2/temp,99
+1619722388462,OUT,siggen/room1/temp,99
+1619722388462,OUT,siggen/room2/rhum,99
+1619722388462,OUT,siggen/room1/rhum,99
+1619722389463,OUT,siggen/room2/rhum,100
+1619722389463,OUT,siggen/room1/rhum,100
+1619722389463,OUT,siggen/room1/temp,100
+1619722389463,OUT,siggen/room2/temp,100
+1619722390464,OUT,siggen/room1/temp,101
+1619722390464,OUT,siggen/room2/temp,101
+1619722390464,OUT,siggen/room2/rhum,101
+1619722390464,OUT,siggen/room1/rhum,101
+1619722391465,OUT,siggen/room1/temp,102
+1619722391465,OUT,siggen/room2/temp,102
+1619722391465,OUT,siggen/room2/rhum,102
+1619722391465,OUT,siggen/room1/rhum,102
+1619722392466,OUT,siggen/room1/temp,103
+1619722392466,OUT,siggen/room2/temp,103
+1619722392466,OUT,siggen/room2/rhum,103
+1619722392466,OUT,siggen/room1/rhum,103
+1619722393466,OUT,siggen/room1/temp,104
+1619722393466,OUT,siggen/room2/temp,104
+1619722393466,OUT,siggen/room2/rhum,104
+1619722393467,OUT,siggen/room1/rhum,104
+1619722394468,OUT,siggen/room2/temp,105
+1619722394468,OUT,siggen/room1/temp,105
+1619722394468,OUT,siggen/room1/rhum,105
+1619722394468,OUT,siggen/room2/rhum,105
+1619722395468,OUT,siggen/room1/temp,106
+1619722395468,OUT,siggen/room2/temp,106
+1619722395469,OUT,siggen/room2/rhum,106
+1619722395469,OUT,siggen/room1/rhum,106
+1619722396469,OUT,siggen/room1/temp,107
+1619722396469,OUT,siggen/room2/temp,107
+1619722396469,OUT,siggen/room1/rhum,107
+1619722396469,OUT,siggen/room2/rhum,107
+1619722397470,OUT,siggen/room1/temp,108
+1619722397470,OUT,siggen/room2/temp,108
+1619722397470,OUT,siggen/room2/rhum,108
+1619722397470,OUT,siggen/room1/rhum,108
+1619722398471,OUT,siggen/room1/temp,109
+1619722398471,OUT,siggen/room1/rhum,109
+1619722398471,OUT,siggen/room2/rhum,109
+1619722398471,OUT,siggen/room2/temp,109
+1619722399472,OUT,siggen/room1/rhum,110
+1619722399472,OUT,siggen/room1/temp,110
+1619722399472,OUT,siggen/room2/temp,110
+1619722399472,OUT,siggen/room2/rhum,110
+1619722400472,OUT,siggen/room1/temp,111
+1619722400472,OUT,siggen/room2/rhum,111
+1619722400473,OUT,siggen/room2/temp,111
+1619722400473,OUT,siggen/room1/rhum,111
+1619722401473,OUT,siggen/room1/temp,112
+1619722401473,OUT,siggen/room2/temp,112
+1619722401473,OUT,siggen/room2/rhum,112
+1619722401473,OUT,siggen/room1/rhum,112
+1619722402474,OUT,siggen/room1/temp,113
+1619722402474,OUT,siggen/room1/rhum,113
+1619722402474,OUT,siggen/room2/rhum,113
+1619722402474,OUT,siggen/room2/temp,113
+1619722403475,OUT,siggen/room1/temp,114
+1619722403475,OUT,siggen/room1/rhum,114
+1619722403475,OUT,siggen/room2/temp,114
+1619722403475,OUT,siggen/room2/rhum,114
+1619722404475,OUT,siggen/room1/temp,115
+1619722404475,OUT,siggen/room2/temp,115
+1619722404475,OUT,siggen/room1/rhum,115
+1619722404476,OUT,siggen/room2/rhum,115
+1619722405477,OUT,siggen/room1/temp,116
+1619722405477,OUT,siggen/room2/temp,116
+1619722405477,OUT,siggen/room2/rhum,116
+1619722405477,OUT,siggen/room1/rhum,116
+1619722406478,OUT,siggen/room1/temp,117
+1619722406478,OUT,siggen/room2/temp,117
+1619722406478,OUT,siggen/room2/rhum,117
+1619722406478,OUT,siggen/room1/rhum,117
+1619722407478,OUT,siggen/room1/temp,118
+1619722407478,OUT,siggen/room2/temp,118
+1619722407478,OUT,siggen/room2/rhum,118
+1619722407478,OUT,siggen/room1/rhum,118
+1619722408479,OUT,siggen/room1/temp,119
+1619722408479,OUT,siggen/room2/rhum,119
+1619722408479,OUT,siggen/room2/temp,119
+1619722408479,OUT,siggen/room1/rhum,119
+1619722409480,OUT,siggen/room1/temp,120
+1619722409480,OUT,siggen/room2/temp,120
+1619722409481,OUT,siggen/room2/rhum,120
+1619722409481,OUT,siggen/room1/rhum,120
+1619722410481,OUT,siggen/room2/temp,121
+1619722410481,OUT,siggen/room1/temp,121
+1619722410481,OUT,siggen/room2/rhum,121
+1619722410481,OUT,siggen/room1/rhum,121
+1619722411482,OUT,siggen/room1/rhum,122
+1619722411482,OUT,siggen/room2/rhum,122
+1619722411482,OUT,siggen/room1/temp,122
+1619722411482,OUT,siggen/room2/temp,122
+1619722412483,OUT,siggen/room2/temp,123
+1619722412483,OUT,siggen/room1/temp,123
+1619722412483,OUT,siggen/room2/rhum,123
+1619722412483,OUT,siggen/room1/rhum,123
+1619722413484,OUT,siggen/room2/rhum,124
+1619722413484,OUT,siggen/room1/temp,124
+1619722413484,OUT,siggen/room1/rhum,124
+1619722413484,OUT,siggen/room2/temp,124
+1619722414485,OUT,siggen/room2/temp,125
+1619722414485,OUT,siggen/room2/rhum,125
+1619722414485,OUT,siggen/room1/rhum,125
+1619722414485,OUT,siggen/room1/temp,125
+1619722415486,OUT,siggen/room1/temp,126
+1619722415486,OUT,siggen/room2/temp,126
+1619722415486,OUT,siggen/room1/rhum,126
+1619722415486,OUT,siggen/room2/rhum,126
+1619722416486,OUT,siggen/room2/temp,127
+1619722416486,OUT,siggen/room1/temp,127
+1619722416486,OUT,siggen/room2/rhum,127
+1619722416486,OUT,siggen/room1/rhum,127
+1619722417487,OUT,siggen/room1/temp,128
+1619722417487,OUT,siggen/room2/temp,128
+1619722417487,OUT,siggen/room2/rhum,128
+1619722417488,OUT,siggen/room1/rhum,128
+1619722418488,OUT,siggen/room1/temp,129
+1619722418488,OUT,siggen/room1/rhum,129
+1619722418488,OUT,siggen/room2/temp,129
+1619722418489,OUT,siggen/room2/rhum,129
+1619722419489,OUT,siggen/room2/temp,130
+1619722419489,OUT,siggen/room2/rhum,130
+1619722419489,OUT,siggen/room1/temp,130
+1619722419489,OUT,siggen/room1/rhum,130
+1619722420490,OUT,siggen/room1/temp,131
+1619722420490,OUT,siggen/room2/rhum,131
+1619722420490,OUT,siggen/room1/rhum,131
+1619722420490,OUT,siggen/room2/temp,131
+1619722421491,OUT,siggen/room1/temp,132
+1619722421491,OUT,siggen/room2/rhum,132
+1619722421491,OUT,siggen/room2/temp,132
+1619722421491,OUT,siggen/room1/rhum,132
+1619722422492,OUT,siggen/room1/temp,133
+1619722422492,OUT,siggen/room2/temp,133
+1619722422492,OUT,siggen/room2/rhum,133
+1619722422493,OUT,siggen/room1/rhum,133
+1619722423493,OUT,siggen/room1/temp,134
+1619722423493,OUT,siggen/room2/rhum,134
+1619722423493,OUT,siggen/room2/temp,134
+1619722423493,OUT,siggen/room1/rhum,134
+1619722424494,OUT,siggen/room1/temp,135
+1619722424494,OUT,siggen/room2/temp,135
+1619722424494,OUT,siggen/room2/rhum,135
+1619722424495,OUT,siggen/room1/rhum,135
+1619722425495,OUT,siggen/room1/temp,136
+1619722425495,OUT,siggen/room2/temp,136
+1619722425495,OUT,siggen/room1/rhum,136
+1619722425495,OUT,siggen/room2/rhum,136
+1619722426496,OUT,siggen/room1/temp,137
+1619722426496,OUT,siggen/room2/rhum,137
+1619722426496,OUT,siggen/room1/rhum,137
+1619722426496,OUT,siggen/room2/temp,137
+1619722427497,OUT,siggen/room1/temp,138
+1619722427497,OUT,siggen/room2/temp,138
+1619722427497,OUT,siggen/room2/rhum,138
+1619722427497,OUT,siggen/room1/rhum,138
+1619722428498,OUT,siggen/room1/temp,139
+1619722428498,OUT,siggen/room2/temp,139
+1619722428498,OUT,siggen/room2/rhum,139
+1619722428498,OUT,siggen/room1/rhum,139
+1619722429499,OUT,siggen/room1/temp,140
+1619722429499,OUT,siggen/room2/temp,140
+1619722429499,OUT,siggen/room2/rhum,140
+1619722429499,OUT,siggen/room1/rhum,140
+1619722430500,OUT,siggen/room1/temp,141
+1619722430500,OUT,siggen/room2/temp,141
+1619722430500,OUT,siggen/room2/rhum,141
+1619722430500,OUT,siggen/room1/rhum,141
+1619722431501,OUT,siggen/room2/temp,142
+1619722431501,OUT,siggen/room2/rhum,142
+1619722431501,OUT,siggen/room1/temp,142
+1619722431501,OUT,siggen/room1/rhum,142
+1619722432502,OUT,siggen/room1/temp,143
+1619722432502,OUT,siggen/room2/temp,143
+1619722432502,OUT,siggen/room2/rhum,143
+1619722432503,OUT,siggen/room1/rhum,143
+1619722433503,OUT,siggen/room1/temp,144
+1619722433503,OUT,siggen/room1/rhum,144
+1619722433503,OUT,siggen/room2/temp,144
+1619722433503,OUT,siggen/room2/rhum,144
+1619722434504,OUT,siggen/room2/temp,145
+1619722434504,OUT,siggen/room1/temp,145
+1619722434504,OUT,siggen/room1/rhum,145
+1619722434504,OUT,siggen/room2/rhum,145
+1619722435505,OUT,siggen/room1/temp,146
+1619722435505,OUT,siggen/room2/temp,146
+1619722435505,OUT,siggen/room2/rhum,146
+1619722435505,OUT,siggen/room1/rhum,146
+1619722436505,OUT,siggen/room2/temp,147
+1619722436505,OUT,siggen/room2/rhum,147
+1619722436505,OUT,siggen/room1/temp,147
+1619722436505,OUT,siggen/room1/rhum,147
+1619722437506,OUT,siggen/room1/temp,148
+1619722437506,OUT,siggen/room2/temp,148
+1619722437506,OUT,siggen/room1/rhum,148
+1619722437506,OUT,siggen/room2/rhum,148
+1619722438507,OUT,siggen/room1/temp,149
+1619722438507,OUT,siggen/room2/temp,149
+1619722438508,OUT,siggen/room1/rhum,149
+1619722438508,OUT,siggen/room2/rhum,149
+1619722439509,OUT,siggen/room1/temp,150
+1619722439509,OUT,siggen/room2/temp,150
+1619722439509,OUT,siggen/room1/rhum,150
+1619722439509,OUT,siggen/room2/rhum,150
+1619722440510,OUT,siggen/room1/temp,151
+1619722440510,OUT,siggen/room1/rhum,151
+1619722440510,OUT,siggen/room2/temp,151
+1619722440510,OUT,siggen/room2/rhum,151
+1619722441511,OUT,siggen/room2/temp,152
+1619722441511,OUT,siggen/room1/temp,152
+1619722441511,OUT,siggen/room1/rhum,152
+1619722441511,OUT,siggen/room2/rhum,152
+1619722442511,OUT,siggen/room1/temp,153
+1619722442511,OUT,siggen/room1/rhum,153
+1619722442511,OUT,siggen/room2/temp,153
+1619722442511,OUT,siggen/room2/rhum,153
+1619722443512,OUT,siggen/room1/temp,154
+1619722443513,OUT,siggen/room2/temp,154
+1619722443513,OUT,siggen/room2/rhum,154
+1619722443513,OUT,siggen/room1/rhum,154
+1619722444513,OUT,siggen/room1/temp,155
+1619722444513,OUT,siggen/room2/rhum,155
+1619722444513,OUT,siggen/room2/temp,155
+1619722444514,OUT,siggen/room1/rhum,155
+1619722445514,OUT,siggen/room2/temp,156
+1619722445514,OUT,siggen/room1/temp,156
+1619722445514,OUT,siggen/room2/rhum,156
+1619722445515,OUT,siggen/room1/rhum,156
+1619722446515,OUT,siggen/room1/temp,157
+1619722446515,OUT,siggen/room1/rhum,157
+1619722446515,OUT,siggen/room2/rhum,157
+1619722446516,OUT,siggen/room2/temp,157
+1619722447517,OUT,siggen/room1/temp,158
+1619722447517,OUT,siggen/room2/temp,158
+1619722447517,OUT,siggen/room1/rhum,158
+1619722447517,OUT,siggen/room2/rhum,158
+1619722448518,OUT,siggen/room2/rhum,159
+1619722448518,OUT,siggen/room1/rhum,159
+1619722448518,OUT,siggen/room1/temp,159
+1619722448518,OUT,siggen/room2/temp,159
+1619722449518,OUT,siggen/room1/temp,160
+1619722449518,OUT,siggen/room2/temp,160
+1619722449518,OUT,siggen/room1/rhum,160
+1619722449518,OUT,siggen/room2/rhum,160
+1619722450519,OUT,siggen/room1/temp,161
+1619722450519,OUT,siggen/room2/rhum,161
+1619722450519,OUT,siggen/room1/rhum,161
+1619722450519,OUT,siggen/room2/temp,161
+1619722451520,OUT,siggen/room1/temp,162
+1619722451520,OUT,siggen/room2/temp,162
+1619722451520,OUT,siggen/room2/rhum,162
+1619722451520,OUT,siggen/room1/rhum,162
+1619722452521,OUT,siggen/room1/temp,163
+1619722452521,OUT,siggen/room1/rhum,163
+1619722452521,OUT,siggen/room2/temp,163
+1619722452521,OUT,siggen/room2/rhum,163
+1619722453522,OUT,siggen/room2/rhum,164
+1619722453522,OUT,siggen/room1/temp,164
+1619722453522,OUT,siggen/room2/temp,164
+1619722453522,OUT,siggen/room1/rhum,164
+1619722454523,OUT,siggen/room1/temp,165
+1619722454523,OUT,siggen/room2/rhum,165
+1619722454523,OUT,siggen/room2/temp,165
+1619722454523,OUT,siggen/room1/rhum,165
+1619722455524,OUT,siggen/room1/temp,166
+1619722455524,OUT,siggen/room2/temp,166
+1619722455524,OUT,siggen/room2/rhum,166
+1619722455524,OUT,siggen/room1/rhum,166
+1619722456524,OUT,siggen/room1/temp,167
+1619722456525,OUT,siggen/room2/rhum,167
+1619722456525,OUT,siggen/room1/rhum,167
+1619722456525,OUT,siggen/room2/temp,167
+1619722457525,OUT,siggen/room1/temp,168
+1619722457526,OUT,siggen/room2/temp,168
+1619722457526,OUT,siggen/room2/rhum,168
+1619722457526,OUT,siggen/room1/rhum,168
+1619722458526,OUT,siggen/room1/temp,169
+1619722458526,OUT,siggen/room2/rhum,169
+1619722458526,OUT,siggen/room1/rhum,169
+1619722458527,OUT,siggen/room2/temp,169
+1619722459560,OUT,siggen/room2/rhum,170
+1619722459560,OUT,siggen/room2/temp,170
+1619722459560,OUT,siggen/room1/rhum,170
+1619722459560,OUT,siggen/room1/temp,170
+1619722460560,OUT,siggen/room2/temp,171
+1619722460560,OUT,siggen/room1/rhum,171
+1619722460561,OUT,siggen/room2/rhum,171
+1619722460561,OUT,siggen/room1/temp,171
+1619722461561,OUT,siggen/room2/rhum,172
+1619722461561,OUT,siggen/room1/temp,172
+1619722461561,OUT,siggen/room2/temp,172
+1619722461561,OUT,siggen/room1/rhum,172
+1619722462562,OUT,siggen/room1/temp,173
+1619722462562,OUT,siggen/room2/temp,173
+1619722462562,OUT,siggen/room2/rhum,173
+1619722462562,OUT,siggen/room1/rhum,173
+1619722463563,OUT,siggen/room2/temp,174
+1619722463563,OUT,siggen/room1/temp,174
+1619722463563,OUT,siggen/room1/rhum,174
+1619722463563,OUT,siggen/room2/rhum,174
+1619722464564,OUT,siggen/room1/temp,175
+1619722464564,OUT,siggen/room2/rhum,175
+1619722464564,OUT,siggen/room2/temp,175
+1619722464564,OUT,siggen/room1/rhum,175
+1619722465565,OUT,siggen/room1/temp,176
+1619722465565,OUT,siggen/room2/temp,176
+1619722465565,OUT,siggen/room1/rhum,176
+1619722465565,OUT,siggen/room2/rhum,176
+1619722466566,OUT,siggen/room1/temp,177
+1619722466566,OUT,siggen/room2/rhum,177
+1619722466566,OUT,siggen/room2/temp,177
+1619722466566,OUT,siggen/room1/rhum,177
+1619722467567,OUT,siggen/room1/temp,178
+1619722467567,OUT,siggen/room2/rhum,178
+1619722467567,OUT,siggen/room1/rhum,178
+1619722467567,OUT,siggen/room2/temp,178
+1619722468568,OUT,siggen/room1/temp,179
+1619722468568,OUT,siggen/room2/rhum,179
+1619722468568,OUT,siggen/room2/temp,179
+1619722468568,OUT,siggen/room1/rhum,179
+1619722469569,OUT,siggen/room2/rhum,180
+1619722469569,OUT,siggen/room2/temp,180
+1619722469569,OUT,siggen/room1/temp,180
+1619722469569,OUT,siggen/room1/rhum,180
+1619722470570,OUT,siggen/room2/temp,181
+1619722470570,OUT,siggen/room1/temp,181
+1619722470570,OUT,siggen/room1/rhum,181
+1619722470570,OUT,siggen/room2/rhum,181
+1619722471570,OUT,siggen/room1/rhum,182
+1619722471570,OUT,siggen/room1/temp,182
+1619722471570,OUT,siggen/room2/temp,182
+1619722471571,OUT,siggen/room2/rhum,182
+1619722472571,OUT,siggen/room1/temp,183
+1619722472571,OUT,siggen/room2/rhum,183
+1619722472571,OUT,siggen/room1/rhum,183
+1619722472571,OUT,siggen/room2/temp,183
+1619722473572,OUT,siggen/room2/rhum,184
+1619722473572,OUT,siggen/room1/temp,184
+1619722473572,OUT,siggen/room2/temp,184
+1619722473572,OUT,siggen/room1/rhum,184
+1619722474573,OUT,siggen/room1/temp,185
+1619722474573,OUT,siggen/room2/rhum,185
+1619722474573,OUT,siggen/room1/rhum,185
+1619722474573,OUT,siggen/room2/temp,185
+1619722475574,OUT,siggen/room2/rhum,186
+1619722475574,OUT,siggen/room1/temp,186
+1619722475574,OUT,siggen/room1/rhum,186
+1619722475574,OUT,siggen/room2/temp,186
+1619722476575,OUT,siggen/room1/temp,187
+1619722476575,OUT,siggen/room2/rhum,187
+1619722476575,OUT,siggen/room2/temp,187
+1619722476575,OUT,siggen/room1/rhum,187
+1619722477576,OUT,siggen/room1/temp,188
+1619722477576,OUT,siggen/room2/temp,188
+1619722477576,OUT,siggen/room2/rhum,188
+1619722477576,OUT,siggen/room1/rhum,188
+1619722478577,OUT,siggen/room2/rhum,189
+1619722478577,OUT,siggen/room1/rhum,189
+1619722478577,OUT,siggen/room1/temp,189
+1619722478577,OUT,siggen/room2/temp,189
+1619722479577,OUT,siggen/room2/temp,190
+1619722479578,OUT,siggen/room1/temp,190
+1619722479578,OUT,siggen/room2/rhum,190
+1619722479578,OUT,siggen/room1/rhum,190
+1619722480578,OUT,siggen/room1/temp,191
+1619722480578,OUT,siggen/room2/temp,191
+1619722480579,OUT,siggen/room1/rhum,191
+1619722480579,OUT,siggen/room2/rhum,191
+1619722481579,OUT,siggen/room1/temp,192
+1619722481579,OUT,siggen/room1/rhum,192
+1619722481579,OUT,siggen/room2/temp,192
+1619722481579,OUT,siggen/room2/rhum,192
+1619722482580,OUT,siggen/room1/temp,193
+1619722482581,OUT,siggen/room2/temp,193
+1619722482581,OUT,siggen/room2/rhum,193
+1619722482581,OUT,siggen/room1/rhum,193
+1619722483582,OUT,siggen/room2/rhum,194
+1619722483582,OUT,siggen/room1/temp,194
+1619722483582,OUT,siggen/room1/rhum,194
+1619722483582,OUT,siggen/room2/temp,194
+1619722484582,OUT,siggen/room2/rhum,195
+1619722484582,OUT,siggen/room1/temp,195
+1619722484582,OUT,siggen/room2/temp,195
+1619722484582,OUT,siggen/room1/rhum,195
+1619722485583,OUT,siggen/room1/temp,196
+1619722485583,OUT,siggen/room2/temp,196
+1619722485583,OUT,siggen/room2/rhum,196
+1619722485583,OUT,siggen/room1/rhum,196
+1619722486584,OUT,siggen/room1/temp,197
+1619722486584,OUT,siggen/room2/temp,197
+1619722486584,OUT,siggen/room2/rhum,197
+1619722486584,OUT,siggen/room1/rhum,197
+1619722487584,OUT,siggen/room1/temp,198
+1619722487584,OUT,siggen/room2/rhum,198
+1619722487584,OUT,siggen/room1/rhum,198
+1619722487584,OUT,siggen/room2/temp,198
+1619722488585,OUT,siggen/room1/temp,199
+1619722488585,OUT,siggen/room2/temp,199
+1619722488585,OUT,siggen/room1/rhum,199
+1619722488585,OUT,siggen/room2/rhum,199
+1619722489586,OUT,siggen/room1/temp,200
+1619722489586,OUT,siggen/room2/rhum,200
+1619722489586,OUT,siggen/room2/temp,200
+1619722489586,OUT,siggen/room1/rhum,200
+1619722490586,OUT,siggen/room1/temp,201
+1619722490586,OUT,siggen/room2/temp,201
+1619722490586,OUT,siggen/room1/rhum,201
+1619722490586,OUT,siggen/room2/rhum,201
+1619722491587,OUT,siggen/room1/temp,202
+1619722491587,OUT,siggen/room2/temp,202
+1619722491587,OUT,siggen/room2/rhum,202
+1619722491587,OUT,siggen/room1/rhum,202
+1619722492587,OUT,siggen/room2/temp,203
+1619722492587,OUT,siggen/room1/temp,203
+1619722492587,OUT,siggen/room1/rhum,203
+1619722492587,OUT,siggen/room2/rhum,203
+1619722493588,OUT,siggen/room2/rhum,204
+1619722493588,OUT,siggen/room1/rhum,204
+1619722493588,OUT,siggen/room2/temp,204
+1619722493588,OUT,siggen/room1/temp,204
+1619722494588,OUT,siggen/room1/temp,205
+1619722494588,OUT,siggen/room2/temp,205
+1619722494588,OUT,siggen/room2/rhum,205
+1619722494588,OUT,siggen/room1/rhum,205
+161972249558

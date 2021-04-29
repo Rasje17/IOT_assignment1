@@ -2,6 +2,7 @@ TARGETS = \
 	MqttFunc.class \
 	MqttMovingAverage.class \
 	MqttSignalGenerator.class \
+	Mqtt_Client.class\
 
 CP = -classpath ".:org.eclipse.paho.client.mqttv3-1.2.5.jar:json-20140107.jar"
 
@@ -29,6 +30,12 @@ MqttFunc.class: MqttFunc.java
 
 MqttFunc: MqttFunc.class
 	java ${CP} MqttFunc
+
+Mqtt_Client.class: Mqtt_Client.java
+	javac ${CP} Mqtt_Client.java
+
+Mqtt_Client: Mqtt_Client.class
+	java ${CP} Mqtt_Client
 
 MqttMovingAverage.class: MqttMovingAverage.java
 	javac ${CP} MqttMovingAverage.java

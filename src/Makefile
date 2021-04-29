@@ -44,6 +44,9 @@ TestHarness.mavg: ${TARGETS}
 TestHarness.func: ${TARGETS}
 	java ${CP} TestHarness run1_func make -C pipeline/ MqttFunc
 
+TestHarness.client: ${TARGETS}
+	java ${CP} TestHarness run1_client make -C pipeline/ Mqtt_Client
+
 TestHarness.mosquito_sub: ${TARGETS}
-	java ${CP} TestHarness run1_client mosquitto_sub -v -t 'siggen/+/+'
+	java ${CP} TestHarness run1_client mosquitto_sub -v -t 'ahum/+/+'
 

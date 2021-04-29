@@ -53,6 +53,7 @@ public class MqttSignalGenerator extends Thread {
                 double value = values[time%values.length][index];
                 String message = "{\"time\":"+time+",\"value\":"+value+"}";
                 tx(topic, message.getBytes());
+                System.out.println("OUT,"+topic + "," + time);
                 time += 1;
                 Thread.sleep(delay);
             }
@@ -66,7 +67,6 @@ public class MqttSignalGenerator extends Thread {
         message.setQos(qos);
         client.publish(topic, message);
         String s = new String(payload, java.nio.charset.StandardCharsets.UTF_8);
-        System.out.println(topic + ", " + s);
     }
     
     public static void main(String[] args) {

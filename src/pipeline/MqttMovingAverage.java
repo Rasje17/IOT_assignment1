@@ -40,9 +40,11 @@ public class MqttMovingAverage implements MqttCallback {
             String[] mavg_topic_parts = Arrays.copyOfRange(topic_parts, 1, topic_parts.length);
             String mavg_topic = "mavg/"+String.join("/", mavg_topic_parts);
             JSONObject jo = new JSONObject(new String(message.getPayload()));
-            double time  = jo.getDouble("time");
+            int time  = jo.getInt("time");
             double value = jo.getDouble("value");
             
+            System.out.println("IN,"+ topic + "," + time);System.out.println("IN,"+ topic + "," + time);
+
             // init
             if (!windows.containsKey(topic)) {
                 double[] window = new double[WINDOW_SIZE];
@@ -61,6 +63,7 @@ public class MqttMovingAverage implements MqttCallback {
             double sum = 0;
             for (int i=0 ; i<WINDOW_SIZE ; i++) sum += window[i];
             tx(mavg_topic, sample2json(time, sum/WINDOW_SIZE));
+            System.out.println("OUT,"+mavg_topic + "," + time);
         } catch (JSONException e) {
             System.out.println("Received exception in messageArrived: "+e);
         }
@@ -78,7 +81,6 @@ public class MqttMovingAverage implements MqttCallback {
         message.setQos(qos);
         client.publish(topic, message);
         String s = new String(payload, java.nio.charset.StandardCharsets.UTF_8);
-        System.out.println(topic + ", " + s);
     }
     
     public static void main(String[] args) throws MqttException, InterruptedException {

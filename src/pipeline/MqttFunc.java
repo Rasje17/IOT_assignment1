@@ -42,8 +42,10 @@ public class MqttFunc implements MqttCallback {
             String ahum_topic = "func/"+topic_parts[1]+"/ahum";
             
             JSONObject jo = new JSONObject(new String(message.getPayload()));
-            double time  = jo.getDouble("time");
+            int time  = jo.getInt("time");
             double value = jo.getDouble("value");
+
+            System.out.println("IN,"+ topic + "," + time);
             
             // init
             if (!temps.containsKey(temp_topic)) {
@@ -63,6 +65,7 @@ public class MqttFunc implements MqttCallback {
             // publish
             double ahum = calc_abs_hum(temps.get(temp_topic), rhums.get(rhum_topic));
             tx(ahum_topic, sample2json(time, ahum));
+            System.out.println("OUT,"+ahum_topic + "," + time);
         } catch (JSONException e) {
             System.out.println("Received exception in messageArrived: "+e);
         }
@@ -85,7 +88,6 @@ public class MqttFunc implements MqttCallback {
         message.setQos(qos);
         client.publish(topic, message);
         String s = new String(payload, java.nio.charset.StandardCharsets.UTF_8);
-        System.out.println(topic + ", " + s);
     }
     
     public static void main(String[] args) throws MqttException, InterruptedException {

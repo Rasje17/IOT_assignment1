@@ -1,0 +1,6 @@
+print methods
+    -add print statmemnts for subsrcibers
+    - modify print output
+        - add in for subscribers and out for pubs
+        - refracture autput to: "IN/OUT, topic, time(step)"
+create a client class to better format mosquitto_sub
