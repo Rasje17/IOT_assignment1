@@ -33,19 +33,19 @@ TestHarness.class: TestHarness.java
 	javac ${CP} TestHarness.java
 
 TestHarness: ${TARGETS}
-	java ${CP} TestHarness run42 make -C pipeline/ MqttSignalGenerator
+	java ${CP} TestHarness run43 make -C pipeline/ MqttSignalGenerator
 
 TestHarness.generator: ${TARGETS}
-	java ${CP} TestHarness delay5_gen make -C pipeline/ MqttSignalGenerator
+	java ${CP} TestHarness delay4_gen make -C pipeline/ MqttSignalGenerator
 
 TestHarness.mavg: ${TARGETS}
-	java ${CP} TestHarness delay5_mavg make -C pipeline/ MqttMovingAverage
+	java ${CP} TestHarness delay4_mavg make -C pipeline/ MqttMovingAverage
 
 TestHarness.func: ${TARGETS}
-	java ${CP} TestHarness delay5_func make -C pipeline/ MqttFunc
+	java ${CP} TestHarness delay4_func make -C pipeline/ MqttFunc
 
 TestHarness.client: ${TARGETS}
-	java ${CP} TestHarness delay5_client make -C pipeline/ Mqtt_Client
+	java ${CP} TestHarness delay4_client make -C pipeline/ Mqtt_Client
 
 TestHarness.mosquito_sub: ${TARGETS}
 	java ${CP} TestHarness run1_client mosquitto_sub -v -t 'ahum/+/+'

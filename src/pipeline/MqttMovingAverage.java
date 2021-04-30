@@ -43,7 +43,7 @@ public class MqttMovingAverage implements MqttCallback {
             int time  = jo.getInt("time");
             double value = jo.getDouble("value");
             
-            System.out.println("IN,"+ topic + "," + time);System.out.println("IN,"+ topic + "," + time);
+            System.out.println("IN,"+ topic + "," + time);
 
             // init
             if (!windows.containsKey(topic)) {
