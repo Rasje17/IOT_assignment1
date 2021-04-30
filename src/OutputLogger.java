@@ -15,7 +15,9 @@ class OutputLogger extends Logger {
         try {
             String line;
             while ((line = input.readLine()) != null) {
-                log(line);
+                if(line.contains("IN") || line.contains("OUT")){
+                    log(line);
+                }
             }
         } catch (IOException e) {
             System.out.println("OutputLogger("+filename+") caught exception: "+e);

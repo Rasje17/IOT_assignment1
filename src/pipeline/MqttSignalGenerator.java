@@ -49,7 +49,7 @@ public class MqttSignalGenerator extends Thread {
             client.connect(connOpts);
             
             int time = 0;
-            while (time<=500) {
+            while (true) {
                 double value = values[time%values.length][index];
                 String message = "{\"time\":"+time+",\"value\":"+value+"}";
                 tx(topic, message.getBytes());
@@ -57,6 +57,9 @@ public class MqttSignalGenerator extends Thread {
                 time += 1;
                 Thread.sleep(delay);
             }
+            //Thread.sleep(1200000);
+            //client.disconnect();
+            //client.close();
         } catch (MqttException | InterruptedException e) {
             System.out.println("Exception caught in MqttSignalGenerator "+index+": "+e);
         }
@@ -66,7 +69,6 @@ public class MqttSignalGenerator extends Thread {
         MqttMessage message = new MqttMessage(payload);
         message.setQos(qos);
         client.publish(topic, message);
-        String s = new String(payload, java.nio.charset.StandardCharsets.UTF_8);
     }
     
     public static void main(String[] args) {

@@ -80,7 +80,6 @@ public class MqttMovingAverage implements MqttCallback {
         MqttMessage message = new MqttMessage(payload);
         message.setQos(qos);
         client.publish(topic, message);
-        String s = new String(payload, java.nio.charset.StandardCharsets.UTF_8);
     }
     
     public static void main(String[] args) throws MqttException, InterruptedException {
