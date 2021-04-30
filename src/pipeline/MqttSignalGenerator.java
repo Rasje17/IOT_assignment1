@@ -73,7 +73,7 @@ public class MqttSignalGenerator extends Thread {
     
     public static void main(String[] args) {
         for (int i=0 ; i<topics.length ; i++) {
-            MqttSignalGenerator gen = new MqttSignalGenerator(i, 1000);
+            MqttSignalGenerator gen = new MqttSignalGenerator(i, 45);
             gen.start();
         }
     }
